@@ -12,8 +12,11 @@ import MarketIntelligence from './pages/MarketIntelligence';
 import NewsPage from './pages/NewsPage';
 import SingleNewsPage from './pages/SingleNewsPage';
 import Chamber from './pages/Chamber';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+
 
 import ScrollToTop from './components/ScrollToTop';
+import ChatWidget from './components/ChatWidget';
 
 function App() {
   return (
@@ -26,6 +29,8 @@ function App() {
           <Route path="/intelligence" element={<Intelligence />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/camara" element={<Chamber />} />
+          <Route path="/privacidade" element={<PrivacyPolicyPage />} />
+
           <Route path="/solucoes" element={<SolucoesEmpresariais />} />
           <Route path="/comercio" element={<ComercioInternacional />} />
           <Route path="/tecnologia" element={<TecnologiaInovacao />} />
@@ -35,6 +40,7 @@ function App() {
           <Route path="/noticias/:id" element={<SingleNewsPage />} />
         </Routes>
       </Layout>
+      <ChatWidget />
     </Router>
   );
 }

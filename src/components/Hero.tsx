@@ -7,9 +7,9 @@ const Hero = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const heroImages = [
-        "/hero-slide-new-1.png",
-        "/hero-slide-new-2.png",
-        "/hero-slide-new-3.png"
+        "/hero-carousel-1-v2.jpg",
+        "/hero-carousel-2.jpg",
+        "/hero-carousel-3-v2.jpg"
     ];
 
     useEffect(() => {

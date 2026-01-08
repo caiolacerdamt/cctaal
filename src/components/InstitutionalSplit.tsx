@@ -8,7 +8,7 @@ const InstitutionalSplit = () => {
                 {/* Image Side */}
                 <div className="h-[500px] lg:h-auto relative overflow-hidden">
                     <img
-                        src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2574&auto=format&fit=crop"
+                        src="/about-cctaal.png"
                         alt="Technology in Port"
                         className="absolute inset-0 w-full h-full object-cover"
                     />

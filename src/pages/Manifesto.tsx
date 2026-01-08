@@ -78,7 +78,7 @@ const Manifesto = () => {
                     </motion.h1>
 
                     <motion.p
-                        className="text-xl md:text-2xl font-serif italic text-[#7c522e] max-w-3xl mx-auto"
+                        className="text-xl md:text-2xl font-serif italic text-amber-100 max-w-3xl mx-auto"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.8, delay: 0.6 }}
@@ -102,8 +102,8 @@ const Manifesto = () => {
                                         key={section.id}
                                         onClick={() => scrollTo(section.id)}
                                         className={`block pl-4 text-sm font-medium transition-all duration-300 text-left w-full border-l-2 -ml-[2px] ${activeSection === section.id
-                                                ? 'border-[#7c522e] text-[#1a1a1a]'
-                                                : 'border-transparent text-gray-400 hover:text-gray-600'
+                                            ? 'border-[#7c522e] text-[#1a1a1a]'
+                                            : 'border-transparent text-gray-400 hover:text-gray-600'
                                             }`}
                                     >
                                         <span className="mr-2 opacity-50 text-xs">0{index + 1}.</span>

@@ -16,7 +16,7 @@ const NewsHub = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div className="flex justify-between items-end mb-8 border-b border-gray-200 pb-4">
-                    <h2 className="text-3xl font-serif font-bold text-[#1a1a1a]">News & Insights</h2>
+                    <h2 className="text-3xl font-serif font-bold text-primary">Notícias</h2>
                     <Link to="/noticias" className="group flex items-center gap-2 text-[#7c522e] font-bold text-xs uppercase tracking-widest hover:text-[#4a662d] transition-colors">
                         Ver todas as notícias
                         <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
@@ -25,11 +25,11 @@ const NewsHub = () => {
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     {/* Main Highlight (Left - 2 Cols) */}
-                    <Link to="/noticias/1" className="lg:col-span-2 group cursor-pointer block">
+                    <Link to="/noticias/rota-da-seda-digital" className="lg:col-span-2 group cursor-pointer block">
                         <div className="relative overflow-hidden rounded-sm mb-4 h-72">
                             {/* Cinematic Image: Global Trade / Logistics */}
                             <img
-                                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop"
+                                src="/news-digital-silk-road.jpg"
                                 alt="Mercado Global"
                                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                             />

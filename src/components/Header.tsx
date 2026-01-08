@@ -11,7 +11,6 @@ const Header = () => {
 
     // Define navigation structure
     const navigation = [
-        { name: 'Home', href: '/' },
         {
             name: 'O Que Fazemos',
             href: '#', // Not a direct link, but a trigger

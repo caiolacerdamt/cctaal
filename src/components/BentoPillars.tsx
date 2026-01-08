@@ -1,11 +1,11 @@
-import { Sprout, Cpu, Globe, ArrowRight } from 'lucide-react';
+import { Sprout, Cpu, Globe } from 'lucide-react';
 
 const BentoPillars = () => {
     return (
         <section className="py-24 bg-[#f9f9f7]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-serif font-bold text-[#1a1a1a] mb-4">Pilares Estratégicos</h2>
+                    <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-4">Pilares Estratégicos</h2>
                     <div className="w-20 h-1 bg-[#7c522e] mx-auto mb-6"></div>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
                         A base da nossa atuação para transformar o cenário agroindustrial global.
@@ -19,7 +19,7 @@ const BentoPillars = () => {
                         {/* Background Image: Cinematic Harvest */}
                         <div
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
-                            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?q=80&w=2574&auto=format&fit=crop')" }}
+                            style={{ backgroundImage: "url('/pillar-production.jpg')" }}
                         />
                         {/* Cinematic Overlay - Darker bottom, clear top */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-[#0f1c05]/80 to-transparent opacity-90 group-hover:opacity-80 transition-opacity duration-500" />
@@ -76,7 +76,7 @@ const BentoPillars = () => {
                         {/* Background Image: Shipping/Port at Dusk */}
                         <div
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
-                            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2670&auto=format&fit=crop')" }}
+                            style={{ backgroundImage: "url('/pillar-integration.jpg')" }}
                         />
                         {/* Cinematic Overlay */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-[#0f1c05]/80 to-transparent opacity-90 group-hover:opacity-80 transition-opacity duration-500" />

@@ -10,6 +10,56 @@ export interface NewsItem {
 
 export const newsData: NewsItem[] = [
   {
+    id: "rota-da-seda-digital",
+    title: "A Nova Rota da Seda Digital: Como a tecnologia está redefinindo as exportações",
+    category: "Mercado & Estratégia",
+    date: "26 Dez, 2025",
+    image: "/news-digital-silk-road.jpg",
+    summary: "Análise exclusiva sobre o impacto da digitalização nos corredores logísticos e a redução de custos para o agronegócio nacional.",
+    content: `
+        <p class="lead text-xl md:text-2xl font-light text-gray-800 mb-8 font-serif italic border-l-4 border-[#7c522e] pl-6">
+            "A digitalização não é apenas uma ferramenta de eficiência, é o novo terreno onde as nações negociam sua soberania econômica."
+        </p>
+
+        <p>
+            A logística global está passando por sua maior transformação desde a invenção do contêiner. A chamada "Rota da Seda Digital" não é feita de asfalto ou trilhos, mas de cabos de fibra ótica, data centers e algoritmos de blockchain que prometem reduzir drasticamente o atrito no comércio internacional.
+        </p>
+
+        <h2>O Fim da Documentação em Papel</h2>
+        <p>
+            Estudos indicam que o processamento de documentação física representa até 20% do custo total de transporte de mercadorias. A implementação de Smart Contracts e sistemas de rastreabilidade ponta-a-ponta está eliminando intermediários burocráticos, permitindo que cargas liberadas em Xangai sejam pré-aprovadas em Santos antes mesmo de o navio zarpar.
+        </p>
+
+        <h2>Integração Brasil-Ásia</h2>
+        <p>
+            Para o agronegócio brasileiro, isso significa previsibilidade. A CCTAAL tem monitorado projetos pilotos que integram os sistemas fitossanitários brasileiros diretamente com as alfândegas chinesas. O resultado é uma redução média de 5 dias no tempo de desembaraço aduaneiro.
+        </p>
+
+        <p>
+            Essa integração digital cria um "corredor expresso" para commodities certificadas, valorizando a produção que já nasce rastreada e em conformidade com os mais rigorosos padrões internacionais.
+        </p>
+
+        <h2>O Papel da Infraestrutura 5G</h2>
+        <p>
+            A expansão do 5G nos portos e, crucialmente, nas fazendas, é o elo físico dessa revolução. Sensores IoT monitoram a umidade do grão do silo ao porão do navio, garantindo a qualidade do produto e reduzindo perdas que historicamente chegavam a 5% da safra.
+        </p>
+
+        <div class="bg-[#f9f9f7] p-8 rounded-sm my-12 border border-[#7c522e]/20">
+            <h3 class="text-xl font-serif font-bold text-[#7c522e] mt-0 mb-4">Pontos Chave</h3>
+            <ul class="list-disc pl-5 space-y-2 mb-0">
+                <li>Redução de custos burocráticos em até 15%.</li>
+                <li>Aceleração do desembaraço aduaneiro em portos estratégicos.</li>
+                <li>Rastreabilidade total como diferencial competitivo premium.</li>
+                <li>Integração de sistemas governamentais via Blockchain.</li>
+            </ul>
+        </div>
+
+        <p>
+            Estamos diante de uma oportunidade histórica: converter nossa vantagem comparativa natural (terra e clima) em uma vantagem competitiva sustentável através da tecnologia. A Rota da Seda Digital já está sendo pavimentada, e o Brasil precisa garantir seu lugar neste novo mapa mundi.
+        </p>
+    `
+  },
+  {
     id: "1",
     title: "China aprova novo protocolo para soja sustentável brasileira",
     category: "Regulação",

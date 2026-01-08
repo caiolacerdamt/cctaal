@@ -1,0 +1,4 @@
+- [ ] Create `src/components/ChatWidget.tsx`
+- [ ] Add `ChatWidget` to `src/App.tsx`
+- [ ] Verify widget appearance and z-index
+- [ ] Verify mock scenarios and typing animation
