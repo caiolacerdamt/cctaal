@@ -1,4 +1,4 @@
-import { Sprout, Wheat, Leaf, CircleDot, Layers, Coffee, Flower2, Waves } from 'lucide-react';
+import { Sprout, Wheat, CircleDot, Layers, Coffee, Flower2, Waves } from 'lucide-react';
 import ServicePageTemplate from '../components/ServicePageTemplate';
 
 const ComercioInternacional = () => {

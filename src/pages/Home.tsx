@@ -1,5 +1,4 @@
-import { ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+
 import Hero from '../components/Hero';
 import MarketMonitor from '../components/MarketMonitor';
 import BentoPillars from '../components/BentoPillars';

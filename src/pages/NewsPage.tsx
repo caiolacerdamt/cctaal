@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { newsData } from '../data/newsData';
-import { ArrowRight, Calendar, Tag } from 'lucide-react';
+import { ArrowRight, Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const NewsPage = () => {

@@ -1,4 +1,4 @@
-import { Building2, Globe, Scale, Users, CheckCircle, Award } from 'lucide-react';
+import { Globe, Scale, Users, CheckCircle, Award } from 'lucide-react';
 
 const Chamber = () => {
     return (
