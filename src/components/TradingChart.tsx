@@ -54,7 +54,6 @@ const TradingChart = () => {
         }
 
         // Draw Candles
-        let currentX = width - 50; // Start from right, leaving space for price scale
         let currentY = height / 2;
         let prevClose = currentY;
 
