@@ -1,5 +1,6 @@
 import { ArrowLeftRight, Stamp, Globe, Search, Plane, FileCheck, Package, TrendingUp } from 'lucide-react';
 import ServicePageTemplate from '../components/ServicePageTemplate';
+import businessHero from '../assets/business_solutions_hero_new.jpg';
 
 const SolucoesEmpresariais = () => {
 
@@ -56,7 +57,7 @@ const SolucoesEmpresariais = () => {
                 "Modelagem de Negócios",
                 "Análise de Risco"
             ]}
-            heroImage="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2670&auto=format&fit=crop"
+            heroImage={businessHero}
         >
             {/* New Capacity Grid Section */}
             <div className="border-t border-gray-200 pt-16">

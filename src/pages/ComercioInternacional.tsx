@@ -1,4 +1,5 @@
 import { Sprout, Wheat, CircleDot, Layers, Coffee, Flower2, Waves } from 'lucide-react';
+import serviceHero from '../assets/international_trade_hero_new.jpg'; // Updated hero image
 import ServicePageTemplate from '../components/ServicePageTemplate';
 
 const ComercioInternacional = () => {
@@ -50,14 +51,13 @@ const ComercioInternacional = () => {
         <ServicePageTemplate
             title="Comércio Internacional"
             subtitle="Conectando a América Latina ao Mundo."
-            heroImage="https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?q=80&w=2574&auto=format&fit=crop" // Corn/Grains
+            heroImage={serviceHero} // Port/Logistics
             overviewTitle="Negociação e Representação Internacional"
             mainText="Atuamos com solidez e credibilidade na intermediação de commodities agrícolas, unindo produtores, exportadores e compradores globais. Nossa operação integra conhecimento de mercado, negociação estratégica e gestão eficiente de contratos."
             benefits={[
                 "Intermediação Global",
                 "Gestão de Contratos",
-                "Logística e Rastreamento",
-                "Atuação Híbrida em Mercados"
+                "Logística e Rastreamento"
             ]}
         >
             {/* Commodity Portfolio Section */}

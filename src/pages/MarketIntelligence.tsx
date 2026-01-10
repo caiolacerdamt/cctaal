@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Radar, Activity, BarChart2, Globe2, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import marketHeroV2 from '../assets/market_hero_v2.png';
 
 const MarketIntelligence = () => {
 
@@ -36,32 +37,26 @@ const MarketIntelligence = () => {
 
     return (
         <div className="bg-[#f9f9f7] min-h-screen">
+            {/* 1. Hero Section */}
+            <section className="relative w-full h-[70vh]">
+                <img
+                    src={marketHeroV2}
+                    alt="Market Intelligence"
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/80" />
 
-            {/* 1. Hero Section (Data-Driven Visual) */}
-            <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 z-0">
-                    {/* Abstract Data/Network Background */}
-                    <img
-                        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
-                        alt="Global Data Network"
-                        className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-blue-900/40 mix-blend-multiply" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-[#0f172a]/60 to-transparent" />
-                </div>
-
-                <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
+                <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4 max-w-5xl mx-auto">
                     <motion.h1
                         className="text-4xl md:text-6xl font-serif font-bold text-white mb-6"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                     >
-                        Inteligência de Mercado e <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-white">Estratégia Global</span>
+                        Inteligência de Mercado
                     </motion.h1>
                     <motion.p
-                        className="text-xl md:text-2xl text-blue-100 font-light max-w-4xl mx-auto"
+                        className="text-xl md:text-2xl text-gray-100 font-light max-w-3xl mx-auto"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}

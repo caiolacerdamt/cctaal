@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
+import visionBg from '../assets/vision_background.png';
+import wealthEq from '../assets/wealth_equation.png';
 
 const Manifesto = () => {
     const { scrollYProgress } = useScroll();
@@ -56,9 +58,17 @@ const Manifesto = () => {
             />
 
             {/* A. Hero Section: "A Capa" */}
-            <section className="relative bg-[#4a662d] text-white py-32 lg:py-48 px-4 overflow-hidden">
-                {/* Texture Overlay (Simulated) */}
-                <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] mix-blend-overlay"></div>
+            <section className="relative text-white py-32 lg:py-48 px-4 overflow-hidden">
+                {/* Background Image with Overlay */}
+                <div className="absolute inset-0 z-0">
+                    <img
+                        src={visionBg}
+                        alt="Background Texture"
+                        className="w-full h-full object-cover"
+                    />
+                    {/* Heavy overlay for readability */}
+                    <div className="absolute inset-0 bg-[#1a1a1a]/80" />
+                </div>
 
                 <div className="max-w-5xl mx-auto text-center relative z-10">
                     <motion.div
@@ -178,32 +188,14 @@ const Manifesto = () => {
                             </p>
                         </section>
 
-                        {/* C. The Equation Card */}
+                        {/* C. The Equation Section */}
                         <section id="equacao" className="my-24 scroll-mt-32">
-                            <div className="bg-[#1a1a1a] p-8 md:p-12 rounded-sm relative overflow-hidden border border-[#7c522e] shadow-2xl">
-                                {/* Decorative elements */}
-                                <div className="absolute top-0 right-0 w-32 h-32 bg-[#7c522e]/10 rounded-full blur-3xl"></div>
-                                <div className="absolute bottom-0 left-0 w-32 h-32 bg-[#4a662d]/10 rounded-full blur-3xl"></div>
-
-                                <h3 className="text-[#7c522e] font-sans font-bold text-sm tracking-widest uppercase mb-8 text-center">A Equação Real da Riqueza</h3>
-
-                                <div className="font-mono text-lg md:text-2xl text-white text-center leading-loose">
-                                    <span className="block mb-4 md:mb-0 md:inline">Riqueza = </span>
-                                    <span className="text-gray-300">(Alterar o possível)</span>
-                                    <span className="text-[#7c522e] mx-2">×</span>
-                                    <span className="text-gray-300">(Tornar-se inevitável)</span>
-                                    <span className="text-[#7c522e] mx-2">×</span>
-                                    <br className="hidden md:block" />
-                                    <span className="text-gray-300">(Gerar excedente)</span>
-                                    <sup className="text-[#7c522e] ml-1">fator temporal</sup>
-                                </div>
-
-                                <div className="mt-12 flex flex-wrap justify-center gap-4 text-xs md:text-sm text-gray-500 font-mono text-center">
-                                    <span className="px-3 py-1 border border-gray-800 rounded">Inovação</span>
-                                    <span className="px-3 py-1 border border-gray-800 rounded">Diferenciação</span>
-                                    <span className="px-3 py-1 border border-gray-800 rounded">Produção</span>
-                                    <span className="px-3 py-1 border border-gray-800 rounded">Permanência</span>
-                                </div>
+                            <div className="relative rounded-sm overflow-hidden shadow-2xl border border-gray-800">
+                                <img
+                                    src={wealthEq}
+                                    alt="A Equação da Riqueza"
+                                    className="w-full h-auto object-cover"
+                                />
                             </div>
                         </section>
 

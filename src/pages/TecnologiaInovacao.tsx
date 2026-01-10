@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, X, ArrowRight, Link as LinkIcon, Cpu, Wifi } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import techHeroV2 from '../assets/tech_hero_v2.png';
 
 const TecnologiaInovacao = () => {
     // Accordion State
@@ -43,17 +44,16 @@ const TecnologiaInovacao = () => {
     return (
         <div className="bg-[#f9f9f7] min-h-screen">
             {/* 1. Hero Section */}
-            <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 z-0">
-                    <img
-                        src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?q=80&w=2670&auto=format&fit=crop" // Tablet/Agro Tech image
-                        alt="AgTech Innovation"
-                        className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40" />
-                </div>
+            {/* 1. Hero Section */}
+            <section className="relative w-full h-[70vh]">
+                <img
+                    src={techHeroV2}
+                    alt="Tecnologia & Inovação"
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/80" />
 
-                <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
+                <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4 max-w-5xl mx-auto">
                     <motion.h1
                         className="text-4xl md:text-6xl font-serif font-bold text-white mb-6"
                         initial={{ opacity: 0, y: 20 }}
@@ -63,7 +63,7 @@ const TecnologiaInovacao = () => {
                         Tecnologia & Inovação
                     </motion.h1>
                     <motion.p
-                        className="text-xl md:text-2xl text-gray-200 font-light max-w-4xl mx-auto"
+                        className="text-xl md:text-2xl text-gray-100 font-light max-w-3xl mx-auto"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}

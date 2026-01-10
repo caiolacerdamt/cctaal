@@ -24,19 +24,18 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
     return (
         <div className="bg-[#f9f9f7] min-h-screen">
             {/* Hero Section */}
-            <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 z-0">
-                    <img
-                        src={heroImage}
-                        alt={title}
-                        className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black/60" />
-                </div>
+            <section className="relative w-full h-[70vh]">
+                <img
+                    src={heroImage}
+                    alt={title}
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/80" /> {/* Darker overlay for text readability */}
 
-                <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
+                {/* Content Overlay */}
+                <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4 max-w-5xl mx-auto">
                     <motion.h1
-                        className="text-4xl md:text-6xl font-serif font-bold text-white mb-4"
+                        className="text-4xl md:text-6xl font-serif font-bold text-white mb-6"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
@@ -44,7 +43,7 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
                         {title}
                     </motion.h1>
                     <motion.p
-                        className="text-xl md:text-2xl text-gray-200 font-light max-w-3xl mx-auto"
+                        className="text-xl md:text-2xl text-gray-100 font-light max-w-3xl mx-auto"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}

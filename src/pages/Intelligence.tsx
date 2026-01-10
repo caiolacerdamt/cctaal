@@ -1,4 +1,5 @@
 import { TrendingUp, Wheat, Globe2, BarChart3 } from 'lucide-react';
+import TradingChart from '../components/TradingChart';
 
 const Intelligence = () => {
     const stats = [
@@ -11,7 +12,7 @@ const Intelligence = () => {
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
             <header className="mb-16">
-                <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-6">Intelligence & Dados</h1>
+                <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-6">Inteligência & Dados</h1>
                 <p className="text-xl text-gray-600 max-w-3xl">
                     A economia brasileira e latino-americana passa por um ciclo de reconfiguração que abre espaço para investimentos estruturados.
                 </p>
@@ -62,12 +63,9 @@ const Intelligence = () => {
                     </div>
                 </div>
 
-                {/* Placeholder for a chart or graphic */}
-                <div className="h-full min-h-[400px] bg-gray-50 rounded flex items-center justify-center border-2 border-dashed border-gray-200">
-                    <div className="text-center text-gray-400">
-                        <BarChart3 size={48} className="mx-auto mb-4 opacity-50" />
-                        <p>Gráficos de Tendência (Placeholder)</p>
-                    </div>
+                {/* Chart Section */}
+                <div className="h-full min-h-[400px] flex items-center justify-center">
+                    <TradingChart />
                 </div>
             </div>
         </div>
