@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import logo from '../assets/logo-cctaal.png';
+import LanguageSelector from './LanguageSelector';
 
 const Header = () => {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
     const location = useLocation();
@@ -12,19 +15,19 @@ const Header = () => {
     // Define navigation structure
     const navigation = [
         {
-            name: 'O Que Fazemos',
+            name: t('nav.what_we_do'),
             href: '#', // Not a direct link, but a trigger
             dropdown: [
-                { name: 'Soluções Empresariais', href: '/solucoes' },
-                { name: 'Comércio Internacional', href: '/comercio' },
-                { name: 'Tecnologia & Inovação', href: '/tecnologia' },
-                { name: 'Inteligência de Mercado', href: '/market-intelligence' },
+                { name: t('nav.business_solutions'), href: '/solucoes' },
+                { name: t('nav.international_trade'), href: '/comercio' },
+                { name: t('nav.tech_innovation'), href: '/tecnologia' },
+                { name: t('nav.market_intelligence'), href: '/market-intelligence' },
             ]
         },
-        { name: 'A Visão', href: '/manifesto' },
-        { name: 'A Câmara', href: '/camara' },
-        { name: 'Intelligence', href: '/intelligence' },
-        { name: 'Notícias', href: '/noticias' },
+        { name: t('nav.vision'), href: '/manifesto' },
+        { name: t('nav.chamber'), href: '/camara' },
+        { name: t('nav.intelligence'), href: '/intelligence' },
+        { name: t('nav.news'), href: '/noticias' },
     ];
 
     return (
@@ -95,11 +98,13 @@ const Header = () => {
                             </div>
                         ))}
                         <Link to="/contact" className="bg-primary text-white px-6 py-2.5 rounded-sm font-medium text-sm hover:bg-opacity-90 transition-all shadow-sm">
-                            Tornar-se Membro
+                            {t('nav.become_member')}
                         </Link>
+                        <LanguageSelector />
                     </div>
 
-                    <div className="md:hidden flex items-center">
+                    <div className="md:hidden flex items-center gap-2">
+                        <LanguageSelector />
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             className="text-gray-600 hover:text-primary transition-colors"
@@ -157,7 +162,7 @@ const Header = () => {
                                 onClick={() => setIsOpen(false)}
                                 className="w-full bg-primary text-white px-6 py-3 rounded-sm font-medium text-sm hover:bg-opacity-90 transition-all block text-center"
                             >
-                                Tornar-se Membro
+                                {t('nav.become_member')}
                             </Link>
                         </div>
                     </div>

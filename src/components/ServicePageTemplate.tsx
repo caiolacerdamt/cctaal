@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 interface ServicePageProps {
     title: string;
@@ -18,9 +19,12 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
     mainText,
     benefits,
     heroImage = "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop", // Default corporate image
-    overviewTitle = "Visão Geral", // Default to "Visão Geral"
+    overviewTitle,
     children
 }) => {
+    const { t } = useTranslation();
+    const activeOverviewTitle = overviewTitle || t('service_template.overview_title');
+
     return (
         <div className="bg-[#f9f9f7] min-h-screen">
             {/* Hero Section */}
@@ -64,7 +68,7 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <h2 className="text-3xl font-serif font-bold text-primary mb-8">{overviewTitle}</h2>
+                        <h2 className="text-3xl font-serif font-bold text-primary mb-8">{activeOverviewTitle}</h2>
                         <div className="prose prose-lg text-gray-700 leading-relaxed font-light">
                             {/* Split text by newline to create paragraphs if needed, or just render as is */}
                             <p className="whitespace-pre-line">{mainText}</p>
@@ -72,7 +76,7 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
 
                         <div className="mt-12 p-8 bg-white border-l-4 border-primary rounded-r-lg shadow-sm">
                             <p className="text-lg italic text-gray-600">
-                                "Nosso compromisso é entregar excelência e conectar oportunidades reais de crescimento para o setor."
+                                {t('service_template.commitment_quote')}
                             </p>
                         </div>
                     </motion.div>
@@ -88,7 +92,7 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
                         <div className="bg-white p-8 rounded-sm shadow-lg border-t-4 border-secondary sticky top-24">
                             <h3 className="text-xl font-bold text-primary mb-6 flex items-center gap-2">
                                 <span className="w-8 h-1 bg-secondary block"></span>
-                                Destaques & Benefícios
+                                {t('service_template.highlights_benefits')}
                             </h3>
 
                             <ul className="space-y-4">
@@ -101,9 +105,9 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
                             </ul>
 
                             <div className="mt-10 pt-6 border-t border-gray-100">
-                                <p className="text-sm text-gray-500 mb-4">Precisa de mais informações sobre esta área?</p>
+                                <p className="text-sm text-gray-500 mb-4">{t('service_template.need_more_info')}</p>
                                 <Link to="/contact" className="w-full flex items-center justify-center gap-2 bg-primary text-white py-3 px-4 rounded-sm font-medium hover:bg-opacity-90 transition-all">
-                                    Consultar Especialista
+                                    {t('service_template.consult_expert')}
                                 </Link>
                             </div>
                         </div>
@@ -122,16 +126,16 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
             <section className="bg-primary py-20 px-4">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl font-serif font-bold text-white mb-6">
-                        Fale com nossos especialistas em {title}
+                        {t('service_template.talk_to_experts', { title })}
                     </h2>
                     <p className="text-primary-100 mb-8 text-lg">
-                        Estamos prontos para entender seus desafios e propor as melhores soluções.
+                        {t('service_template.ready_to_help')}
                     </p>
                     <Link
                         to="/contact"
                         className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-sm font-bold text-lg hover:bg-gray-100 transition-all shadow-lg"
                     >
-                        Iniciar Conversa <ArrowRight size={20} />
+                        {t('service_template.start_conversation')} <ArrowRight size={20} />
                     </Link>
                 </div>
             </section>

@@ -1,7 +1,9 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const InstitutionalSplit = () => {
+    const { t } = useTranslation();
     return (
         <section className="bg-white">
             <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -18,21 +20,21 @@ const InstitutionalSplit = () => {
                 {/* Text Side */}
                 <div className="flex items-center p-12 lg:p-24 bg-background">
                     <div>
-                        <span className="text-secondary font-bold tracking-widest text-sm uppercase mb-2 block">Institucional</span>
-                        <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-2">O que é a CCTAAL?</h2>
+                        <span className="text-secondary font-bold tracking-widest text-sm uppercase mb-2 block">{t('institutional.label')}</span>
+                        <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-2">{t('institutional.title')}</h2>
 
                         <div className="w-20 h-1 bg-secondary mb-8 mt-4"></div>
 
                         <h3 className="text-xl md:text-2xl font-light text-dark mb-6 leading-tight">
-                            Câmara de Comércio e Tecnologia do Agro da América Latina.
+                            {t('institutional.subtitle')}
                         </h3>
 
                         <p className="text-gray-600 leading-relaxed mb-8 text-lg">
-                            A CCTAAL nasceu com o propósito de representar e fortalecer a tecnologia do Agro no cenário global, promovendo comércio, inovação e integração entre países, empresas e investidores. Atuamos como elo estratégico entre oportunidades internacionais e o desenvolvimento sustentável da América Latina.
+                            {t('institutional.description')}
                         </p>
 
                         <Link to="/contact" className="inline-flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all uppercase tracking-wide border-b-2 border-primary pb-1">
-                            Conheça Nossa Estrutura <ArrowRight size={18} />
+                            {t('institutional.cta')} <ArrowRight size={18} />
                         </Link>
                     </div>
                 </div>

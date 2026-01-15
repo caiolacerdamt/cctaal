@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import { useTranslation, Trans } from 'react-i18next';
 
 const Hero = () => {
+    const { t } = useTranslation();
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const heroImages = [
@@ -42,14 +44,16 @@ const Hero = () => {
             {/* Fixed Content */}
             <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
                 <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight tracking-tight drop-shadow-lg">
-                    A Ponte entre Ciclos Históricos <br />e Capacidades Produtivas
+                    <Trans i18nKey="hero.title" components={{ 0: <br /> }}>
+                        A Ponte entre Ciclos Históricos <br />e Capacidades Produtivas
+                    </Trans>
                 </h1>
                 <p className="text-xl md:text-2xl font-light mb-10 max-w-3xl mx-auto text-gray-100 drop-shadow-md">
-                    Articulando tecnologia, produção e integração latino-americana ao comércio global.
+                    {t('hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <Link to="/manifesto" className="group bg-[#4a662d] hover:bg-[#3d5425] text-white px-8 py-4 rounded-sm font-medium text-lg transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1">
-                        Ler o Manifesto
+                        {t('hero.cta_manifesto')}
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </Link>
                 </div>

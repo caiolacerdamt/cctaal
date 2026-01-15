@@ -1,31 +1,33 @@
 import { Briefcase, Globe, Cpu, TrendingUp, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const WhatWeDo = () => {
+    const { t } = useTranslation();
     const cards = [
         {
             icon: Briefcase,
-            title: 'Soluções Empresariais',
-            text: 'Desenvolvemos estratégias para empresas que buscam crescer de forma sustentável.',
+            title: t('what_we_do.cards.solutions.title'),
+            text: t('what_we_do.cards.solutions.text'),
             link: '/solucoes'
         },
         {
             icon: Globe,
-            title: 'Comércio Internacional',
-            text: 'Facilitamos negócios, importações e exportações entre a América Latina e o mercado global.',
+            title: t('what_we_do.cards.trade.title'),
+            text: t('what_we_do.cards.trade.text'),
             link: '/comercio'
         },
         {
             icon: Cpu,
-            title: 'Tecnologia & Inovação',
-            text: 'Promovemos o uso de tecnologias emergentes e soluções inteligentes no setor agroindustrial.',
+            title: t('what_we_do.cards.tech.title'),
+            text: t('what_we_do.cards.tech.text'),
             link: '/tecnologia'
         },
         {
             icon: TrendingUp,
-            title: 'Inteligência de Mercado',
-            text: 'Conectamos investidores e governos com dados precisos para decisões estratégicas.',
+            title: t('what_we_do.cards.intelligence.title'),
+            text: t('what_we_do.cards.intelligence.text'),
             link: '/market-intelligence'
         },
     ];
@@ -34,9 +36,9 @@ const WhatWeDo = () => {
         <section className="py-24 bg-[#f9f9f7]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-4">O que fazemos</h2>
+                    <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-4">{t('what_we_do.title')}</h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
-                        Atuamos em quatro frentes que fortalecem o comércio, a tecnologia e a inovação.
+                        {t('what_we_do.subtitle')}
                     </p>
                 </div>
 
@@ -80,7 +82,7 @@ const WhatWeDo = () => {
                                             initial={{ x: 0 }}
                                             whileHover={{ x: 5 }}
                                         >
-                                            Saiba mais <ArrowRight size={16} />
+                                            {t('what_we_do.cta')} <ArrowRight size={16} />
                                         </motion.span>
                                     </div>
                                 </div>

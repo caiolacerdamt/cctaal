@@ -1,14 +1,16 @@
 import { Sprout, Cpu, Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const BentoPillars = () => {
+    const { t } = useTranslation();
     return (
         <section className="py-24 bg-[#f9f9f7]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-4">Pilares Estratégicos</h2>
+                    <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-4">{t('pillars.title')}</h2>
                     <div className="w-20 h-1 bg-[#7c522e] mx-auto mb-6"></div>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
-                        A base da nossa atuação para transformar o cenário agroindustrial global.
+                        {t('pillars.subtitle')}
                     </p>
                 </div>
 
@@ -34,10 +36,10 @@ const BentoPillars = () => {
 
                             <div>
                                 <h3 className="text-2xl font-serif font-bold text-white mb-3 leading-tight border-l-2 border-[#7c522e] pl-4">
-                                    Produção de Alta Densidade
+                                    {t('pillars.card1.title')}
                                 </h3>
                                 <p className="text-gray-300 text-sm leading-relaxed mb-6 pl-4 border-l-2 border-transparent">
-                                    Transformar território em potência. Consolidar a produção agroindustrial não apenas como commodities, mas como vetores de segurança alimentar.
+                                    {t('pillars.card1.text')}
                                 </p>
 
                             </div>
@@ -62,9 +64,9 @@ const BentoPillars = () => {
                             </div>
 
                             <div className="max-w-xl">
-                                <h3 className="text-2xl font-serif font-bold text-white mb-3 border-l-2 border-[#7c522e] pl-4">Inteligência & Rastreabilidade</h3>
+                                <h3 className="text-2xl font-serif font-bold text-white mb-3 border-l-2 border-[#7c522e] pl-4">{t('pillars.card2.title')}</h3>
                                 <p className="text-gray-300 text-sm leading-relaxed mb-4 pl-4">
-                                    Onde o grão vira dado. Tecnologia aplicada para garantir eficiência, monitoramento climático e precisão produtiva em escala.
+                                    {t('pillars.card2.text')}
                                 </p>
 
                             </div>
@@ -89,9 +91,9 @@ const BentoPillars = () => {
                             </div>
 
                             <div className="max-w-xl">
-                                <h3 className="text-2xl font-serif font-bold text-white mb-3 border-l-2 border-[#7c522e] pl-4">Integração Global de Cadeias</h3>
+                                <h3 className="text-2xl font-serif font-bold text-white mb-3 border-l-2 border-[#7c522e] pl-4">{t('pillars.card3.title')}</h3>
                                 <p className="text-gray-300 text-sm leading-relaxed mb-4 pl-4">
-                                    Criando continuidade e estabilidade. Uma arquitetura comercial que conecta a América Latina aos principais mercados da Ásia e Europa.
+                                    {t('pillars.card3.text')}
                                 </p>
 
                             </div>
