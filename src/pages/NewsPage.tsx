@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom';
 import { newsData } from '../data/newsData';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const NewsPage = () => {
+    const { t } = useTranslation();
     const featured = newsData[0];
     const gridNews = newsData.slice(1);
 
@@ -17,7 +19,7 @@ const NewsPage = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                 >
-                    Insights & Notícias
+                    {t('news_page.hero.title')}
                 </motion.h1>
                 <motion.p
                     className="text-gray-400 text-lg max-w-2xl mx-auto font-light"
@@ -25,7 +27,7 @@ const NewsPage = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
                 >
-                    Monitoramento estratégico do agronegócio global, tendências e análises exclusivas.
+                    {t('news_page.hero.subtitle')}
                 </motion.p>
             </div>
 
@@ -61,7 +63,7 @@ const NewsPage = () => {
                                     {featured.summary}
                                 </p>
                                 <span className="flex items-center gap-2 text-[#4a662d] font-bold text-sm tracking-wide group-hover:translate-x-1 transition-transform">
-                                    Ler análise completa <ArrowRight size={16} />
+                                    {t('news_page.ui.read_analysis')} <ArrowRight size={16} />
                                 </span>
                             </div>
                         </div>
@@ -100,7 +102,7 @@ const NewsPage = () => {
                                     </p>
                                     <div className="mt-auto pt-4 border-t border-gray-100 flex justify-between items-center">
                                         <span className="text-[#4a662d] text-sm font-bold flex items-center gap-2 group-hover:gap-3 transition-all">
-                                            Ler mais <ArrowRight size={14} />
+                                            {t('news_page.ui.read_more')} <ArrowRight size={14} />
                                         </span>
                                     </div>
                                 </div>

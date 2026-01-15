@@ -2,37 +2,39 @@ import { motion } from 'framer-motion';
 import { Radar, Activity, BarChart2, Globe2, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import marketHeroV2 from '../assets/market_hero_v2.png';
+import { useTranslation } from 'react-i18next';
 
 const MarketIntelligence = () => {
+    const { t } = useTranslation();
 
     const capabilities = [
         {
             icon: Radar,
-            title: "Análise de Oportunidades e Riscos",
-            description: "Identificamos mercados promissores e avaliamos riscos geopolíticos, cambiais e regulatórios para blindar suas operações."
+            title: t('intelligence_page.capabilities.analysis.title'),
+            description: t('intelligence_page.capabilities.analysis.description')
         },
         {
             icon: Activity,
-            title: "Monitoramento de Tendências",
-            description: "Acompanhamento em tempo real das flutuações de commodities, mudanças de consumo e novas demandas globais."
+            title: t('intelligence_page.capabilities.monitoring.title'),
+            description: t('intelligence_page.capabilities.monitoring.description')
         },
         {
             icon: BarChart2,
-            title: "Estudos de Competitividade",
-            description: "Relatórios aprofundados sobre a competitividade dos produtos latino-americanos frente aos concorrentes globais."
+            title: t('intelligence_page.capabilities.competitiveness.title'),
+            description: t('intelligence_page.capabilities.competitiveness.description')
         },
         {
             icon: Globe2,
-            title: "Inteligência Geoeconômica",
-            description: "Previsões baseadas em cenários macroeconômicos e movimentos políticos que impactam o agronegócio."
+            title: t('intelligence_page.capabilities.geoeconomics.title'),
+            description: t('intelligence_page.capabilities.geoeconomics.description')
         }
     ];
 
     const deliverables = [
-        "Relatórios Mensais de Safra & Clima",
-        "Briefings de Regulação China-Brasil",
-        "Mapeamento de Investidores Asiáticos",
-        "Dossiers de Setores Específicos"
+        t('intelligence_page.deliverables.items.reports'),
+        t('intelligence_page.deliverables.items.briefings'),
+        t('intelligence_page.deliverables.items.mapping'),
+        t('intelligence_page.deliverables.items.dossiers')
     ];
 
     return (
@@ -41,7 +43,7 @@ const MarketIntelligence = () => {
             <section className="relative w-full h-[70vh]">
                 <img
                     src={marketHeroV2}
-                    alt="Market Intelligence"
+                    alt={t('intelligence_page.hero.title')}
                     className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-black/80" />
@@ -53,7 +55,7 @@ const MarketIntelligence = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                     >
-                        Inteligência de Mercado
+                        {t('intelligence_page.hero.title')}
                     </motion.h1>
                     <motion.p
                         className="text-xl md:text-2xl text-gray-100 font-light max-w-3xl mx-auto"
@@ -61,7 +63,7 @@ const MarketIntelligence = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
-                        Orientando decisões comerciais, diplomáticas e institucionais com dados precisos.
+                        {t('intelligence_page.hero.description')}
                     </motion.p>
                 </div>
             </section>
@@ -75,13 +77,13 @@ const MarketIntelligence = () => {
                         viewport={{ once: true }}
                     >
                         <span className="text-[#7c522e] font-bold tracking-widest text-sm uppercase mb-4 block">
-                            Nossa Atuação
+                            {t('intelligence_page.intro.label')}
                         </span>
                         <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] mb-8">
-                            Inteligência e Análise Estratégica
+                            {t('intelligence_page.intro.title')}
                         </h2>
                         <p className="text-xl text-gray-600 font-light leading-relaxed">
-                            A CCTAAL atua como um hub de inteligência que conecta dados, tendências e oportunidades. Trabalhamos com metodologias analíticas e tecnológicas para garantir informação precisa, segura e estratégica em todos os níveis de decisão. Nosso objetivo é transformar informações em ações concretas para fortalecer o comércio e atrair investimentos.
+                            {t('intelligence_page.intro.description')}
                         </p>
                     </motion.div>
                 </div>
@@ -91,7 +93,7 @@ const MarketIntelligence = () => {
             <section className="py-24 px-4 bg-[#f9f9f7]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl font-serif font-bold text-[#1a1a1a]">Capacidades Analíticas</h2>
+                        <h2 className="text-3xl font-serif font-bold text-[#1a1a1a]">{t('intelligence_page.capabilities.title')}</h2>
                         <div className="w-16 h-1 bg-[#7c522e] mx-auto mt-4"></div>
                     </div>
 
@@ -136,10 +138,10 @@ const MarketIntelligence = () => {
                         {/* Left: Content */}
                         <div className="lg:w-1/2">
                             <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] mb-6">
-                                Entregáveis Estratégicos
+                                {t('intelligence_page.deliverables.title')}
                             </h2>
                             <p className="text-gray-600 mb-10 text-lg font-light">
-                                Transformamos complexidade em clareza com relatórios desenhados para a alta liderança.
+                                {t('intelligence_page.deliverables.subtitle')}
                             </p>
 
                             <ul className="space-y-6">
@@ -161,16 +163,16 @@ const MarketIntelligence = () => {
             <section className="bg-[#1e293b] py-20 px-4">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl font-serif font-bold text-white mb-6">
-                        Tome decisões baseadas em dados, não em palpites.
+                        {t('intelligence_page.cta.title')}
                     </h2>
                     <p className="text-blue-200 mb-10 text-lg max-w-2xl mx-auto font-light">
-                        Acesse a inteligência que move os maiores players do mercado.
+                        {t('intelligence_page.cta.description')}
                     </p>
                     <Link
                         to="/contact"
                         className="inline-flex items-center gap-2 border border-[#7c522e] text-[#7c522e] hover:bg-[#7c522e] hover:text-white px-8 py-4 rounded-sm font-bold text-lg transition-all"
                     >
-                        Solicitar Exemplo de Relatório <ArrowRight size={20} />
+                        {t('intelligence_page.cta.button')} <ArrowRight size={20} />
                     </Link>
                 </div>
             </section>

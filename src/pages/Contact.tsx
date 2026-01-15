@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mail, Phone, MapPin, CheckCircle2, Globe, FileBarChart, Briefcase, Award, ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+    const { t } = useTranslation();
     const [activeTab, setActiveTab] = useState<'membership' | 'contact'>('membership');
 
     return (
@@ -21,7 +23,7 @@ const Contact = () => {
 
                 <div className="relative z-10">
                     <h2 className="text-4xl lg:text-5xl font-serif font-bold mb-8 leading-tight">
-                        Faça parte da Elite do Agro Global.
+                        {t('contact_page.hero.title')}
                     </h2>
 
                     <div className="space-y-6 mt-12">
@@ -30,8 +32,8 @@ const Contact = () => {
                                 <Globe size={24} />
                             </div>
                             <div>
-                                <h3 className="text-lg font-bold text-[#e0c097]">Conexão Internacional</h3>
-                                <p className="text-sm text-gray-200 mt-1">Acesso direto a parceiros estratégicos na China e em toda a América Latina.</p>
+                                <h3 className="text-lg font-bold text-[#e0c097]">{t('contact_page.hero.benefits.international.title')}</h3>
+                                <p className="text-sm text-gray-200 mt-1">{t('contact_page.hero.benefits.international.description')}</p>
                             </div>
                         </div>
 
@@ -40,8 +42,8 @@ const Contact = () => {
                                 <FileBarChart size={24} />
                             </div>
                             <div>
-                                <h3 className="text-lg font-bold text-[#e0c097]">Inteligência de Mercado</h3>
-                                <p className="text-sm text-gray-200 mt-1">Relatórios exclusivos, dados on-chain e análises de tendências globais.</p>
+                                <h3 className="text-lg font-bold text-[#e0c097]">{t('contact_page.hero.benefits.intelligence.title')}</h3>
+                                <p className="text-sm text-gray-200 mt-1">{t('contact_page.hero.benefits.intelligence.description')}</p>
                             </div>
                         </div>
 
@@ -50,8 +52,8 @@ const Contact = () => {
                                 <Briefcase size={24} />
                             </div>
                             <div>
-                                <h3 className="text-lg font-bold text-[#e0c097]">Apoio Técnico</h3>
-                                <p className="text-sm text-gray-200 mt-1">Suporte especializado em regulação, compliance e processos de exportação.</p>
+                                <h3 className="text-lg font-bold text-[#e0c097]">{t('contact_page.hero.benefits.support.title')}</h3>
+                                <p className="text-sm text-gray-200 mt-1">{t('contact_page.hero.benefits.support.description')}</p>
                             </div>
                         </div>
 
@@ -60,8 +62,8 @@ const Contact = () => {
                                 <Award size={24} />
                             </div>
                             <div>
-                                <h3 className="text-lg font-bold text-[#e0c097]">Visibilidade Premium</h3>
-                                <p className="text-sm text-gray-200 mt-1">Selo de membro CCTAAL e acesso a networking de alto nível governamental e privado.</p>
+                                <h3 className="text-lg font-bold text-[#e0c097]">{t('contact_page.hero.benefits.visibility.title')}</h3>
+                                <p className="text-sm text-gray-200 mt-1">{t('contact_page.hero.benefits.visibility.description')}</p>
                             </div>
                         </div>
                     </div>
@@ -70,7 +72,7 @@ const Contact = () => {
                 <div className="relative z-10 mt-16 space-y-4 pt-8 border-t border-white/10">
                     <div className="flex items-center gap-3 text-gray-200">
                         <MapPin size={20} className="text-[#e0c097]" />
-                        <span className="text-sm">Av. Brigadeiro Faria Lima, 3477 - São Paulo, Brasil</span>
+                        <span className="text-sm">{t('contact_page.hero.address')}</span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-200">
                         <Mail size={20} className="text-[#e0c097]" />
@@ -93,7 +95,7 @@ const Contact = () => {
                             onClick={() => setActiveTab('membership')}
                             className={`pb-4 text-lg font-medium transition-all relative ${activeTab === 'membership' ? 'text-[#4a662d]' : 'text-gray-400 hover:text-gray-600'}`}
                         >
-                            Tornar-se Membro
+                            {t('contact_page.tabs.membership')}
                             {activeTab === 'membership' && (
                                 <motion.div layoutId="activeTab" className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#4a662d]" />
                             )}
@@ -102,7 +104,7 @@ const Contact = () => {
                             onClick={() => setActiveTab('contact')}
                             className={`pb-4 text-lg font-medium transition-all relative ${activeTab === 'contact' ? 'text-[#4a662d]' : 'text-gray-400 hover:text-gray-600'}`}
                         >
-                            Fale Conosco
+                            {t('contact_page.tabs.contact')}
                             {activeTab === 'contact' && (
                                 <motion.div layoutId="activeTab" className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#4a662d]" />
                             )}
@@ -123,49 +125,49 @@ const Contact = () => {
                                 >
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                         <div className="space-y-2">
-                                            <label className="text-sm font-medium text-gray-600">Nome Completo</label>
-                                            <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder="Seu nome" />
+                                            <label className="text-sm font-medium text-gray-600">{t('contact_page.form.membership.name_label')}</label>
+                                            <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder={t('contact_page.form.membership.name_placeholder')} />
                                         </div>
                                         <div className="space-y-2">
-                                            <label className="text-sm font-medium text-gray-600">Cargo</label>
-                                            <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder="Diretor, CEO..." />
+                                            <label className="text-sm font-medium text-gray-600">{t('contact_page.form.membership.role_label')}</label>
+                                            <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder={t('contact_page.form.membership.role_placeholder')} />
                                         </div>
                                     </div>
 
                                     <div className="space-y-2">
-                                        <label className="text-sm font-medium text-gray-600">Email Corporativo</label>
-                                        <input type="email" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder="nome@empresa.com" />
+                                        <label className="text-sm font-medium text-gray-600">{t('contact_page.form.membership.email_label')}</label>
+                                        <input type="email" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder={t('contact_page.form.membership.email_placeholder')} />
                                     </div>
 
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                         <div className="space-y-2">
-                                            <label className="text-sm font-medium text-gray-600">Empresa</label>
-                                            <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder="Nome da organização" />
+                                            <label className="text-sm font-medium text-gray-600">{t('contact_page.form.membership.company_label')}</label>
+                                            <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder={t('contact_page.form.membership.company_placeholder')} />
                                         </div>
                                         <div className="space-y-2">
-                                            <label className="text-sm font-medium text-gray-600">País de Atuação</label>
-                                            <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder="Brasil, China..." />
+                                            <label className="text-sm font-medium text-gray-600">{t('contact_page.form.membership.country_label')}</label>
+                                            <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder={t('contact_page.form.membership.country_placeholder')} />
                                         </div>
                                     </div>
 
                                     <div className="space-y-2">
-                                        <label className="text-sm font-medium text-gray-600">Interesse Principal</label>
-                                        <select className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors text-gray-700 cursor-pointer">
-                                            <option value="" disabled selected>Selecione uma opção</option>
-                                            <option value="exportacao">Exportação & Logística</option>
-                                            <option value="tecnologia">Tecnologia & Inovação</option>
-                                            <option value="investimento">Investimento & Parcerias</option>
-                                            <option value="outro">Outro</option>
+                                        <label className="text-sm font-medium text-gray-600">{t('contact_page.form.membership.interest_label')}</label>
+                                        <select className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors text-gray-700 cursor-pointer" defaultValue="">
+                                            <option value="" disabled>{t('contact_page.form.membership.interest_placeholder')}</option>
+                                            <option value="exportacao">{t('contact_page.form.membership.options.export')}</option>
+                                            <option value="tecnologia">{t('contact_page.form.membership.options.tech')}</option>
+                                            <option value="investimento">{t('contact_page.form.membership.options.investment')}</option>
+                                            <option value="outro">{t('contact_page.form.membership.options.other')}</option>
                                         </select>
                                     </div>
 
                                     <div className="pt-6">
                                         <button className="w-full bg-[#4a662d] text-white py-4 rounded-sm font-bold text-lg hover:bg-[#3d5425] transition-all shadow-lg flex items-center justify-center gap-2 group">
-                                            Solicitar Filiação
+                                            {t('contact_page.form.membership.submit')}
                                             <CheckCircle2 size={20} className="group-hover:scale-110 transition-transform" />
                                         </button>
                                         <p className="text-center text-xs text-gray-400 mt-4 italic">
-                                            Sua solicitação será analisada pelo nosso conselho deliberativo. Entraremos em contato em até 48h.
+                                            {t('contact_page.form.membership.disclaimer')}
                                         </p>
                                     </div>
                                 </motion.div>
@@ -179,28 +181,28 @@ const Contact = () => {
                                     className="space-y-6"
                                 >
                                     <div className="space-y-2">
-                                        <label className="text-sm font-medium text-gray-600">Seu Nome</label>
-                                        <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder="Digite seu nome" />
+                                        <label className="text-sm font-medium text-gray-600">{t('contact_page.form.contact.name_label')}</label>
+                                        <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder={t('contact_page.form.contact.name_placeholder')} />
                                     </div>
 
                                     <div className="space-y-2">
-                                        <label className="text-sm font-medium text-gray-600">Seu Email</label>
-                                        <input type="email" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder="Digite seu email" />
+                                        <label className="text-sm font-medium text-gray-600">{t('contact_page.form.contact.email_label')}</label>
+                                        <input type="email" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder={t('contact_page.form.contact.email_placeholder')} />
                                     </div>
 
                                     <div className="space-y-2">
-                                        <label className="text-sm font-medium text-gray-600">Assunto</label>
-                                        <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder="Motivo do contato" />
+                                        <label className="text-sm font-medium text-gray-600">{t('contact_page.form.contact.subject_label')}</label>
+                                        <input type="text" className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors" placeholder={t('contact_page.form.contact.subject_placeholder')} />
                                     </div>
 
                                     <div className="space-y-2">
-                                        <label className="text-sm font-medium text-gray-600">Mensagem</label>
-                                        <textarea className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors min-h-[120px] resize-none" placeholder="Como podemos ajudar?" />
+                                        <label className="text-sm font-medium text-gray-600">{t('contact_page.form.contact.message_label')}</label>
+                                        <textarea className="w-full bg-transparent border-b border-gray-300 focus:border-[#7c522e] py-2 outline-none transition-colors min-h-[120px] resize-none" placeholder={t('contact_page.form.contact.message_placeholder')} />
                                     </div>
 
                                     <div className="pt-6">
                                         <button className="w-full border-2 border-[#7c522e] text-[#7c522e] py-3 rounded-sm font-bold text-lg hover:bg-[#7c522e] hover:text-white transition-all flex items-center justify-center gap-2 group">
-                                            Enviar Mensagem
+                                            {t('contact_page.form.contact.submit')}
                                             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                                         </button>
                                     </div>

@@ -2,8 +2,10 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { newsData } from '../data/newsData';
 import { ArrowLeft, Clock, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const SingleNewsPage = () => {
+    const { t } = useTranslation();
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
 
@@ -14,8 +16,8 @@ const SingleNewsPage = () => {
         return (
             <div className="min-h-screen flex items-center justify-center bg-[#f9f9f7]">
                 <div className="text-center">
-                    <h2 className="text-2xl font-bold text-gray-800 mb-4">Artigo não encontrado</h2>
-                    <Link to="/noticias" className="text-[#4a662d] font-bold underline">Voltar para notícias</Link>
+                    <h2 className="text-2xl font-bold text-gray-800 mb-4">{t('news_page.ui.article_not_found')}</h2>
+                    <Link to="/noticias" className="text-[#4a662d] font-bold underline">{t('news_page.ui.back_to_news')}</Link>
                 </div>
             </div>
         );
@@ -30,7 +32,7 @@ const SingleNewsPage = () => {
                         onClick={() => navigate('/noticias')}
                         className="flex items-center gap-2 text-sm text-gray-500 hover:text-[#4a662d] transition-colors"
                     >
-                        <ArrowLeft size={16} /> Voltar para Insights
+                        <ArrowLeft size={16} /> {t('news_page.ui.back')}
                     </button>
                 </div>
             </div>
@@ -47,7 +49,7 @@ const SingleNewsPage = () => {
                     <div className="flex items-center justify-center gap-4 text-gray-500 text-sm border-t border-b border-gray-200 py-4 max-w-lg mx-auto">
                         <span className="flex items-center gap-1"><Clock size={14} /> {article.date}</span>
                         <span className="hidden sm:inline">•</span>
-                        <span className="font-medium text-[#4a662d]">Por Redação CCTAAL</span>
+                        <span className="font-medium text-[#4a662d]">{t('news_page.ui.by_label')}</span>
                     </div>
                 </div>
 
@@ -65,7 +67,7 @@ const SingleNewsPage = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
                     {/* Share Sidebar (Desktop) */}
                     <div className="hidden lg:flex lg:col-span-2 flex-col gap-4 sticky top-40 h-fit">
-                        <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Compartilhar</span>
+                        <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">{t('news_page.ui.share')}</span>
                         <button className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-[#0077b5] hover:text-white hover:border-[#0077b5] transition-all">
                             <Linkedin size={18} />
                         </button>
@@ -102,7 +104,7 @@ const SingleNewsPage = () => {
             {/* Related News */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
                 <h3 className="text-2xl font-serif font-bold text-[#1a1a1a] mb-8 border-l-4 border-[#7c522e] pl-4">
-                    Continue Lendo
+                    {t('news_page.ui.continue_reading')}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {relatedNews.map(news => (

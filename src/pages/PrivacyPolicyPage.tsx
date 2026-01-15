@@ -1,7 +1,10 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const PrivacyPolicyPage = () => {
+    const { t } = useTranslation();
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -17,17 +20,17 @@ const PrivacyPolicyPage = () => {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-3xl md:text-5xl font-serif font-bold text-[#4a662d] mb-4 leading-tight"
                     >
-                        Política de Privacidade e Proteção de Dados
+                        {t('privacy_page.title')}
                     </motion.h1>
                     <p className="text-sm text-gray-500 italic">
-                        Última atualização: Dezembro de 2025
+                        {t('privacy_page.last_update')}
                     </p>
                 </header>
 
                 {/* Intro */}
                 <section className="mb-12">
                     <p className="text-lg leading-relaxed text-gray-800">
-                        A Câmara do Comércio e Tecnologia do Agro da América Latina (CCTAAL) assume o compromisso de proteger a privacidade e os dados pessoais de seus associados, parceiros e visitantes, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).
+                        {t('privacy_page.intro')}
                     </p>
                 </section>
 
@@ -35,72 +38,72 @@ const PrivacyPolicyPage = () => {
                     {/* 1. Coleta de Informações */}
                     <section>
                         <h2 className="text-2xl font-serif font-bold text-[#7c522e] mb-4">
-                            1. Coleta de Informações
+                            {t('privacy_page.section_1.title')}
                         </h2>
                         <p className="leading-relaxed mb-4">
-                            Coletamos dados corporativos para fins de processo de filiação e cadastro de parceiros comerciais. Isso pode incluir nome, cargo, e-mail corporativo, telefone e dados da empresa.
+                            {t('privacy_page.section_1.p1')}
                         </p>
                         <p className="leading-relaxed">
-                            Além disso, coletamos dados de navegação anonimizados (cookies) para análise de tráfego e inteligência de mercado, visando melhorar a experiência do usuário em nossa plataforma digital.
+                            {t('privacy_page.section_1.p2')}
                         </p>
                     </section>
 
                     {/* 2. Uso de Dados */}
                     <section>
                         <h2 className="text-2xl font-serif font-bold text-[#7c522e] mb-4">
-                            2. Uso de Dados
+                            {t('privacy_page.section_2.title')}
                         </h2>
                         <p className="leading-relaxed">
-                            Utilizamos as informações coletadas estritamente para:
+                            {t('privacy_page.section_2.p1')}
                         </p>
                         <ul className="list-disc pl-6 mt-4 space-y-2">
-                            <li>Processar pedidos de filiação e verificar a elegibilidade dos membros;</li>
-                            <li>Enviar relatórios de inteligência de mercado, newsletters e convites para eventos exclusivos;</li>
-                            <li>Facilitar conexões comerciais estratégicas entre Brasil, China e América Latina;</li>
-                            <li>Cumprir obrigações legais e regulatórias aplicáveis ao setor.</li>
+                            <li>{t('privacy_page.section_2.list.item1')}</li>
+                            <li>{t('privacy_page.section_2.list.item2')}</li>
+                            <li>{t('privacy_page.section_2.list.item3')}</li>
+                            <li>{t('privacy_page.section_2.list.item4')}</li>
                         </ul>
                     </section>
 
                     {/* 3. Compartilhamento */}
                     <section>
                         <h2 className="text-2xl font-serif font-bold text-[#7c522e] mb-4">
-                            3. Compartilhamento de Dados
+                            {t('privacy_page.section_3.title')}
                         </h2>
                         <p className="leading-relaxed font-medium text-gray-900 mb-2">
-                            Não vendemos dados pessoais.
+                            {t('privacy_page.section_3.p1')}
                         </p>
                         <p className="leading-relaxed">
-                            Compartilhamos informações estritamente necessárias apenas com parceiros logísticos, organizadores de missões comerciais ou entidades governamentais quando formalmente solicitado para trâmites de exportação, vistos ou credenciamento em eventos oficiais.
+                            {t('privacy_page.section_3.p2')}
                         </p>
                     </section>
 
                     {/* 4. Segurança */}
                     <section>
                         <h2 className="text-2xl font-serif font-bold text-[#7c522e] mb-4">
-                            4. Segurança da Informação
+                            {t('privacy_page.section_4.title')}
                         </h2>
                         <p className="leading-relaxed">
-                            Adotamos protocolos rigorosos de segurança técnica e administrativa, incluindo criptografia e controle de acesso, para proteger as informações sensíveis contra acessos não autorizados, perda ou alteração indevida.
+                            {t('privacy_page.section_4.p1')}
                         </p>
                     </section>
 
                     {/* 5. Seus Direitos */}
                     <section>
                         <h2 className="text-2xl font-serif font-bold text-[#7c522e] mb-4">
-                            5. Seus Direitos (LGPD)
+                            {t('privacy_page.section_5.title')}
                         </h2>
                         <p className="leading-relaxed">
-                            Você tem o direito de solicitar a confirmação da existência de tratamento, o acesso, a correção de dados incompletos ou desatualizados, e a exclusão de seus dados pessoais a qualquer momento, entrando em contato conosco através dos nossos canais oficiais.
+                            {t('privacy_page.section_5.p1')}
                         </p>
                     </section>
 
                     {/* 6. Contato do DPO */}
                     <section className="bg-gray-50 p-6 border-l-4 border-[#4a662d]">
                         <h2 className="text-xl font-serif font-bold text-gray-900 mb-2">
-                            6. Encarregado de Dados (DPO)
+                            {t('privacy_page.section_6.title')}
                         </h2>
                         <p className="leading-relaxed">
-                            Para exercer seus direitos ou esclarecer dúvidas sobre nossa Política de Privacidade, entre em contato com nosso Encarregado de Proteção de Dados:
+                            {t('privacy_page.section_6.p1')}
                         </p>
                         <p className="mt-4 font-bold text-[#4a662d]">
                             <a href="mailto:legal@cctaal.org" className="hover:underline">legal@cctaal.org</a>

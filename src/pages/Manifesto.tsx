@@ -3,7 +3,10 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import visionBg from '../assets/vision_background.png';
 import wealthEq from '../assets/wealth_equation.png';
 
+import { useTranslation, Trans } from 'react-i18next';
+
 const Manifesto = () => {
+    const { t } = useTranslation();
     const { scrollYProgress } = useScroll();
     const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
@@ -13,11 +16,11 @@ const Manifesto = () => {
 
     // Sections for the sticky TOC
     const sections = [
-        { id: 'inovar', label: 'Inovar' },
-        { id: 'diferenciar', label: 'Diferenciar' },
-        { id: 'produzir', label: 'Produzir' },
-        { id: 'tempo', label: 'O Tempo' },
-        { id: 'equacao', label: 'A Equação' },
+        { id: 'inovar', label: t('manifesto.sidebar.inovar') },
+        { id: 'diferenciar', label: t('manifesto.sidebar.diferenciar') },
+        { id: 'produzir', label: t('manifesto.sidebar.produzir') },
+        { id: 'tempo', label: t('manifesto.sidebar.tempo') },
+        { id: 'equacao', label: t('manifesto.sidebar.equacao') },
     ];
 
     const [activeSection, setActiveSection] = useState('inovar');
@@ -84,7 +87,7 @@ const Manifesto = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.3 }}
                     >
-                        Como Construir Riquezas em um Mundo que Reescreve a Si Mesmo
+                        {t('manifesto.hero.title')}
                     </motion.h1>
 
                     <motion.p
@@ -93,7 +96,7 @@ const Manifesto = () => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.8, delay: 0.6 }}
                     >
-                        "Riqueza não é acumulação — é capacidade de organizar o real."
+                        {t('manifesto.hero.quote')}
                     </motion.p>
                 </div>
             </section>
@@ -105,7 +108,7 @@ const Manifesto = () => {
                     {/* Sticky Sidebar (Left) */}
                     <aside className="hidden lg:block lg:col-span-3">
                         <div className="sticky top-32">
-                            <h3 className="text-xs font-bold text-gray-400 tracking-[0.2em] mb-6">CAPÍTULOS</h3>
+                            <h3 className="text-xs font-bold text-gray-400 tracking-[0.2em] mb-6">{t('manifesto.sidebar.title')}</h3>
                             <nav className="space-y-4 border-l border-gray-200">
                                 {sections.map((section, index) => (
                                     <button
@@ -130,8 +133,12 @@ const Manifesto = () => {
                         {/* Introduction with Drop Cap */}
                         <div className="mb-16">
                             <p className="text-xl md:text-2xl font-serif text-[#1a1a1a] leading-relaxed">
-                                <span className="float-left text-7xl font-bold font-serif text-[#7c522e] pr-4 pt-2 leading-[0.8]">V</span>
-                                ivemos uma época em que o real deixou de ser estável. Nesse ambiente, enriquecer não é mais apenas "ganhar dinheiro"; é posicionar-se em estruturas que sobrevivem às reconfigurações profundas. A volatilidade deixou de ser um risco para se tornar a própria natureza do terreno onde operamos.
+                                <Trans
+                                    i18nKey="manifesto.intro"
+                                    components={{
+                                        0: <span className="float-left text-7xl font-bold font-serif text-[#7c522e] pr-4 pt-2 leading-[0.8]" />
+                                    }}
+                                />
                             </p>
                         </div>
 
@@ -139,16 +146,16 @@ const Manifesto = () => {
                         <section id="inovar" className="mb-20 scroll-mt-32">
                             <div className="flex items-baseline gap-4 mb-6 border-b border-[#7c522e]/30 pb-4">
                                 <span className="text-4xl font-bold text-gray-200 font-serif">01</span>
-                                <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] m-0">Inovar</h2>
+                                <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] m-0">{t('manifesto.sections.inovar.title')}</h2>
                             </div>
                             <p className="text-gray-600 leading-relaxed text-lg">
-                                Inovar não é criar novidade, mas alterar a geometria do possível. Inovação é rearranjo, é a alteração da forma como o valor circula.
+                                {t('manifesto.sections.inovar.text')}
                             </p>
                             <blockquote className="border-l-4 border-[#4a662d] pl-6 my-8 italic text-xl font-serif text-[#1a1a1a]">
-                                "A CCTAAL entende inovação como: releitura do território, reconexão de cadeias produtivas e interoperabilidade tecnológica."
+                                {t('manifesto.sections.inovar.quote')}
                             </blockquote>
                             <p className="text-gray-600 leading-relaxed text-lg">
-                                Não buscamos o gadget, mas a infraestrutura. O que nos interessa é a tecnologia que se torna invisível de tão essencial.
+                                {t('manifesto.sections.inovar.subtext')}
                             </p>
                         </section>
 
@@ -156,10 +163,10 @@ const Manifesto = () => {
                         <section id="diferenciar" className="mb-20 scroll-mt-32">
                             <div className="flex items-baseline gap-4 mb-6 border-b border-[#7c522e]/30 pb-4">
                                 <span className="text-4xl font-bold text-gray-200 font-serif">02</span>
-                                <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] m-0">Diferenciar</h2>
+                                <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] m-0">{t('manifesto.sections.diferenciar.title')}</h2>
                             </div>
                             <p className="text-gray-600 leading-relaxed text-lg">
-                                A diferenciação que interessa não é estética, mas estrutural. Um agente só se torna relevante quando ocupa um ponto do sistema que não pode ser ignorado. A CCTAAL trabalha para consolidar ambientes de governança que geram previsibilidade em meio ao caos.
+                                {t('manifesto.sections.diferenciar.text')}
                             </p>
                         </section>
 
@@ -167,13 +174,13 @@ const Manifesto = () => {
                         <section id="produzir" className="mb-20 scroll-mt-32">
                             <div className="flex items-baseline gap-4 mb-6 border-b border-[#7c522e]/30 pb-4">
                                 <span className="text-4xl font-bold text-gray-200 font-serif">03</span>
-                                <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] m-0">Produzir</h2>
+                                <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] m-0">{t('manifesto.sections.produzir.title')}</h2>
                             </div>
                             <p className="text-gray-600 leading-relaxed text-lg">
-                                Nada permanece se não há produção. A CCTAAL vê a América Latina não como fornecedora passiva de commodities, mas como território de densidade produtiva ampliada.
+                                {t('manifesto.sections.produzir.text1')}
                             </p>
                             <p className="text-gray-600 leading-relaxed text-lg mt-4">
-                                Onde grão vira tecnologia, onde logística vira vantagem competitiva e onde dados se transformam em soberania de decisão.
+                                {t('manifesto.sections.produzir.text2')}
                             </p>
                         </section>
 
@@ -181,10 +188,10 @@ const Manifesto = () => {
                         <section id="tempo" className="mb-20 scroll-mt-32">
                             <div className="flex items-baseline gap-4 mb-6 border-b border-[#7c522e]/30 pb-4">
                                 <span className="text-4xl font-bold text-gray-200 font-serif">04</span>
-                                <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] m-0">O Tempo</h2>
+                                <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] m-0">{t('manifesto.sections.tempo.title')}</h2>
                             </div>
                             <p className="text-gray-600 leading-relaxed text-lg">
-                                O tempo não é uma linha; é um campo de seleção. A construção de riqueza é um processo de sobrevivência qualificada. O papel da CCTAAL é criar continuidade em um mundo que perdeu o hábito de permanecer.
+                                {t('manifesto.sections.tempo.text')}
                             </p>
                         </section>
 
@@ -202,7 +209,7 @@ const Manifesto = () => {
                         {/* Conclusion */}
                         <div className="text-center mt-20 pt-20 border-t border-gray-200">
                             <p className="text-2xl md:text-3xl font-serif text-[#1a1a1a] italic leading-relaxed mb-8">
-                                "A CCTAAL existe para construir esse tipo de riqueza: riqueza que permanece porque tem forma, função e futuro."
+                                {t('manifesto.conclusion')}
                             </p>
                             <div className="w-16 h-1 bg-[#4a662d] mx-auto opacity-50"></div>
                         </div>

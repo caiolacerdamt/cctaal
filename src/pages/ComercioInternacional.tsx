@@ -1,74 +1,76 @@
 import { Sprout, Wheat, CircleDot, Layers, Coffee, Flower2, Waves } from 'lucide-react';
 import serviceHero from '../assets/international_trade_hero_new.jpg'; // Updated hero image
 import ServicePageTemplate from '../components/ServicePageTemplate';
+import { useTranslation } from 'react-i18next';
 
 const ComercioInternacional = () => {
+    const { t } = useTranslation();
 
     const commodities = [
         {
             icon: Sprout, // Soja
-            title: "Soja",
-            description: "Referência global na produção e exportação. Atuamos para garantir negociações seguras e competitivas."
+            title: t('trade_page.commodities.soy.title'),
+            description: t('trade_page.commodities.soy.description')
         },
         {
             icon: Waves, // Milho (Simulating field)
-            title: "Milho",
-            description: "Essencial para alimentação e biocombustíveis. Conectamos produtores a compradores com transparência."
+            title: t('trade_page.commodities.corn.title'),
+            description: t('trade_page.commodities.corn.description')
         },
         {
             icon: Wheat, // Arroz (Stylized Wheat)
-            title: "Arroz",
-            description: "Com alta demanda global, o arroz latino-americano se destaca pela qualidade e rastreabilidade."
+            title: t('trade_page.commodities.rice.title'),
+            description: t('trade_page.commodities.rice.description')
         },
         {
             icon: Wheat, // Trigo
-            title: "Trigo",
-            description: "Asseguramos padrões de qualidade e competitividade no fornecimento internacional de trigo para indústrias moageiras."
+            title: t('trade_page.commodities.wheat.title'),
+            description: t('trade_page.commodities.wheat.description')
         },
         {
             icon: CircleDot, // Feijão
-            title: "Feijão",
-            description: "Produto tradicional que ganha espaço global. Promovemos acordos comerciais sustentáveis."
+            title: t('trade_page.commodities.beans.title'),
+            description: t('trade_page.commodities.beans.description')
         },
         {
             icon: Layers, // Açúcar (Cubes)
-            title: "Açúcar",
-            description: "O Brasil lidera o mercado mundial. Nossa atuação garante estabilidade e segurança nas negociações."
+            title: t('trade_page.commodities.sugar.title'),
+            description: t('trade_page.commodities.sugar.description')
         },
         {
             icon: Coffee, // Café
-            title: "Café",
-            description: "Símbolo da excelência latino-americana. Conectamos exportadores a compradores globais com rastreabilidade total."
+            title: t('trade_page.commodities.coffee.title'),
+            description: t('trade_page.commodities.coffee.description')
         },
         {
             icon: Flower2, // Orgânicos
-            title: "Orgânicos",
-            description: "Promovemos a certificação e internacionalização de produtos sustentáveis, fortalecendo a imagem do agro."
+            title: t('trade_page.commodities.organics.title'),
+            description: t('trade_page.commodities.organics.description')
         }
     ];
 
     return (
         <ServicePageTemplate
-            title="Comércio Internacional"
-            subtitle="Conectando a América Latina ao Mundo."
+            title={t('trade_page.hero.title')}
+            subtitle={t('trade_page.hero.subtitle')}
             heroImage={serviceHero} // Port/Logistics
-            overviewTitle="Negociação e Representação Internacional"
-            mainText="Atuamos com solidez e credibilidade na intermediação de commodities agrícolas, unindo produtores, exportadores e compradores globais. Nossa operação integra conhecimento de mercado, negociação estratégica e gestão eficiente de contratos."
+            overviewTitle={t('trade_page.hero.overview_title')}
+            mainText={t('trade_page.hero.main_text')}
             benefits={[
-                "Intermediação Global",
-                "Gestão de Contratos",
-                "Logística e Rastreamento"
+                t('trade_page.benefits.intermediation'),
+                t('trade_page.benefits.contract_mgmt'),
+                t('trade_page.benefits.logistics')
             ]}
         >
             {/* Commodity Portfolio Section */}
             <div className="border-t border-gray-200 pt-16">
                 <div className="mb-12 max-w-3xl">
-                    <span className="text-[#4a662d] font-bold tracking-widest text-sm uppercase mb-2 block">Nosso Portfolio</span>
+                    <span className="text-[#4a662d] font-bold tracking-widest text-sm uppercase mb-2 block">{t('trade_page.portfolio.label')}</span>
                     <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-                        Commodities Operadas
+                        {t('trade_page.portfolio.title')}
                     </h2>
                     <p className="text-xl text-gray-600 font-light leading-relaxed">
-                        Conectamos a abundância produtiva da América Latina aos centros de demanda mundial.
+                        {t('trade_page.portfolio.description')}
                     </p>
                 </div>
 
@@ -103,13 +105,13 @@ const ComercioInternacional = () => {
 
                     <div className="relative z-10">
                         <h3 className="text-2xl md:text-3xl font-serif font-bold text-white mb-4">
-                            Precisa de uma cotação específica ou parceria comercial?
+                            {t('trade_page.cta.title')}
                         </h3>
                         <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-                            Nossa mesa de operações está pronta para oferecer as melhores condições do mercado.
+                            {t('trade_page.cta.description')}
                         </p>
                         <button className="bg-[#7c522e] hover:bg-[#966236] text-white px-8 py-4 rounded-sm font-bold text-lg transition-all shadow-lg hover:shadow-[#7c522e]/30 hover:-translate-y-1">
-                            Falar com Mesa de Operações
+                            {t('trade_page.cta.button')}
                         </button>
                     </div>
                 </div>

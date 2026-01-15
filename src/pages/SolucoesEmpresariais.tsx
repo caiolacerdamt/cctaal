@@ -1,73 +1,75 @@
 import { ArrowLeftRight, Stamp, Globe, Search, Plane, FileCheck, Package, TrendingUp } from 'lucide-react';
 import ServicePageTemplate from '../components/ServicePageTemplate';
 import businessHero from '../assets/business_solutions_hero_new.jpg';
+import { useTranslation } from 'react-i18next';
 
 const SolucoesEmpresariais = () => {
+    const { t } = useTranslation();
 
     const services = [
         {
             icon: ArrowLeftRight,
-            title: "Importação e Exportação",
-            description: "Facilitamos operações de comércio exterior, garantindo eficiência, conformidade e segurança em todo o processo de entrada e saída de produtos nos mercados internacionais."
+            title: t('solutions_page.services.import_export.title'),
+            description: t('solutions_page.services.import_export.description')
         },
         {
             icon: Stamp,
-            title: "Gestão Aduaneira",
-            description: "Coordenamos a liberação de mercadorias com total conformidade legal, minimizando riscos, atrasos e custos em todo o processo aduaneiro."
+            title: t('solutions_page.services.customs.title'),
+            description: t('solutions_page.services.customs.description')
         },
         {
             icon: Globe,
-            title: "Assessoria Internacional",
-            description: "Consultoria especializada para empresas que buscam expandir globalmente, com foco em análise de mercado, estratégias de entrada e conformidade regulatória."
+            title: t('solutions_page.services.advisory.title'),
+            description: t('solutions_page.services.advisory.description')
         },
         {
             icon: Search,
-            title: "Prospecção de Fornecedores",
-            description: "Identificamos e qualificamos fornecedores internacionais confiáveis, assegurando qualidade, competitividade e transparência na negociação."
+            title: t('solutions_page.services.prospecting.title'),
+            description: t('solutions_page.services.prospecting.description')
         },
         {
             icon: Plane,
-            title: "Missões e Feiras",
-            description: "Promovemos e participamos de eventos globais que conectam empresas latino-americanas a novos mercados, estimulando inovação e parcerias."
+            title: t('solutions_page.services.missions.title'),
+            description: t('solutions_page.services.missions.description')
         },
         {
             icon: FileCheck, // Vistos usually involve document checking
-            title: "Visto de Negócios Chinês",
-            description: "Facilitamos a obtenção de vistos para empresários em viagens à China, cuidando de toda a documentação e trâmites consulares com agilidade."
+            title: t('solutions_page.services.visa.title'),
+            description: t('solutions_page.services.visa.description')
         },
         {
             icon: Package,
-            title: "Consolidação de Carga",
-            description: "Unificamos remessas de diferentes origens em uma única carga, reduzindo custos logísticos e tornando o transporte mais ágil e eficiente."
+            title: t('solutions_page.services.consolidation.title'),
+            description: t('solutions_page.services.consolidation.description')
         },
         {
             icon: TrendingUp,
-            title: "Estudo de Viabilidade",
-            description: "Analisamos a viabilidade técnica e financeira de importações, oferecendo dados precisos que orientam decisões seguras e estratégicas."
+            title: t('solutions_page.services.feasibility.title'),
+            description: t('solutions_page.services.feasibility.description')
         }
     ];
 
     return (
         <ServicePageTemplate
-            title="Soluções Empresariais"
-            subtitle="Estratégia e crescimento sustentável."
-            mainText="Desenvolvemos estratégias para empresas que buscam crescer de forma sustentável, competitiva e conectada ao mercado internacional. Atuamos na modelagem de negócios que suportam a volatilidade do mercado e aproveitam as janelas de oportunidade globais."
+            title={t('solutions_page.hero.title')}
+            subtitle={t('solutions_page.hero.subtitle')}
+            mainText={t('solutions_page.hero.main_text')}
             benefits={[
-                "Consultoria Estratégica",
-                "Modelagem de Negócios",
-                "Análise de Risco"
+                t('solutions_page.benefits.strategy'),
+                t('solutions_page.benefits.modeling'),
+                t('solutions_page.benefits.risk')
             ]}
             heroImage={businessHero}
         >
             {/* New Capacity Grid Section */}
             <div className="border-t border-gray-200 pt-16">
                 <div className="mb-12 max-w-3xl">
-                    <span className="text-[#7c522e] font-bold tracking-widest text-sm uppercase mb-2 block">Nosso Portfolio</span>
+                    <span className="text-[#7c522e] font-bold tracking-widest text-sm uppercase mb-2 block">{t('solutions_page.portfolio.label')}</span>
                     <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
-                        Ecossistema de Soluções
+                        {t('solutions_page.portfolio.title')}
                     </h2>
                     <p className="text-xl text-gray-600 font-light leading-relaxed">
-                        Temos a capacidade única de facilitar o conhecimento, criar conexões comerciais e estabelecer padrões globais.
+                        {t('solutions_page.portfolio.description')}
                     </p>
                 </div>
 

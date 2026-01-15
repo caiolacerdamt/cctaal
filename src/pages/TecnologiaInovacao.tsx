@@ -3,52 +3,53 @@ import { Plus, X, ArrowRight, Link as LinkIcon, Cpu, Wifi } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import techHeroV2 from '../assets/tech_hero_v2.png';
+import { useTranslation, Trans } from 'react-i18next';
 
 const TecnologiaInovacao = () => {
+    const { t } = useTranslation();
     // Accordion State
     const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
 
     const strategies = [
         {
-            title: "Digitalização e Automação Comercial",
-            content: "Implementamos ferramentas que eliminam a fricção burocrática, digitalizando processos aduaneiros e automatizando o fluxo de documentação para exportadores."
+            title: t('tech_page.strategies.digitalization.title'),
+            content: t('tech_page.strategies.digitalization.content')
         },
         {
-            title: "Parcerias Internacionais de Inovação",
-            content: "Estabelecemos pontes com hubs de tecnologia na China (Shenzhen/Xangai) e Vale do Silício para trazer o que há de mais avançado em AgTech para a América Latina."
+            title: t('tech_page.strategies.partnerships.title'),
+            content: t('tech_page.strategies.partnerships.content')
         },
         {
-            title: "Transparência e Inteligência de Dados",
-            content: "Utilizamos Big Data e Blockchain para garantir a rastreabilidade da cadeia produtiva, oferecendo segurança jurídica e alimentar aos compradores globais."
+            title: t('tech_page.strategies.transparency.title'),
+            content: t('tech_page.strategies.transparency.content')
         }
     ];
 
     const techCards = [
         {
             icon: LinkIcon, // Chain for Blockchain
-            title: "Blockchain",
-            description: "Rastreabilidade total do campo à mesa."
+            title: t('tech_page.tech_cards.blockchain.title'),
+            description: t('tech_page.tech_cards.blockchain.description')
         },
         {
             icon: Cpu, // Brain/AI
-            title: "AI & Big Data",
-            description: "Previsibilidade de safras e análise de mercado."
+            title: t('tech_page.tech_cards.ai.title'),
+            description: t('tech_page.tech_cards.ai.description')
         },
         {
             icon: Wifi, // Signal/IoT
-            title: "IoT / Sensores",
-            description: "Monitoramento climático e logístico em tempo real."
+            title: t('tech_page.tech_cards.iot.title'),
+            description: t('tech_page.tech_cards.iot.description')
         }
     ];
 
     return (
         <div className="bg-[#f9f9f7] min-h-screen">
             {/* 1. Hero Section */}
-            {/* 1. Hero Section */}
             <section className="relative w-full h-[70vh]">
                 <img
                     src={techHeroV2}
-                    alt="Tecnologia & Inovação"
+                    alt={t('tech_page.hero.title')}
                     className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-black/80" />
@@ -60,7 +61,7 @@ const TecnologiaInovacao = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                     >
-                        Tecnologia & Inovação
+                        {t('tech_page.hero.title')}
                     </motion.h1>
                     <motion.p
                         className="text-xl md:text-2xl text-gray-100 font-light max-w-3xl mx-auto"
@@ -68,7 +69,7 @@ const TecnologiaInovacao = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
-                        Impulsionando a eficiência e a competitividade do comércio internacional através da transformação digital.
+                        {t('tech_page.hero.description')}
                     </motion.p>
                 </div>
             </section>
@@ -82,11 +83,11 @@ const TecnologiaInovacao = () => {
                         viewport={{ once: true }}
                     >
                         <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] mb-6">
-                            Eixos Estratégicos de Inovação
+                            {t('tech_page.axes.title')}
                         </h2>
                         <div className="w-24 h-[1px] bg-[#7c522e] mx-auto mb-8"></div>
                         <p className="text-xl text-gray-600 font-light leading-relaxed">
-                            Impulsionamos o avanço tecnológico do comércio latino-americano, unindo inovação, governança e cooperação internacional. Conectamos empresas, startups e governos para desenvolver soluções digitais que simplificam operações, promovem transparência e fortalecem a competitividade regional.
+                            {t('tech_page.axes.description')}
                         </p>
                     </motion.div>
                 </div>
@@ -99,13 +100,16 @@ const TecnologiaInovacao = () => {
                         {/* Left Col */}
                         <div className="lg:col-span-1">
                             <span className="text-[#4a662d] font-bold tracking-widest text-sm uppercase mb-2 block">
-                                Metodologia
+                                {t('tech_page.methodology.label')}
                             </span>
                             <h2 className="text-4xl font-serif font-bold text-[#1a1a1a] mb-6">
-                                Fundamentos da <br /> Estratégia Global
+                                <Trans
+                                    i18nKey="tech_page.methodology.title"
+                                    components={{ 0: <br /> }}
+                                />
                             </h2>
                             <p className="text-gray-500 font-light">
-                                Como estruturamos o futuro do agronegócio através de pilares tecnológicos sólidos.
+                                {t('tech_page.methodology.description')}
                             </p>
                         </div>
 
@@ -154,9 +158,9 @@ const TecnologiaInovacao = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl font-serif font-bold text-[#1a1a1a] mb-4">
-                            O Ecossistema AgTech
+                            {t('tech_page.ecosystem.title')}
                         </h2>
-                        <p className="text-gray-500">Tecnologias chave que moldam nossa operação</p>
+                        <p className="text-gray-500">{t('tech_page.ecosystem.subtitle')}</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -181,16 +185,16 @@ const TecnologiaInovacao = () => {
             <section className="bg-[#1a1a1a] py-20 px-4">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl font-serif font-bold text-white mb-6">
-                        Sua empresa desenvolve tecnologia para o Agro?
+                        {t('tech_page.cta.title')}
                     </h2>
                     <p className="text-gray-400 mb-10 text-lg max-w-2xl mx-auto">
-                        Conecte-se ao nosso hub de inovação e leve sua solução para mercados internacionais.
+                        {t('tech_page.cta.description')}
                     </p>
                     <Link
                         to="/contact"
                         className="inline-flex items-center gap-2 bg-[#7c522e] hover:bg-[#634023] text-white px-8 py-4 rounded-sm font-bold text-lg transition-all shadow-lg"
                     >
-                        Acesse o Núcleo de Inovação <ArrowRight size={20} />
+                        {t('tech_page.cta.button')} <ArrowRight size={20} />
                     </Link>
                 </div>
             </section>
