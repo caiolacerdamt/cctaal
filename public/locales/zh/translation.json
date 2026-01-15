@@ -1,0 +1,625 @@
+{
+    "welcome": "欢迎来到 CCTAAL",
+    "language": "语言",
+    "nav": {
+        "what_we_do": "我们的业务",
+        "business_solutions": "商业解决方案",
+        "international_trade": "国际贸易",
+        "tech_innovation": "技术与创新",
+        "market_intelligence": "市场情报",
+        "vision": "愿景",
+        "chamber": "商会",
+        "intelligence": "情报",
+        "news": "新闻",
+        "become_member": "成为会员"
+    },
+    "hero": {
+        "title": "跨越历史周期与<0/>生产能力的桥梁",
+        "subtitle": "通过技术、物流和战略情报将拉丁美洲连接到全球市场。",
+        "cta_manifesto": "阅读宣言"
+    },
+    "market": {
+        "title": "全球监测",
+        "subtitle": "实时 • 市场与物流",
+        "live_data": "实时数据",
+        "agricultural_commodities": "农产品大宗商品",
+        "soy": "大豆 (期货)",
+        "cbot_mar25": "CBOT • 3月25",
+        "corn": "玉米",
+        "b3_spot": "B3 • 现货",
+        "fx_macro": "外汇与宏观",
+        "usd_brl": "美元 / 雷亚尔",
+        "ptax_closed": "PTAX 收盘",
+        "selic": "SELIC (目标)",
+        "brazil": "巴西",
+        "stable": "稳定",
+        "maritime_logistics": "海运物流",
+        "bdi_index": "BDI 指数",
+        "baltic_dry": "波罗的海干散货指数",
+        "route_santos_shanghai": "桑托斯 → 上海",
+        "freight_spot": "即期运费 (40英尺)"
+    },
+    "institutional": {
+        "label": "机构",
+        "title": "什么是 CCTAAL？",
+        "subtitle": "拉丁美洲农业综合企业商业与技术商会。",
+        "description": "CCTAAL 的诞生旨在全球舞台上代表和加强农业技术，促进国家、企业和投资者之间的贸易、创新和整合。我们充当国际机遇与拉丁美洲可持续发展之间的战略纽带。",
+        "cta": "了解我们的架构"
+    },
+    "what_we_do": {
+        "title": "我们的业务",
+        "subtitle": "我们在加强贸易、技术和创新的四个方面开展工作。",
+        "cards": {
+            "solutions": {
+                "title": "商业解决方案",
+                "text": "我们为寻求可持续增长的企业制定战略。"
+            },
+            "trade": {
+                "title": "国际贸易",
+                "text": "我们促进拉丁美洲与全球市场之间的业务、进出口。"
+            },
+            "tech": {
+                "title": "技术与创新",
+                "text": "我们推广新兴技术和智能解决方案在农工业领域的应用。"
+            },
+            "intelligence": {
+                "title": "市场情报",
+                "text": "我们将精确数据连接到投资者和政府，以支持战略决策。"
+            }
+        },
+        "cta": "了解更多"
+    },
+    "pillars": {
+        "title": "战略支柱",
+        "subtitle": "我们改变全球农工业格局的行动基础。",
+        "card1": {
+            "title": "高密度生产",
+            "text": "将领土转化为力量。巩固农工业生产，不仅作为大宗商品，而是作为粮食安全的载体。"
+        },
+        "card2": {
+            "title": "情报与可追溯性",
+            "text": "谷物即数据。应用技术以确保大规模的效率、气候监测和生产精度。"
+        },
+        "card3": {
+            "title": "全球产业链整合",
+            "text": "创造连续性和稳定性。连接拉丁美洲与亚洲和欧洲关键市场的商业架构。"
+        }
+    },
+    "newshub": {
+        "title": "新闻",
+        "view_all": "查看所有新闻",
+        "main_card": {
+            "label": "市场与战略",
+            "title": "新数字丝绸之路：技术如何重新定义出口。",
+            "description": "关于数字化对物流走廊影响及降低国家农业综合企业成本的独家分析。"
+        },
+        "read_analysis": "阅读完整分析",
+        "radar_title": "市场雷达",
+        "news1": {
+            "source": "路透社农业",
+            "title": "2025/26 收成有望凭借新种子技术创下生产力记录。",
+            "date": "2小时前"
+        },
+        "news2": {
+            "source": "彭博社",
+            "title": "桑托斯港打破历史月度运输记录。",
+            "date": "4小时前"
+        },
+        "news3": {
+            "source": "CNN 商业",
+            "title": "南方共同市场-亚洲协议在绿色基础设施议程上取得进展。",
+            "date": "5小时前"
+        },
+        "news4": {
+            "source": "机构消息",
+            "title": "CCTAAL 启动巴西农业科技加速计划。",
+            "date": "昨天"
+        }
+    },
+    "connect": {
+        "image_text": "技术与田野",
+        "label": "加入我们",
+        "title": "成为全球<0/> <1>农业革命</1>的一部分",
+        "description": "连接农工业精英。市场情报、战略网络和商业机会。",
+        "item1": "独家市场报告",
+        "item2": "国际活动与考察团",
+        "cta": "点击订阅"
+    },
+    "footer": {
+        "description": "拉丁美洲农业综合企业商业与技术商会。<0/>连接历史周期与生产能力。",
+        "nav_title": "导航",
+        "contact_title": "联系方式",
+        "legal_title": "法律",
+        "terms": "使用条款",
+        "privacy": "隐私政策",
+        "rights_reserved": "版权所有。"
+    },
+    "manifesto": {
+        "sidebar": {
+            "inovar": "创新",
+            "diferenciar": "差异化",
+            "produzir": "生产",
+            "tempo": "时间",
+            "equacao": "方程式",
+            "title": "章节"
+        },
+        "hero": {
+            "title": "如何在自我改写的世界中创造财富",
+            "quote": "“财富不是积累 — 它是组织现实的能力。”"
+        },
+        "intro": "<0>我</0>们生活在一个现实不再稳定的时代。在这个环境中，致富不再只是“赚钱”；而是将自己定位在能够通过深刻重组生存下来的结构中。波动不再是风险，而是我们在其中运作的地形的本质。",
+        "sections": {
+            "inovar": {
+                "title": "创新",
+                "text": "创新不是创造新奇事物，而是改变可能的几何形状。创新是重新排列，是改变价值流通的方式。",
+                "quote": "“CCTAAL 对创新的理解是：重新解读领土，重新连接供应链，以及技术互操作性。”",
+                "subtext": "我们要的不是小工具，而是基础设施。我们感兴趣的是那些因为至关重要而变得不可见的技术。"
+            },
+            "diferenciar": {
+                "title": "差异化",
+                "text": "重要的差异化不是审美上的，而是结构上的。一个代理人只有在占据系统中不可忽视的一点时才变得相关。CCTAAL 致力于巩固在混乱中产生可预测性的治理环境。"
+            },
+            "produzir": {
+                "title": "生产",
+                "text1": "如果不生产，一切都不复存在。CCTAAL 将拉丁美洲视为不仅仅是大宗商品的被动供应者，而是一个扩大生产密度的领土。",
+                "text2": "在这里，谷物变成技术，物流变成竞争优势，数据转化为决策主权。"
+            },
+            "tempo": {
+                "title": "时间",
+                "text": "时间不是一条线；它是一个选择场。财富建设是一个合格的生存过程。CCTAAL 的作用是在一个已失去保持习惯的世界中创造连续性。"
+            }
+        },
+        "conclusion": "“CCTAAL 的存在是为了创造这种财富：因其形式、功能和未来而得以保留的财富。”"
+    },
+    "chamber": {
+        "hero": {
+            "label": "我们的起源",
+            "title": "战略桥梁",
+            "p1": "CCTAAL 于 2017 年 1 月在巴西利亚成立，旨在加强拉丁美洲的商业、技术和农业综合企业之间的整合。",
+            "p2": "自那时起，它作为一个战略机构，促进国家、企业和投资者之间的机会，将创新和可持续发展与全球经济周期联系起来。"
+        },
+        "values": {
+            "title": "机构支柱",
+            "cards": {
+                "integration": {
+                    "title": "战略整合",
+                    "text": "我们加强国家间的商业和技术关系。"
+                },
+                "innovation": {
+                    "title": "持续创新",
+                    "text": "我们推动提高行业竞争力的解决方案。"
+                },
+                "transparency": {
+                    "title": "透明与道德",
+                    "text": "我们在所有关系中保持诚信和清晰。"
+                },
+                "diplomacy": {
+                    "title": "经济外交",
+                    "text": "我们协调公共和私营部门以促进全球发展。"
+                }
+            }
+        },
+        "governance": {
+            "label": "执行领导力",
+            "title": "公司治理",
+            "subtitle": "在对外贸易、外交和农业综合企业拥有丰富经验的领导者。",
+            "roles": {
+                "president": "主席",
+                "vice_president_1": "第一副主席",
+                "vice_president_hon": "名誉副主席",
+                "secretary_general": "秘书长"
+            },
+            "descs": {
+                "president": "经济外交和国际整合领域的领导者。",
+                "vice_president_1": "对外贸易和可持续创新专家。",
+                "vice_president_hon": "拥有国际合作经验的企业家。",
+                "secretary_general": "治理和机构协调专业人士。"
+            }
+        },
+        "compliance": {
+            "label": "诚信支柱",
+            "title": "合规与诚信",
+            "subtitle": "我们对透明度和法律安全的承诺。",
+            "description": "合规计划确 CCTAAL 的所有活动都遵循严格的道德和法律标准，促进行为，增强合作伙伴之间的信任和机构的国际信誉。",
+            "cta": "阅读道德准则 →",
+            "list": {
+                "legal": "法律和法规遵从",
+                "accountability": "透明问责",
+                "responsibility": "机构责任",
+                "security": "数据和信息安全"
+            }
+        }
+    },
+    "intelligence": {
+        "header": {
+            "title": "情报与数据",
+            "description": "巴西和拉丁美洲经济正在经历一个重组周期，为结构化投资开辟了空间。"
+        },
+        "stats": {
+            "gdp": "预估 GDP (2024)",
+            "trillions": "万亿",
+            "growth": "2025年第一季度增长",
+            "driven_by": "受农业驱动",
+            "exports": "农业出口",
+            "of_total": "占总出口的 49%",
+            "share": "GDP 占比",
+            "agribusiness": "农业综合企业",
+            "positive": "积极",
+            "record": "记录",
+            "stable": "稳定"
+        },
+        "analysis": {
+            "title": "结构分析",
+            "p1": "巴西和拉丁美洲拥有难以复制的结构优势：广阔的可耕地、成熟的热带技术、丰富的清洁能源和关键矿产。",
+            "p2": "对于投资者，这指向三个基本含义：",
+            "list": {
+                "structural": "<0>农业不是周期性的，它是结构性的。</0> 全球对食品和能源的需求长期支撑着该行业。",
+                "productivity": "<0>生产力边际。</0> 重度技术应用仍有广阔的扩展空间。",
+                "risk_return": "<0>风险-回报二项式。</0> 生产稳定性与刚性需求的结合创造了天然对冲。"
+            }
+        }
+    },
+    "service_template": {
+        "overview_title": "概览",
+        "commitment_quote": "“我们的承诺是提供卓越服务，连接该行业的真正增长机会。”",
+        "highlights_benefits": "亮点与优势",
+        "need_more_info": "需要关于此领域的更多信息？",
+        "consult_expert": "咨询专家",
+        "talk_to_experts": "与我们在 {{title}} 领域的专家交谈",
+        "ready_to_help": "我们准备好了解您的挑战并提出最佳解决方案。",
+        "start_conversation": "开始对话"
+    },
+    "solutions_page": {
+        "hero": {
+            "title": "商业解决方案",
+            "subtitle": "战略与可持续增长。",
+            "main_text": "我们为寻求可持续、有竞争力并连接到国际市场的增长制定战略。我们致力于支持市场波动并利用全球机会窗口的商业模式。"
+        },
+        "benefits": {
+            "strategy": "战略咨询",
+            "modeling": "商业建模",
+            "risk": "风险分析"
+        },
+        "portfolio": {
+            "label": "我们的投资组合",
+            "title": "解决方案生态系统",
+            "description": "我们拥有独特的能力来促进知识、建立商业连接并制定全球标准。"
+        },
+        "services": {
+            "import_export": {
+                "title": "进出口",
+                "description": "我们促进对外贸易业务，确保产品进入和退出国际市场的全过程效率、合规和安全。"
+            },
+            "customs": {
+                "title": "海关管理",
+                "description": "我们协调货物清关，完全符合法律规定，最大限度地减少整个海关流程中的风险、延误和成本。"
+            },
+            "advisory": {
+                "title": "国际咨询",
+                "description": "为寻求全球扩张的公司提供专业咨询，专注于市场分析、进入策略和合规性。"
+            },
+            "prospecting": {
+                "title": "供应商开发",
+                "description": "我们识别并资格认证可靠的国际供应商，确保谈判中的质量、竞争力和透明度。"
+            },
+            "missions": {
+                "title": "访问团与博览会",
+                "description": "我们推广并参与连接拉丁美洲公司与新市场的全球活动，激发创新和合作伙伴关系。"
+            },
+            "visa": {
+                "title": "中国商务签证",
+                "description": "我们协助前往中国的商人获取签证，快速处理所有文件和领事手续。"
+            },
+            "consolidation": {
+                "title": "货物拼箱",
+                "description": "我们将来自不同来源的货物统一为单一货物，降低物流成本，使运输更加敏捷高效。"
+            },
+            "feasibility": {
+                "title": "可行性研究",
+                "description": "我们分析进口的技术和财务可行性，提供指导安全和战略决策的精确数据。"
+            }
+        }
+    },
+    "trade_page": {
+        "hero": {
+            "title": "国际贸易",
+            "subtitle": "连接拉丁美洲与世界。",
+            "overview_title": "谈判与国际代理",
+            "main_text": "我们在农产品大宗商品中介方面行动稳健可靠，联合生产者、出口商和全球买家。我们的运营整合了市场知识、战略谈判和高效合同管理。"
+        },
+        "benefits": {
+            "intermediation": "全球中介",
+            "contract_mgmt": "合同管理",
+            "logistics": "物流与追踪"
+        },
+        "portfolio": {
+            "label": "我们的投资组合",
+            "title": "运营的大宗商品",
+            "description": "我们将拉丁美洲的丰富产能连接到世界需求中心。"
+        },
+        "commodities": {
+            "soy": {
+                "title": "大豆",
+                "description": "生产和出口的全球标杆。我们采取行动确保安全和有竞争力的谈判。"
+            },
+            "corn": {
+                "title": "玉米",
+                "description": "食品和生物燃料的必需品。我们透明地连接生产者与买家。"
+            },
+            "rice": {
+                "title": "大米",
+                "description": "全球需求高涨，拉丁美洲大米以质量和可追溯性著称。"
+            },
+            "wheat": {
+                "title": "小麦",
+                "description": "我们确保国际小麦供应给面粉工业的质量标准和竞争力。"
+            },
+            "beans": {
+                "title": "豆类",
+                "description": "传统产品正在获得全球空间。我们推动可持续的贸易协议。"
+            },
+            "sugar": {
+                "title": "糖",
+                "description": "巴西引领世界市场。我们的行动确保谈判的稳定性和安全性。"
+            },
+            "coffee": {
+                "title": "咖啡",
+                "description": "拉丁美洲卓越的象征。我们以完全的可追溯性连接出口商与全球买家。"
+            },
+            "organics": {
+                "title": "有机产品",
+                "description": "我们推广可持续产品的认证和国际化，加强农业形象。"
+            }
+        },
+        "cta": {
+            "title": "需要特定报价或商业合作伙伴？",
+            "description": "我们的交易台随时准备提供最佳市场条件。",
+            "button": "联系交易台"
+        }
+    },
+    "tech_page": {
+        "hero": {
+            "title": "技术与创新",
+            "description": "通过数字化转型推动国际贸易的效率和竞争力。"
+        },
+        "axes": {
+            "title": "战略创新轴心",
+            "description": "我们推动拉丁美洲贸易的技术进步，结合创新、治理和国际合作。我们连接公司、初创企业和政府，开发数字化解决方案，简化运营，促进透明度并加强区域竞争力。"
+        },
+        "methodology": {
+            "label": "方法论",
+            "title": "全球战略<0/>基础",
+            "description": "我们如何通过坚实的技术支柱构建农业综合企业的未来。"
+        },
+        "strategies": {
+            "digitalization": {
+                "title": "数字化与商业自动化",
+                "content": "我们实施消除官僚摩擦的工具，数字化海关流程并自动化出口商的文件流。"
+            },
+            "partnerships": {
+                "title": "国际创新合作伙伴关系",
+                "content": "我们与中国（深圳/上海）和硅谷的技术中心建立桥梁，将最先进的农业科技带到拉丁美洲。"
+            },
+            "transparency": {
+                "title": "透明度与数据智能",
+                "content": "我们利用大数据和区块链确保供应链的可追溯性，为全球买家提供法律和食品安全。"
+            }
+        },
+        "ecosystem": {
+            "title": "农业科技生态系统",
+            "subtitle": "塑造我们运营的关键技术"
+        },
+        "tech_cards": {
+            "blockchain": {
+                "title": "区块链",
+                "description": "从农场到餐桌的全程可追溯性。"
+            },
+            "ai": {
+                "title": "人工智能与大数据",
+                "description": "收成可预测性和市场分析。"
+            },
+            "iot": {
+                "title": "物联网 / 传感器",
+                "description": "实时气候和物流监测。"
+            }
+        },
+        "cta": {
+            "title": "您的公司开发农业技术吗？",
+            "description": "连接到我们的创新中心，将您的解决方案带入国际市场。",
+            "button": "访问创新核心"
+        }
+    },
+    "intelligence_page": {
+        "hero": {
+            "title": "市场情报",
+            "description": "用以数据指导商业、外交和机构决策。"
+        },
+        "intro": {
+            "label": "我们的行动",
+            "title": "情报与战略分析",
+            "description": "CCTAAL 作为一个情报中心，连接数据、趋势和机会。我们使用分析和技术方法，确保各决策层获得准确、安全和战略性的信息。我们的目标是将信息转化为具体行动，以加强贸易并吸引投资。"
+        },
+        "capabilities": {
+            "title": "分析能力",
+            "analysis": {
+                "title": "机遇与风险分析",
+                "description": "我们识别潜力市场，并评估地缘政治、汇率和监管风险，以保护您的运营。"
+            },
+            "monitoring": {
+                "title": "趋势监测",
+                "description": "实时跟踪大宗商品波动、消费变化和新的全球需求。"
+            },
+            "competitiveness": {
+                "title": "竞争力研究",
+                "description": "关于拉丁美洲产品相对于全球竞争对手竞争力的深度报告。"
+            },
+            "geoeconomics": {
+                "title": "地缘经济情报",
+                "description": "基于影响农业综合企业的宏观经济情景和政治动向的预测。"
+            }
+        },
+        "deliverables": {
+            "title": "战略交付物",
+            "subtitle": "我们将复杂性转化为清晰度，提供专为高层领导设计的报告。",
+            "items": {
+                "reports": "月度收成与气候报告",
+                "briefings": "中国-巴西法规简报",
+                "mapping": "亚洲投资者图谱",
+                "dossiers": "特定行业档案"
+            }
+        },
+        "cta": {
+            "title": "基于数据做决策，而不是猜测。",
+            "description": "获取推动最大市场参与者的情报。",
+            "button": "申请样本报告"
+        }
+    },
+    "contact_page": {
+        "hero": {
+            "title": "加入全球农业精英。",
+            "benefits": {
+                "international": {
+                    "title": "国际连接",
+                    "description": "直接接触中国和整个拉丁美洲的战略合作伙伴。"
+                },
+                "intelligence": {
+                    "title": "市场情报",
+                    "description": "独家报告、链上数据和全球趋势分析。"
+                },
+                "support": {
+                    "title": "技术支持",
+                    "description": "在监管、合规和出口流程方面的专业支持。"
+                },
+                "visibility": {
+                    "title": "尊享可见度",
+                    "description": "CCTAAL 会员印章及进入高层政府和私人网络的机会。"
+                }
+            },
+            "address": "Av. Brigadeiro Faria Lima, 3477 - 圣保罗，巴西"
+        },
+        "tabs": {
+            "membership": "成为会员",
+            "contact": "联系我们"
+        },
+        "form": {
+            "membership": {
+                "name_label": "全名",
+                "name_placeholder": "您的姓名",
+                "role_label": "职位",
+                "role_placeholder": "总监，CEO...",
+                "email_label": "企业邮箱",
+                "email_placeholder": "name@company.com",
+                "company_label": "公司",
+                "company_placeholder": "组织名称",
+                "country_label": "运营国家",
+                "country_placeholder": "巴西，中国...",
+                "interest_label": "主要兴趣",
+                "interest_placeholder": "选择一个选项",
+                "options": {
+                    "export": "出口与物流",
+                    "tech": "技术与创新",
+                    "investment": "投资与合作",
+                    "other": "其他"
+                },
+                "submit": "申请会员",
+                "disclaimer": "您的请求将由我们的审议委员会分析。我们要48小时内联系您。"
+            },
+            "contact": {
+                "name_label": "您的姓名",
+                "name_placeholder": "输入您的姓名",
+                "email_label": "您的邮箱",
+                "email_placeholder": "输入您的邮箱",
+                "subject_label": "主题",
+                "subject_placeholder": "联系原因",
+                "message_label": "留言",
+                "message_placeholder": "我们需要什么帮助？",
+                "submit": "发送消息"
+            }
+        }
+    },
+    "privacy_page": {
+        "title": "隐私政策与数据保护",
+        "last_update": "最后更新：2025年12月",
+        "intro": "全球农业商业与技术商会 (CCTAAL) 致力于保护其会员、合作伙伴和访客的隐私和个人数据，遵守《通用数据保护法》(法律第 13.709/2018 号)。",
+        "section_1": {
+            "title": "1. 信息收集",
+            "p1": "我们收集企业数据用于会员处理和商业伙伴注册。这可能包括姓名、职务、企业邮箱、电话和公司数据。",
+            "p2": "此外，我们收集匿名导航数据 (cookies) 用于流量分析和市场情报，旨在改善用户在我们数字平台上的体验。"
+        },
+        "section_2": {
+            "title": "2. 数据使用",
+            "p1": "我们严格将收集的信息用于：",
+            "list": {
+                "item1": "处理会员申请并验证会员资格；",
+                "item2": "发送市场情报报告、通讯和独家活动邀请；",
+                "item3": "促进巴西、中国和拉丁美洲之间的战略商业连接；",
+                "item4": "遵守适用于该行业的法律和监管义务。"
+            }
+        },
+        "section_3": {
+            "title": "3. 数据共享",
+            "p1": "我们不出售个人数据。",
+            "p2": "我们仅在正式要求出口程序、签证或官方活动认证时，与物流合作伙伴、贸易代表团组织者或政府实体共享严格必要的信息。"
+        },
+        "section_4": {
+            "title": "4. 信息安全",
+            "p1": "我们采用严格的技术和管理安全协议，包括加密和访问控制，以保护敏感信息免受未经授权的访问、丢失或不当更改。"
+        },
+        "section_5": {
+            "title": "5. 您的权利 (LGPD)",
+            "p1": "您有权通过我们的官方渠道联系我们，随时请求确认处理的存在、访问、更正不完整或过时的数据，以及删除您的个人数据。"
+        },
+        "section_6": {
+            "title": "6. 数据保护官 (DPO)",
+            "p1": "如需行使您的权利或澄清关于我们隐私政策的疑问，请联系我们的数据保护官："
+        }
+    },
+    "news_page": {
+        "hero": {
+            "title": "见解与新闻",
+            "subtitle": "全球农业综合企业、趋势和独家分析的战略监测。"
+        },
+        "ui": {
+            "read_analysis": "阅读完整分析",
+            "read_more": "阅读更多",
+            "back": "返回见解",
+            "by_label": "CCTAAL 编辑部",
+            "share": "分享",
+            "continue_reading": "继续阅读",
+            "article_not_found": "未找到文章",
+            "back_to_news": "返回新闻"
+        }
+    },
+    "chat_widget": {
+        "initial_message": "你好！我是 CCTAAL 人工智能。今天我能为您在国际化方面提供什么帮助？",
+        "header": {
+            "title": "CCTAAL 支持",
+            "subtitle": "人工智能"
+        },
+        "input": {
+            "placeholder": "请在上方选择一个选项..."
+        },
+        "footer": {
+            "disclaimer": "CCTAAL 演示环境 v2.0"
+        },
+        "tooltips": {
+            "reset": "重新开始对话",
+            "close": "关闭聊天"
+        },
+        "suggestions": {
+            "title": "阅读建议"
+        },
+        "questions": {
+            "membership": "会员制如何运作？",
+            "commodities": "你们处理哪些大宗商品？",
+            "innovation": "什么是创新中心？"
+        },
+        "responses": {
+            "membership": "CCTAAL 会员资格将您的公司连接到全球网络。我们提供签证、市场情报和直接连接中国的支持。您可以通过点击顶部菜单中的“成为会员”开始该流程。",
+            "commodities": "我们主要处理大豆、玉米、动物蛋白和糖。我们的交易台促进出口和针对亚洲市场的卫生合规。",
+            "innovation": "这是我们连接巴西农业科技公司与国际投资者的倡议。我们专注于可追溯性（区块链）和海关流程自动化。",
+            "default": "抱歉，我还在学习中。请选择以下选项之一。",
+            "follow_up": "我还能帮您什么吗？请在下方选择："
+        }
+    }
+}

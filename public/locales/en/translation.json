@@ -1,0 +1,625 @@
+{
+    "welcome": "Welcome to CCTAAL",
+    "language": "Language",
+    "nav": {
+        "what_we_do": "What We Do",
+        "business_solutions": "Business Solutions",
+        "international_trade": "International Trade",
+        "tech_innovation": "Technology & Innovation",
+        "market_intelligence": "Market Intelligence",
+        "vision": "Vision",
+        "chamber": "The Chamber",
+        "intelligence": "Intelligence",
+        "news": "News",
+        "become_member": "Become a Member"
+    },
+    "hero": {
+        "title": "The Bridge between Historical Cycles <0/>and Productive Capacities",
+        "subtitle": "Connecting Latin America to global markets through technology, logistics, and strategic intelligence.",
+        "cta_manifesto": "Read the Manifesto"
+    },
+    "market": {
+        "title": "Global Monitor",
+        "subtitle": "Real Time • Market & Logistics",
+        "live_data": "Live Data",
+        "agricultural_commodities": "Agricultural Commodities",
+        "soy": "SOYBEAN (Future)",
+        "cbot_mar25": "CBOT • Mar/25",
+        "corn": "CORN",
+        "b3_spot": "B3 • Spot",
+        "fx_macro": "FX & Macro",
+        "usd_brl": "USD / BRL",
+        "ptax_closed": "PTAX Closed",
+        "selic": "SELIC (Target)",
+        "brazil": "Brazil",
+        "stable": "Stable",
+        "maritime_logistics": "Maritime Logistics",
+        "bdi_index": "BDI Index",
+        "baltic_dry": "Baltic Dry Index",
+        "route_santos_shanghai": "SANTOS → SHANGHAI",
+        "freight_spot": "Freight Spot (40ft)"
+    },
+    "institutional": {
+        "label": "Institutional",
+        "title": "What is CCTAAL?",
+        "subtitle": "Chamber of Commerce and Technology for Agribusiness and Latin America.",
+        "description": "CCTAAL was born with the purpose of representing and strengthening Agro technology on the global stage, promoting trade, innovation, and integration among countries, companies, and investors. We act as a strategic link between international opportunities and the sustainable development of Latin America.",
+        "cta": "Meet Our Structure"
+    },
+    "what_we_do": {
+        "title": "What We Do",
+        "subtitle": "We operate on four fronts that strengthen trade, technology, and innovation.",
+        "cards": {
+            "solutions": {
+                "title": "Business Solutions",
+                "text": "We develop strategies for companies seeking sustainable growth."
+            },
+            "trade": {
+                "title": "International Trade",
+                "text": "We facilitate business, imports, and exports between Latin America and the global market."
+            },
+            "tech": {
+                "title": "Technology & Innovation",
+                "text": "We promote the use of emerging technologies and intelligent solutions in the agro-industrial sector."
+            },
+            "intelligence": {
+                "title": "Market Intelligence",
+                "text": "We connect investors and governments with accurate data for strategic decisions."
+            }
+        },
+        "cta": "Learn More"
+    },
+    "pillars": {
+        "title": "Strategic Pillars",
+        "subtitle": "The foundation of our action to transform the global agro-industrial landscape.",
+        "card1": {
+            "title": "High-Density Production",
+            "text": "Transforming territory into power. Consolidating agro-industrial production not just as commodities, but as vectors of food security."
+        },
+        "card2": {
+            "title": "Intelligence & Traceability",
+            "text": "Where grain becomes data. Technology applied to ensure efficiency, climatic monitoring, and productive precision at scale."
+        },
+        "card3": {
+            "title": "Global Chain Integration",
+            "text": "Creating continuity and stability. A commercial architecture that connects Latin America to key Asian and European markets."
+        }
+    },
+    "newshub": {
+        "title": "News",
+        "view_all": "View All News",
+        "main_card": {
+            "label": "Market & Strategy",
+            "title": "The New Digital Silk Road: How technology is redefining exports.",
+            "description": "Exclusive analysis on the impact of digitization on logistical corridors and cost reduction for national agribusiness."
+        },
+        "read_analysis": "Read Complete Analysis",
+        "radar_title": "Market Radar",
+        "news1": {
+            "source": "Reuters Agro",
+            "title": "2025/26 Harvest promises productivity record with new seed technology.",
+            "date": "2 hours ago"
+        },
+        "news2": {
+            "source": "Bloomberg",
+            "title": "Port of Santos breaks historical monthly movement record.",
+            "date": "4 hours ago"
+        },
+        "news3": {
+            "source": "CNN Business",
+            "title": "Mercosur-Asia deal advances on green infrastructure agendas.",
+            "date": "5 hours ago"
+        },
+        "news4": {
+            "source": "Institutional",
+            "title": "CCTAAL launches acceleration program for Brazilian AgTechs.",
+            "date": "Yesterday"
+        }
+    },
+    "connect": {
+        "image_text": "Technology & Field",
+        "label": "Join Us",
+        "title": "Be part of the Global Agribusiness <0/> <1>Revolution</1>",
+        "description": "Connect with the agro-industrial elite. Market intelligence, strategic networking, and business opportunities.",
+        "item1": "Exclusive market reports",
+        "item2": "International Events and Missions",
+        "cta": "Click to Subscribe"
+    },
+    "footer": {
+        "description": "Chamber of Commerce and Technology for Agribusiness and Latin America.<0/>Connecting historical cycles and productive capacities.",
+        "nav_title": "Navigation",
+        "contact_title": "Contact",
+        "legal_title": "Legal",
+        "terms": "Terms of Use",
+        "privacy": "Privacy Policy",
+        "rights_reserved": "All rights reserved."
+    },
+    "manifesto": {
+        "sidebar": {
+            "inovar": "Innovate",
+            "diferenciar": "Differentiate",
+            "produzir": "Produce",
+            "tempo": "Time",
+            "equacao": "The Equation",
+            "title": "CHAPTERS"
+        },
+        "hero": {
+            "title": "How to Build Wealth in a World that Rewrites Itself",
+            "quote": "\"Wealth is not accumulation — it is the capacity to organize the real.\""
+        },
+        "intro": "<0>W</0>e live in an era where the real has ceased to be stable. In this environment, getting rich is no longer just 'making money'; it is positioning oneself in structures that survive deep reconfigurations. Volatility is no longer a risk but the very nature of the terrain where we operate.",
+        "sections": {
+            "inovar": {
+                "title": "Innovate",
+                "text": "Innovating is not creating novelty, but altering the geometry of the possible. Innovation is rearrangement, it is the alteration of how value circulates.",
+                "quote": "\"CCTAAL understands innovation as: rereading the territory, reconnecting supply chains, and technological interoperability.\"",
+                "subtext": "We do not seek the gadget, but the infrastructure. What interests us is technology that becomes invisible because it is so essential."
+            },
+            "diferenciar": {
+                "title": "Differentiate",
+                "text": "The differentiation that matters is not aesthetic, but structural. An agent only becomes relevant when it occupies a point in the system that cannot be ignored. CCTAAL works to consolidate governance environments that generate predictability amidst chaos."
+            },
+            "produzir": {
+                "title": "Produce",
+                "text1": "Nothing remains if there is no production. CCTAAL views Latin America not as a passive supplier of commodities, but as a territory of expanded productive density.",
+                "text2": "Where grain becomes technology, where logistics becomes a competitive advantage, and where data transforms into decision sovereignty."
+            },
+            "tempo": {
+                "title": "Time",
+                "text": "Time is not a line; it is a field of selection. Wealth building is a qualified survival process. CCTAAL's role is to create continuity in a world that has lost the habit of remaining."
+            }
+        },
+        "conclusion": "\"CCTAAL exists to build this type of wealth: wealth that remains because it has form, function, and future.\""
+    },
+    "chamber": {
+        "hero": {
+            "label": "Our Origin",
+            "title": "A Strategic Bridge",
+            "p1": "CCTAAL was founded in January 2017, in Brasília, with the purpose of strengthening the integration between commerce, technology, and agribusiness in Latin America.",
+            "p2": "Since then, it has acted as a strategic institution promoting opportunities among countries, companies, and investors, connecting innovation and sustainable development to global economic cycles."
+        },
+        "values": {
+            "title": "Institutional Pillars",
+            "cards": {
+                "integration": {
+                    "title": "Strategic Integration",
+                    "text": "We strengthen commercial and technological relations between countries."
+                },
+                "innovation": {
+                    "title": "Continuous Innovation",
+                    "text": "We drive solutions that increase sector competitiveness."
+                },
+                "transparency": {
+                    "title": "Transparency and Ethics",
+                    "text": "We act with integrity and clarity in all relationships."
+                },
+                "diplomacy": {
+                    "title": "Economic Diplomacy",
+                    "text": "We articulate public and private sectors for global development."
+                }
+            }
+        },
+        "governance": {
+            "label": "Executive Leadership",
+            "title": "Corporate Governance",
+            "subtitle": "Leaders with extensive experience in foreign trade, diplomacy, and agribusiness.",
+            "roles": {
+                "president": "President",
+                "vice_president_1": "First Vice President",
+                "vice_president_hon": "Honorary Vice Presidency",
+                "secretary_general": "Secretary General"
+            },
+            "descs": {
+                "president": "Leader in Economic Diplomacy and International Integration.",
+                "vice_president_1": "Specialist in foreign trade and sustainable innovation.",
+                "vice_president_hon": "Businessman with experience in international cooperation.",
+                "secretary_general": "Professional in governance and institutional articulation."
+            }
+        },
+        "compliance": {
+            "label": "Integrity Pillars",
+            "title": "Compliance and Integrity",
+            "subtitle": "Our commitment to transparency and legal security.",
+            "description": "The Compliance Program ensures that all CCTAAL activities follow rigorous ethical and legal standards, promoting practices that strengthen trust among our partners and the institution's international credibility.",
+            "cta": "Read Code of Ethics →",
+            "list": {
+                "legal": "Legal and Regulatory Compliance",
+                "accountability": "Transparent Accountability",
+                "responsibility": "Institutional Responsibility",
+                "security": "Data and Information Security"
+            }
+        }
+    },
+    "intelligence": {
+        "header": {
+            "title": "Intelligence & Data",
+            "description": "The Brazilian and Latin American economy is undergoing a reconfiguration cycle that opens space for structured investments."
+        },
+        "stats": {
+            "gdp": "Estimated GDP (2024)",
+            "trillions": "Trillions",
+            "growth": "Growth Q1 2025",
+            "driven_by": "Driven by Agro",
+            "exports": "Agro Exports",
+            "of_total": "49% of total exported",
+            "share": "Share in GDP",
+            "agribusiness": "Agribusiness",
+            "positive": "Positive",
+            "record": "Record",
+            "stable": "Stable"
+        },
+        "analysis": {
+            "title": "Structural Analysis",
+            "p1": "Brazil and Latin America possess structural advantages difficult to replicate: vast arable lands, mature tropical technology, abundant clean energy, and critical minerals.",
+            "p2": "For investors, this points to three fundamental implications:",
+            "list": {
+                "structural": "<0>Agro is not conjunctural, it is structural.</0> Global demand for food and energy sustains the sector in the long term.",
+                "productivity": "<0>Margin for productivity.</0> Intensive technology application still has vast fields for expansion.",
+                "risk_return": "<0>Risk-Return Binomial.</0> The combination of productive stability and inelastic demand creates a natural hedge."
+            }
+        }
+    },
+    "service_template": {
+        "overview_title": "Overview",
+        "commitment_quote": "\"Our commitment is to deliver excellence and connect real growth opportunities for the sector.\"",
+        "highlights_benefits": "Highlights & Benefits",
+        "need_more_info": "Need more information about this area?",
+        "consult_expert": "Consult Expert",
+        "talk_to_experts": "Talk to our experts in {{title}}",
+        "ready_to_help": "We are ready to understand your challenges and propose the best solutions.",
+        "start_conversation": "Start Conversation"
+    },
+    "solutions_page": {
+        "hero": {
+            "title": "Business Solutions",
+            "subtitle": "Strategy and sustainable growth.",
+            "main_text": "We develop strategies for companies seeking to grow sustainably, competitively, and connected to the international market. We work on business modeling that supports market volatility and takes advantage of global opportunity windows."
+        },
+        "benefits": {
+            "strategy": "Strategic Consulting",
+            "modeling": "Business Modeling",
+            "risk": "Risk Analysis"
+        },
+        "portfolio": {
+            "label": "Our Portfolio",
+            "title": "Solutions Ecosystem",
+            "description": "We have the unique capacity to facilitate knowledge, create commercial connections, and establish global standards."
+        },
+        "services": {
+            "import_export": {
+                "title": "Import and Export",
+                "description": "We facilitate foreign trade operations, ensuring efficiency, compliance, and security throughout the process of entry and exit of products in international markets."
+            },
+            "customs": {
+                "title": "Customs Management",
+                "description": "We coordinate the clearance of goods with full legal compliance, minimizing risks, delays, and costs throughout the customs process."
+            },
+            "advisory": {
+                "title": "International Advisory",
+                "description": "Specialized consulting for companies seeking to expand globally, focusing on market analysis, entry strategies, and regulatory compliance."
+            },
+            "prospecting": {
+                "title": "Supplier Prospecting",
+                "description": "We identify and qualify reliable international suppliers, ensuring quality, competitiveness, and transparency in negotiation."
+            },
+            "missions": {
+                "title": "Missions and Fairs",
+                "description": "We promote and participate in global events that connect Latin American companies to new markets, stimulating innovation and partnerships."
+            },
+            "visa": {
+                "title": "Chinese Business Visa",
+                "description": "We facilitate visa acquisition for businesspeople traveling to China, handling all documentation and consular procedures with agility."
+            },
+            "consolidation": {
+                "title": "Cargo Consolidation",
+                "description": "We unify shipments from different origins into a single cargo, reducing logistics costs and making transport more agile and efficient."
+            },
+            "feasibility": {
+                "title": "Feasibility Study",
+                "description": "We analyze the technical and financial feasibility of imports, offering precise data that guide safe and strategic decisions."
+            }
+        }
+    },
+    "trade_page": {
+        "hero": {
+            "title": "International Trade",
+            "subtitle": "Connecting Latin America to the World.",
+            "overview_title": "Negotiation and International Representation",
+            "main_text": "We operate with solidity and credibility in the intermediation of agricultural commodities, uniting producers, exporters, and global buyers. Our operation integrates market knowledge, strategic negotiation, and efficient contract management."
+        },
+        "benefits": {
+            "intermediation": "Global Intermediation",
+            "contract_mgmt": "Contract Management",
+            "logistics": "Logistics and Tracking"
+        },
+        "portfolio": {
+            "label": "Our Portfolio",
+            "title": "Operated Commodities",
+            "description": "We connect the productive abundance of Latin America to world demand centers."
+        },
+        "commodities": {
+            "soy": {
+                "title": "Soybean",
+                "description": "Global reference in production and export. We act to ensure safe and competitive negotiations."
+            },
+            "corn": {
+                "title": "Corn",
+                "description": "Essential for food and biofuels. We connect producers to buyers with transparency."
+            },
+            "rice": {
+                "title": "Rice",
+                "description": "With high global demand, Latin American rice stands out for quality and traceability."
+            },
+            "wheat": {
+                "title": "Wheat",
+                "description": "We ensure quality standards and competitiveness in the international supply of wheat for milling industries."
+            },
+            "beans": {
+                "title": "Beans",
+                "description": "Traditional product gaining global space. We promote sustainable trade agreements."
+            },
+            "sugar": {
+                "title": "Sugar",
+                "description": "Brazil leads the world market. Our action ensures stability and security in negotiations."
+            },
+            "coffee": {
+                "title": "Coffee",
+                "description": "Symbol of Latin American excellence. We connect exporters to global buyers with total traceability."
+            },
+            "organics": {
+                "title": "Organics",
+                "description": "We promote certification and internationalization of sustainable products, strengthening the agro image."
+            }
+        },
+        "cta": {
+            "title": "Need a specific quote or commercial partnership?",
+            "description": "Our trading desk is ready to offer the best market conditions.",
+            "button": "Talk to Trading Desk"
+        }
+    },
+    "tech_page": {
+        "hero": {
+            "title": "Technology & Innovation",
+            "description": "Driving efficiency and competitiveness in international trade through digital transformation."
+        },
+        "axes": {
+            "title": "Strategic Innovation Axes",
+            "description": "We drive technological advancement in Latin American trade, uniting innovation, governance, and international cooperation. We connect companies, startups, and governments to develop digital solutions that simplify operations, promote transparency, and strengthen regional competitiveness."
+        },
+        "methodology": {
+            "label": "Methodology",
+            "title": "Foundations of <0/>Global Strategy",
+            "description": "How we structure the future of agribusiness through solid technological pillars."
+        },
+        "strategies": {
+            "digitalization": {
+                "title": "Digitalization and Commercial Automation",
+                "content": "We implement tools that eliminate bureaucratic friction, digitizing customs processes and automating documentation flow for exporters."
+            },
+            "partnerships": {
+                "title": "International Innovation Partnerships",
+                "content": "We build bridges with technology hubs in China (Shenzhen/Shanghai) and Silicon Valley to bring the most advanced AgTech to Latin America."
+            },
+            "transparency": {
+                "title": "Transparency and Data Intelligence",
+                "content": "We use Big Data and Blockchain to ensure supply chain traceability, offering legal and food safety to global buyers."
+            }
+        },
+        "ecosystem": {
+            "title": "The AgTech Ecosystem",
+            "subtitle": "Key technologies shaping our operation"
+        },
+        "tech_cards": {
+            "blockchain": {
+                "title": "Blockchain",
+                "description": "Total traceability from farm to fork."
+            },
+            "ai": {
+                "title": "AI & Big Data",
+                "description": "Crop predictability and market analysis."
+            },
+            "iot": {
+                "title": "IoT / Sensors",
+                "description": "Real-time climatic and logistical monitoring."
+            }
+        },
+        "cta": {
+            "title": "Does your company develop technology for Agro?",
+            "description": "Connect to our innovation hub and take your solution to international markets.",
+            "button": "Access Innovation Core"
+        }
+    },
+    "intelligence_page": {
+        "hero": {
+            "title": "Market Intelligence",
+            "description": "Guiding commercial, diplomatic, and institutional decisions with precise data."
+        },
+        "intro": {
+            "label": "Our Action",
+            "title": "Intelligence and Strategic Analysis",
+            "description": "CCTAAL acts as an intelligence hub connecting data, trends, and opportunities. We work with analytical and technological methodologies to ensure accurate, secure, and strategic information at all decision levels. Our goal is to transform information into concrete actions to strengthen trade and attract investments."
+        },
+        "capabilities": {
+            "title": "Analytical Capabilities",
+            "analysis": {
+                "title": "Opportunity and Risk Analysis",
+                "description": "We identify promising markets and evaluate geopolitical, currency, and regulatory risks to shield your operations."
+            },
+            "monitoring": {
+                "title": "Trend Monitoring",
+                "description": "Real-time tracking of commodity fluctuations, consumption changes, and new global demands."
+            },
+            "competitiveness": {
+                "title": "Competitiveness Studies",
+                "description": "In-depth reports on the competitiveness of Latin American products against global competitors."
+            },
+            "geoeconomics": {
+                "title": "Geoeconomic Intelligence",
+                "description": "Forecasts based on macroeconomic scenarios and political movements impacting agribusiness."
+            }
+        },
+        "deliverables": {
+            "title": "Strategic Deliverables",
+            "subtitle": "We transform complexity into clarity with reports designed for top leadership.",
+            "items": {
+                "reports": "Monthly Crop & Climate Reports",
+                "briefings": "China-Brazil Regulation Briefings",
+                "mapping": "Asian Investor Mapping",
+                "dossiers": "Specific Sector Dossiers"
+            }
+        },
+        "cta": {
+            "title": "Make data-driven decisions, not guesses.",
+            "description": "Access the intelligence that moves the biggest market players.",
+            "button": "Request Sample Report"
+        }
+    },
+    "contact_page": {
+        "hero": {
+            "title": "Join the Global Agro Elite.",
+            "benefits": {
+                "international": {
+                    "title": "International Connection",
+                    "description": "Direct access to strategic partners in China and throughout Latin America."
+                },
+                "intelligence": {
+                    "title": "Market Intelligence",
+                    "description": "Exclusive reports, on-chain data, and global trend analysis."
+                },
+                "support": {
+                    "title": "Technical Support",
+                    "description": "Specialized support in regulation, compliance, and export processes."
+                },
+                "visibility": {
+                    "title": "Premium Visibility",
+                    "description": "CCTAAL member seal and access to high-level governmental and private networking."
+                }
+            },
+            "address": "Av. Brigadeiro Faria Lima, 3477 - São Paulo, Brazil"
+        },
+        "tabs": {
+            "membership": "Become a Member",
+            "contact": "Contact Us"
+        },
+        "form": {
+            "membership": {
+                "name_label": "Full Name",
+                "name_placeholder": "Your name",
+                "role_label": "Role",
+                "role_placeholder": "Director, CEO...",
+                "email_label": "Corporate Email",
+                "email_placeholder": "name@company.com",
+                "company_label": "Company",
+                "company_placeholder": "Organization name",
+                "country_label": "Country of Operation",
+                "country_placeholder": "Brazil, China...",
+                "interest_label": "Main Interest",
+                "interest_placeholder": "Select an option",
+                "options": {
+                    "export": "Export & Logistics",
+                    "tech": "Technology & Innovation",
+                    "investment": "Investment & Partnerships",
+                    "other": "Other"
+                },
+                "submit": "Request Membership",
+                "disclaimer": "Your request will be analyzed by our deliberative council. We will contact you within 48h."
+            },
+            "contact": {
+                "name_label": "Your Name",
+                "name_placeholder": "Enter your name",
+                "email_label": "Your Email",
+                "email_placeholder": "Enter your email",
+                "subject_label": "Subject",
+                "subject_placeholder": "Reason for contact",
+                "message_label": "Message",
+                "message_placeholder": "How can we help?",
+                "submit": "Send Message"
+            }
+        }
+    },
+    "privacy_page": {
+        "title": "Privacy Policy and Data Protection",
+        "last_update": "Last update: December 2025",
+        "intro": "The Chamber of Commerce and Technology of Global Agro (CCTAAL) is committed to protecting the privacy and personal data of its members, partners, and visitors, in compliance with the General Data Protection Law (Law No. 13.709/2018).",
+        "section_1": {
+            "title": "1. Information Collection",
+            "p1": "We collect corporate data for membership processing and business partner registration. This may include name, role, corporate email, phone, and company data.",
+            "p2": "Additionally, we collect anonymized navigation data (cookies) for traffic analysis and market intelligence, aiming to improve the user experience on our digital platform."
+        },
+        "section_2": {
+            "title": "2. Data Usage",
+            "p1": "We use the collected information strictly to:",
+            "list": {
+                "item1": "Process membership requests and verify member eligibility;",
+                "item2": "Send market intelligence reports, newsletters, and invitations to exclusive events;",
+                "item3": "Facilitate strategic commercial connections between Brazil, China, and Latin America;",
+                "item4": "Comply with legal and regulatory obligations applicable to the sector."
+            }
+        },
+        "section_3": {
+            "title": "3. Data Sharing",
+            "p1": "We do not sell personal data.",
+            "p2": "We share strictly necessary information only with logistics partners, organizers of trade missions, or government entities when formally requested for export procedures, visas, or accreditation in official events."
+        },
+        "section_4": {
+            "title": "4. Information Security",
+            "p1": "We adopt rigorous technical and administrative security protocols, including encryption and access control, to protect sensitive information against unauthorized access, loss, or improper alteration."
+        },
+        "section_5": {
+            "title": "5. Your Rights (LGPD)",
+            "p1": "You have the right to request confirmation of the existence of processing, access, correction of incomplete or outdated data, and deletion of your personal data at any time by contacting us through our official channels."
+        },
+        "section_6": {
+            "title": "6. Data Protection Officer (DPO)",
+            "p1": "To exercise your rights or clarify doubts about our Privacy Policy, please contact our Data Protection Officer:"
+        }
+    },
+    "news_page": {
+        "hero": {
+            "title": "Insights & News",
+            "subtitle": "Strategic monitoring of global agribusiness, trends, and exclusive analysis."
+        },
+        "ui": {
+            "read_analysis": "Read complete analysis",
+            "read_more": "Read more",
+            "back": "Back to Insights",
+            "by_label": "By CCTAAL Editorial",
+            "share": "Share",
+            "continue_reading": "Continue Reading",
+            "article_not_found": "Article not found",
+            "back_to_news": "Back to news"
+        }
+    },
+    "chat_widget": {
+        "initial_message": "Hello! I am the CCTAAL AI. How can I help with your internationalization today?",
+        "header": {
+            "title": "CCTAAL Support",
+            "subtitle": "Artificial Intelligence"
+        },
+        "input": {
+            "placeholder": "Select an option above..."
+        },
+        "footer": {
+            "disclaimer": "CCTAAL Demo Environment v2.0"
+        },
+        "tooltips": {
+            "reset": "Restart conversation",
+            "close": "Close chat"
+        },
+        "suggestions": {
+            "title": "Reading suggestions"
+        },
+        "questions": {
+            "membership": "How does membership work?",
+            "commodities": "Which commodities do you work with?",
+            "innovation": "What is the Innovation Hub?"
+        },
+        "responses": {
+            "membership": "CCTAAL membership connects your company to a global network. We offer support in visas, market intelligence, and direct connection with China. You can start the process by clicking 'Become a Member' in the top menu.",
+            "commodities": "We mainly work with Soy, Corn, Animal Protein, and Sugar. Our trading desk facilitates both export and sanitary regularization for the Asian market.",
+            "innovation": "It's our initiative to connect Brazilian AgTechs with international investors. We focus on traceability (Blockchain) and customs process automation.",
+            "default": "Sorry, I am still learning. Please select one of the options below.",
+            "follow_up": "Can I help with anything else? Select below:"
+        }
+    }
+}
