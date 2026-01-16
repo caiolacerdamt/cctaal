@@ -4,7 +4,7 @@
     "nav": {
         "what_we_do": "O que fazemos",
         "business_solutions": "Soluções Empresariais",
-        "international_trade": "Comércio Internacional",
+        "international_trade": "Viabilização de Projetos Internacionais",
         "tech_innovation": "Tecnologia & Inovação",
         "market_intelligence": "Inteligência de Mercado",
         "vision": "Visão (Manifesto)",
@@ -43,7 +43,7 @@
         "label": "Institucional",
         "title": "O que é a CCTAAL?",
         "subtitle": "Câmara de Comércio e Tecnologia do Agro da América Latina.",
-        "description": "A CCTAAL nasceu com o propósito de representar e fortalecer a tecnologia do Agro no cenário global, promovendo comércio, inovação e integração entre países, empresas e investidores. Atuamos como elo estratégico entre oportunidades internacionais e o desenvolvimento sustentável da América Latina.",
+        "description": "A CCTAAL nasceu com o propósito de representar e fortalecer a tecnologia do Agro no cenário global, promovendo viabilização, inovação e integração entre países, empresas e investidores. Atuamos como elo estratégico entre oportunidades internacionais e o desenvolvimento sustentável da América Latina.",
         "cta": "Conheça Nossa Estrutura"
     },
     "what_we_do": {
@@ -55,7 +55,7 @@
                 "text": "Desenvolvemos estratégias para empresas que buscam crescer de forma sustentável."
             },
             "trade": {
-                "title": "Comércio Internacional",
+                "title": "Viabilização de Projetos Internacionais",
                 "text": "Facilitamos negócios, importações e exportações entre a América Latina e o mercado global."
             },
             "tech": {
@@ -322,7 +322,7 @@
     },
     "trade_page": {
         "hero": {
-            "title": "Comércio Internacional",
+            "title": "Viabilização de Projetos Internacionais",
             "subtitle": "Conectando a América Latina ao Mundo.",
             "overview_title": "Negociação e Representação Internacional",
             "main_text": "Atuamos com solidez e credibilidade na intermediação de commodities agrícolas, unindo produtores, exportadores e compradores globais. Nossa operação integra conhecimento de mercado, negociação estratégica e gestão eficiente de contratos."

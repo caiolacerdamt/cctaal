@@ -4,7 +4,7 @@
     "nav": {
         "what_we_do": "我们的业务",
         "business_solutions": "商业解决方案",
-        "international_trade": "国际贸易",
+        "international_trade": "国际项目促进",
         "tech_innovation": "技术与创新",
         "market_intelligence": "市场情报",
         "vision": "愿景",
@@ -55,7 +55,7 @@
                 "text": "我们为寻求可持续增长的企业制定战略。"
             },
             "trade": {
-                "title": "国际贸易",
+                "title": "国际项目促进",
                 "text": "我们促进拉丁美洲与全球市场之间的业务、进出口。"
             },
             "tech": {
@@ -322,7 +322,7 @@
     },
     "trade_page": {
         "hero": {
-            "title": "国际贸易",
+            "title": "国际项目促进",
             "subtitle": "连接拉丁美洲与世界。",
             "overview_title": "谈判与国际代理",
             "main_text": "我们在农产品大宗商品中介方面行动稳健可靠，联合生产者、出口商和全球买家。我们的运营整合了市场知识、战略谈判和高效合同管理。"

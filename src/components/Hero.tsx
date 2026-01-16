@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+// import { Link } from 'react-router-dom';
+// import { ArrowRight } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 
 const Hero = () => {
@@ -10,8 +10,9 @@ const Hero = () => {
 
     const heroImages = [
         "/hero-carousel-1-v2.jpg",
-        "/hero-carousel-2.jpg",
-        "/hero-carousel-3-v2.jpg"
+        "/hero-carousel-replacement.jpg",
+        "/hero-carousel-3-v2.jpg",
+        "/hero-carousel-4.jpg"
     ];
 
     useEffect(() => {
@@ -52,10 +53,10 @@ const Hero = () => {
                     {t('hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <Link to="/manifesto" className="group bg-[#4a662d] hover:bg-[#3d5425] text-white px-8 py-4 rounded-sm font-medium text-lg transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                    {/* <Link to="/manifesto" className="group bg-[#4a662d] hover:bg-[#3d5425] text-white px-8 py-4 rounded-sm font-medium text-lg transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1">
                         {t('hero.cta_manifesto')}
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
 

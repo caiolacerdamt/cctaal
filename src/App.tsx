@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
-import Manifesto from './pages/Manifesto';
+// import Manifesto from './pages/Manifesto';
 import Intelligence from './pages/Intelligence';
 import Contact from './pages/Contact';
 
@@ -25,7 +25,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/manifesto" element={<Manifesto />} />
+          {/* <Route path="/manifesto" element={<Manifesto />} /> */}
           <Route path="/intelligence" element={<Intelligence />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/camara" element={<Chamber />} />

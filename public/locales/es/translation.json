@@ -4,7 +4,7 @@
     "nav": {
         "what_we_do": "Lo que hacemos",
         "business_solutions": "Soluciones Empresariales",
-        "international_trade": "Comercio Internacional",
+        "international_trade": "Viabilización de Proyectos Internacionales",
         "tech_innovation": "Tecnología e Innovación",
         "market_intelligence": "Inteligencia de Mercado",
         "vision": "Visión",
@@ -55,7 +55,7 @@
                 "text": "Desarrollamos estrategias para empresas que buscan crecimiento sostenible."
             },
             "trade": {
-                "title": "Comercio Internacional",
+                "title": "Viabilización de Proyectos Internacionales",
                 "text": "Facilitamos negocios, importaciones y exportaciones entre América Latina y el mercado global."
             },
             "tech": {
@@ -322,7 +322,7 @@
     },
     "trade_page": {
         "hero": {
-            "title": "Comercio Internacional",
+            "title": "Viabilización de Proyectos Internacionales",
             "subtitle": "Conectando América Latina al Mundo.",
             "overview_title": "Negociación y Representación Internacional",
             "main_text": "Actuamos con solidez y credibilidad en la intermediación de commodities agrícolas, uniendo productores, exportadores y compradores globales. Nuestra operación integra conocimiento de mercado, negociación estratégica y gestión eficiente de contratos."

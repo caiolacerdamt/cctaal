@@ -4,7 +4,7 @@
     "nav": {
         "what_we_do": "What We Do",
         "business_solutions": "Business Solutions",
-        "international_trade": "International Trade",
+        "international_trade": "International Project Facilitation",
         "tech_innovation": "Technology & Innovation",
         "market_intelligence": "Market Intelligence",
         "vision": "Vision",
@@ -55,7 +55,7 @@
                 "text": "We develop strategies for companies seeking sustainable growth."
             },
             "trade": {
-                "title": "International Trade",
+                "title": "International Project Facilitation",
                 "text": "We facilitate business, imports, and exports between Latin America and the global market."
             },
             "tech": {
@@ -322,7 +322,7 @@
     },
     "trade_page": {
         "hero": {
-            "title": "International Trade",
+            "title": "International Project Facilitation",
             "subtitle": "Connecting Latin America to the World.",
             "overview_title": "Negotiation and International Representation",
             "main_text": "We operate with solidity and credibility in the intermediation of agricultural commodities, uniting producers, exporters, and global buyers. Our operation integrates market knowledge, strategic negotiation, and efficient contract management."

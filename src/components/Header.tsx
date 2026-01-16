@@ -24,7 +24,7 @@ const Header = () => {
                 { name: t('nav.market_intelligence'), href: '/market-intelligence' },
             ]
         },
-        { name: t('nav.vision'), href: '/manifesto' },
+        // { name: t('nav.vision'), href: '/manifesto' },
         { name: t('nav.chamber'), href: '/camara' },
         { name: t('nav.intelligence'), href: '/intelligence' },
         { name: t('nav.news'), href: '/noticias' },
