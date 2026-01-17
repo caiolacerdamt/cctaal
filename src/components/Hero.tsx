@@ -24,7 +24,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-black">
+        <section className="relative h-[50vh] md:h-[90vh] flex items-center justify-center overflow-hidden bg-black">
             {/* Background Carousel */}
             <AnimatePresence initial={false}>
                 <motion.div
@@ -44,12 +44,12 @@ const Hero = () => {
 
             {/* Fixed Content */}
             <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-                <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight tracking-tight drop-shadow-lg">
+                <h1 className="text-2xl sm:text-4xl md:text-7xl font-serif font-bold mb-4 md:mb-6 leading-tight tracking-tight drop-shadow-lg">
                     <Trans i18nKey="hero.title" components={{ 0: <br /> }}>
                         A Ponte entre Ciclos Históricos <br />e Capacidades Produtivas
                     </Trans>
                 </h1>
-                <p className="text-xl md:text-2xl font-light mb-10 max-w-3xl mx-auto text-gray-100 drop-shadow-md">
+                <p className="text-sm sm:text-lg md:text-2xl font-light mb-6 md:mb-10 max-w-3xl mx-auto text-gray-100 drop-shadow-md">
                     {t('hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
