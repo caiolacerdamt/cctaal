@@ -1,18 +1,32 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-// import { Link } from 'react-router-dom';
-// import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
+import { useIsMobile } from '../hooks/useIsMobile';
 
 const Hero = () => {
     const { t } = useTranslation();
     const [currentIndex, setCurrentIndex] = useState(0);
+    const isMobile = useIsMobile();
 
     const heroImages = [
-        "/hero-carousel-1-v2.jpg",
-        "/hero-carousel-replacement.jpg",
-        "/hero-carousel-3-v2.jpg",
-        "/hero-carousel-4.jpg"
+        {
+            desktop: "/hero-carousel-1-v2.jpg",
+            mobile: "/hero-mobile-drone-v2.jpg"
+        },
+        {
+            desktop: "/hero-carousel-replacement.jpg",
+            mobile: "/hero-mobile-logistics.png"
+        },
+        {
+            desktop: "/hero-carousel-3-v2.jpg",
+            mobile: "/hero-mobile-ship-real.jpg"
+        },
+        {
+            desktop: "/hero-carousel-4.jpg",
+            mobile: "/hero-mobile-sustainable-agro.png"
+        }
     ];
 
     useEffect(() => {
@@ -23,8 +37,10 @@ const Hero = () => {
         return () => clearInterval(timer);
     }, []);
 
+    const currentImage = isMobile ? heroImages[currentIndex].mobile : heroImages[currentIndex].desktop;
+
     return (
-        <section className="relative h-[50vh] md:h-[90vh] flex items-center justify-center overflow-hidden bg-black">
+        <section className="relative h-[85vh] md:h-[90vh] flex items-center justify-center overflow-hidden bg-black">
             {/* Background Carousel */}
             <AnimatePresence initial={false}>
                 <motion.div
@@ -34,7 +50,7 @@ const Hero = () => {
                     exit={{ opacity: 0 }}
                     transition={{ duration: 1.5, ease: "easeInOut" }}
                     className="absolute inset-0 z-0 bg-cover bg-center"
-                    style={{ backgroundImage: `url(${heroImages[currentIndex]})` }}
+                    style={{ backgroundImage: `url(${currentImage})` }}
                 />
             </AnimatePresence>
 
@@ -44,19 +60,19 @@ const Hero = () => {
 
             {/* Fixed Content */}
             <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-                <h1 className="text-2xl sm:text-4xl md:text-7xl font-serif font-bold mb-4 md:mb-6 leading-tight tracking-tight drop-shadow-lg">
+                <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight tracking-tight drop-shadow-lg">
                     <Trans i18nKey="hero.title" components={{ 0: <br /> }}>
                         A Ponte entre Ciclos Históricos <br />e Capacidades Produtivas
                     </Trans>
                 </h1>
-                <p className="text-sm sm:text-lg md:text-2xl font-light mb-6 md:mb-10 max-w-3xl mx-auto text-gray-100 drop-shadow-md">
+                <p className="text-lg sm:text-xl md:text-2xl font-light mb-10 max-w-3xl mx-auto text-gray-100 drop-shadow-md">
                     {t('hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    {/* <Link to="/manifesto" className="group bg-[#4a662d] hover:bg-[#3d5425] text-white px-8 py-4 rounded-sm font-medium text-lg transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1">
-                        {t('hero.cta_manifesto')}
+                    <Link to="/contact" className="group bg-[#4a662d] hover:bg-[#3d5425] text-white px-8 py-4 rounded-sm font-medium text-lg transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                        {t('nav.become_member')}
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </Link> */}
+                    </Link>
                 </div>
             </div>
 
