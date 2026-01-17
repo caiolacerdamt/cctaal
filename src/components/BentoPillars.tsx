@@ -14,10 +14,10 @@ const BentoPillars = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-6 h-[800px] md:h-[600px]">
+                <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-3 md:grid-rows-2 gap-4 md:gap-6 h-auto md:h-[600px]">
 
                     {/* Card 1: Produção (Vertical Left) */}
-                    <div className="group relative col-span-1 md:row-span-2 rounded-sm overflow-hidden border border-[#7c522e]/50 hover:border-[#7c522e] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl cursor-pointer">
+                    <div className="group relative col-span-1 md:row-span-2 h-[400px] md:h-auto rounded-sm overflow-hidden border border-[#7c522e]/50 hover:border-[#7c522e] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl cursor-pointer">
                         {/* Background Image: Cinematic Harvest */}
                         <div
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
@@ -47,7 +47,7 @@ const BentoPillars = () => {
                     </div>
 
                     {/* Card 2: Tecnologia (Horizontal Top Right) */}
-                    <div className="group relative col-span-1 md:col-span-2 rounded-sm overflow-hidden border border-[#7c522e]/50 hover:border-[#7c522e] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl cursor-pointer">
+                    <div className="group relative col-span-1 md:col-span-2 h-[400px] md:h-auto rounded-sm overflow-hidden border border-[#7c522e]/50 hover:border-[#7c522e] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl cursor-pointer">
                         {/* Background Image: Tech Interface/Data */}
                         <div
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
@@ -74,7 +74,7 @@ const BentoPillars = () => {
                     </div>
 
                     {/* Card 3: Integração Global (Horizontal Bottom Right) */}
-                    <div className="group relative col-span-1 md:col-span-2 rounded-sm overflow-hidden border border-[#7c522e]/50 hover:border-[#7c522e] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl cursor-pointer">
+                    <div className="group relative col-span-1 md:col-span-2 h-[400px] md:h-auto rounded-sm overflow-hidden border border-[#7c522e]/50 hover:border-[#7c522e] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl cursor-pointer">
                         {/* Background Image: Shipping/Port at Dusk */}
                         <div
                             className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"

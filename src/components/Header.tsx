@@ -36,7 +36,11 @@ const Header = () => {
                 <div className="flex justify-between items-center h-24"> {/* Increased height from h-20 for bigger logo */}
                     <div className="flex-shrink-0 flex items-center">
                         <Link to="/" className="flex items-center">
-                            <img src={logo} alt="CCTAAL Logo" className="h-16 w-auto object-contain" />
+                            <img
+                                src={logo}
+                                alt="CCTAAL Logo"
+                                className="h-16 w-[50px] object-cover object-left md:w-auto md:object-contain transition-all duration-300"
+                            />
                         </Link>
                     </div>
 

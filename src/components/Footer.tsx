@@ -25,7 +25,6 @@ const Footer = () => {
                         <h3 className="font-serif text-lg mb-4 text-gray-200">{t('footer.nav_title')}</h3>
                         <ul className="space-y-2 text-gray-400 text-sm">
                             <li><Link to="/" className="hover:text-white transition-colors">Home</Link></li>
-                            <li><Link to="/manifesto" className="hover:text-white transition-colors">{t('nav.vision')}</Link></li>
                             <li><Link to="/intelligence" className="hover:text-white transition-colors">{t('nav.intelligence')}</Link></li>
                             <li><Link to="/camara" className="hover:text-white transition-colors">{t('nav.chamber')}</Link></li>
                         </ul>
