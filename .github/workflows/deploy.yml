@@ -1,0 +1,37 @@
+name: Deploy CCTAAL (2026 Updated)
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  web-deploy:
+    name: 🚀 Deploy Moderno
+    runs-on: ubuntu-latest
+    steps:
+    # 1. Pega o código (Versão v4 atualizada)
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+
+    # 2. Instala Node.js 24 (LTS atual de 2026)
+    - name: 🟢 Setup Node.js 24
+      uses: actions/setup-node@v4
+      with:
+        node-version: '24' # Versão LTS atual (Krypton)
+        cache: 'npm'       # Faz o deploy ser mais rápido cacheando dependências
+
+    # 3. Build (Sem mudanças aqui)
+    - name: 🔨 Build Project
+      run: |
+        npm ci             # 'ci' é melhor que 'install' para servidores (mais rápido e seguro)
+        npm run build
+
+    # 4. Upload FTP (Versão 4.3.6 corrigida)
+    - name: 📂 Upload to HostGator
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: ./     # Joga na raiz da pasta do usuário FTP
+        local-dir: ./dist/
