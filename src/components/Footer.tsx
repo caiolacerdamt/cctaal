@@ -16,7 +16,7 @@ const Footer = () => {
                             <Trans i18nKey="footer.description" components={{ 0: <br /> }}>
                                 Câmara do Comércio e Tecnologia do Agro e da América Latina.
                                 <br />
-                                Conectando ciclos históricos e capacidades produtivas.
+                                Viabilizando ciclos históricos e capacidades produtivas.
                             </Trans>
                         </p>
                     </div>
@@ -26,6 +26,7 @@ const Footer = () => {
                         <ul className="space-y-2 text-gray-400 text-sm">
                             <li><Link to="/" className="hover:text-white transition-colors">Home</Link></li>
                             <li><Link to="/intelligence" className="hover:text-white transition-colors">{t('nav.intelligence')}</Link></li>
+                            <li><Link to="/noticias" className="hover:text-white transition-colors">{t('nav.news')}</Link></li>
                             <li><Link to="/camara" className="hover:text-white transition-colors">{t('nav.chamber')}</Link></li>
                         </ul>
                     </div>
@@ -33,9 +34,9 @@ const Footer = () => {
                     <div>
                         <h3 className="font-serif text-lg mb-4 text-gray-200">{t('footer.contact_title')}</h3>
                         <ul className="space-y-2 text-gray-400 text-sm">
-                            <li>contato@cctaal.org</li>
-                            <li>São Paulo, Brasil</li>
-                            <li>Shanghai, China</li>
+                            <li>contato@cctaal.com</li>
+                            <li>Brasília, Distrito Federal</li>
+                            <li>Brasil</li>
                         </ul>
                     </div>
 
