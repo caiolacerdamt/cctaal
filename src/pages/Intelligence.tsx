@@ -5,10 +5,33 @@ import TradingChart from '../components/TradingChart';
 const Intelligence = () => {
     const { t } = useTranslation();
     const stats = [
-        { label: t('intelligence.stats.gdp'), value: 'R$ 11,8 bi', sub: t('intelligence.stats.trillions'), trend: '+2.9%', icon: TrendingUp },
-        { label: t('intelligence.stats.growth'), value: '+1.4%', sub: t('intelligence.stats.driven_by'), trend: t('intelligence.stats.positive'), icon: Wheat },
-        { label: t('intelligence.stats.exports'), value: 'US$ 164,4 bi', sub: t('intelligence.stats.of_total'), trend: t('intelligence.stats.record'), icon: Globe2 },
-        { label: t('intelligence.stats.share'), value: '24%', sub: t('intelligence.stats.agribusiness'), trend: t('intelligence.stats.stable'), icon: BarChart3 },
+        {
+            label: t('intelligence.stats.gdp'),
+            value: t('intelligence.stats.trillions'),
+            trend: '+2.9%',
+            icon: TrendingUp
+        },
+        {
+            label: t('intelligence.stats.growth'),
+            value: '+1.4%',
+            sub: t('intelligence.stats.driven_by'),
+            trend: t('intelligence.stats.positive'),
+            icon: Wheat
+        },
+        {
+            label: t('intelligence.stats.exports'),
+            value: 'US$ 164,4 bi',
+            sub: t('intelligence.stats.of_total'),
+            trend: t('intelligence.stats.record'),
+            icon: Globe2
+        },
+        {
+            label: t('intelligence.stats.share'),
+            value: '24%',
+            sub: t('intelligence.stats.agribusiness'),
+            trend: t('intelligence.stats.stable'),
+            icon: BarChart3
+        },
     ];
 
     return (
@@ -21,20 +44,26 @@ const Intelligence = () => {
             </header>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-                {stats.map((stat) => (
-                    <div key={stat.label} className="bg-white p-6 rounded-sm border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                        <div className="flex justify-between items-start mb-4">
-                            <div className="p-2 bg-primary/5 rounded-lg text-primary">
-                                <stat.icon size={24} />
+            <div className="mb-16">
+                <div className="mb-8">
+                    <h2 className="text-2xl font-serif font-bold text-gray-900 mb-2">{t('intelligence.stats.title')}</h2>
+                    <p className="text-gray-600 max-w-3xl">{t('intelligence.stats.subtitle')}</p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {stats.map((stat) => (
+                        <div key={stat.label} className="bg-white p-6 rounded-sm border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                            <div className="flex justify-between items-start mb-4">
+                                <div className="p-2 bg-primary/5 rounded-lg text-primary">
+                                    <stat.icon size={24} />
+                                </div>
+                                <span className="text-xs font-medium text-green-600 bg-green-50 px-2 py-1 rounded-full">{stat.trend}</span>
                             </div>
-                            <span className="text-xs font-medium text-green-600 bg-green-50 px-2 py-1 rounded-full">{stat.trend}</span>
+                            <p className="text-sm text-gray-500 mb-1">{stat.label}</p>
+                            <h3 className="text-2xl font-bold text-dark mb-1">{stat.value}</h3>
+                            {stat.sub && <p className="text-xs text-secondary font-medium">{stat.sub}</p>}
                         </div>
-                        <p className="text-sm text-gray-500 mb-1">{stat.label}</p>
-                        <h3 className="text-2xl font-bold text-dark mb-1">{stat.value}</h3>
-                        <p className="text-xs text-secondary font-medium">{stat.sub}</p>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
 
             {/* Analysis Section */}
@@ -52,19 +81,19 @@ const Intelligence = () => {
                             <li className="flex items-start gap-3">
                                 <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2.5 flex-shrink-0" />
                                 <span>
-                                    <Trans i18nKey="intelligence.analysis.list.structural" components={{ 0: <strong /> }} />
+                                    <Trans i18nKey="intelligence.analysis.list.inelastic_demand" components={{ 0: <strong /> }} />
                                 </span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2.5 flex-shrink-0" />
                                 <span>
-                                    <Trans i18nKey="intelligence.analysis.list.productivity" components={{ 0: <strong /> }} />
+                                    <Trans i18nKey="intelligence.analysis.list.productivity_margin" components={{ 0: <strong /> }} />
                                 </span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2.5 flex-shrink-0" />
                                 <span>
-                                    <Trans i18nKey="intelligence.analysis.list.risk_return" components={{ 0: <strong /> }} />
+                                    <Trans i18nKey="intelligence.analysis.list.stability" components={{ 0: <strong /> }} />
                                 </span>
                             </li>
                         </ul>
