@@ -53,12 +53,21 @@ const SolucoesEmpresariais = () => {
         <ServicePageTemplate
             title={t('solutions_page.hero.title')}
             subtitle={t('solutions_page.hero.subtitle')}
-            mainText={t('solutions_page.hero.main_text')}
+            mainText={t('solutions_page.overview.text')}
+            overviewTitle={t('solutions_page.overview.title')}
             benefits={[
-                t('solutions_page.benefits.strategy'),
-                t('solutions_page.benefits.modeling'),
-                t('solutions_page.benefits.risk')
+                t('solutions_page.pillars.card1'),
+                t('solutions_page.pillars.card2'),
+                t('solutions_page.pillars.card3'),
+                t('solutions_page.pillars.card4')
             ]}
+            benefitsTitle={t('solutions_page.pillars.title')}
+            sidebarCtaLabel={t('solutions_page.pillars.cta_label')}
+            sidebarCtaText={t('solutions_page.pillars.cta_text')}
+            sidebarCtaButtonText={t('solutions_page.pillars.cta_button')}
+            ctaTitle={t('solutions_page.bottom_cta.title')}
+            ctaSubtitle={t('solutions_page.bottom_cta.subtitle')}
+            ctaButtonText={t('solutions_page.bottom_cta.button')}
             heroImage={businessHero}
         >
             {/* New Capacity Grid Section */}

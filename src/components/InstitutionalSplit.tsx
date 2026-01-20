@@ -29,11 +29,11 @@ const InstitutionalSplit = () => {
                             {t('institutional.subtitle')}
                         </h3>
 
-                        <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+                        <p className="text-gray-600 leading-relaxed mb-8 text-lg whitespace-pre-line">
                             {t('institutional.description')}
                         </p>
 
-                        <Link to="/contact" className="inline-flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all uppercase tracking-wide border-b-2 border-primary pb-1">
+                        <Link to="/camara" className="inline-flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all uppercase tracking-wide border-b-2 border-primary pb-1">
                             {t('institutional.cta')} <ArrowRight size={18} />
                         </Link>
                     </div>

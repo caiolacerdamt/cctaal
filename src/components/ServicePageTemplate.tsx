@@ -11,6 +11,14 @@ interface ServicePageProps {
     heroImage?: string;
     overviewTitle?: string;
     children?: React.ReactNode;
+    // New props for customization
+    benefitsTitle?: string;
+    sidebarCtaText?: string;
+    sidebarCtaLabel?: string;
+    sidebarCtaButtonText?: string;
+    ctaTitle?: string;
+    ctaSubtitle?: string;
+    ctaButtonText?: string;
 }
 
 const ServicePageTemplate: React.FC<ServicePageProps> = ({
@@ -20,7 +28,14 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
     benefits,
     heroImage = "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop", // Default corporate image
     overviewTitle,
-    children
+    children,
+    benefitsTitle,
+    sidebarCtaText,
+    sidebarCtaLabel,
+    sidebarCtaButtonText,
+    ctaTitle,
+    ctaSubtitle,
+    ctaButtonText
 }) => {
     const { t } = useTranslation();
     const activeOverviewTitle = overviewTitle || t('service_template.overview_title');
@@ -92,7 +107,7 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
                         <div className="bg-white p-8 rounded-sm shadow-lg border-t-4 border-secondary sticky top-24">
                             <h3 className="text-xl font-bold text-primary mb-6 flex items-center gap-2">
                                 <span className="w-8 h-1 bg-secondary block"></span>
-                                {t('service_template.highlights_benefits')}
+                                {benefitsTitle || t('service_template.highlights_benefits')}
                             </h3>
 
                             <ul className="space-y-4">
@@ -105,9 +120,12 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
                             </ul>
 
                             <div className="mt-10 pt-6 border-t border-gray-100">
-                                <p className="text-sm text-gray-500 mb-4">{t('service_template.need_more_info')}</p>
+                                {sidebarCtaLabel && (
+                                    <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">{sidebarCtaLabel}</p>
+                                )}
+                                <p className="text-sm text-gray-500 mb-4">{sidebarCtaText || t('service_template.need_more_info')}</p>
                                 <Link to="/contact" className="w-full flex items-center justify-center gap-2 bg-primary text-white py-3 px-4 rounded-sm font-medium hover:bg-opacity-90 transition-all">
-                                    {t('service_template.consult_expert')}
+                                    {sidebarCtaButtonText || t('service_template.consult_expert')}
                                 </Link>
                             </div>
                         </div>
@@ -126,16 +144,16 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
             <section className="bg-primary py-20 px-4">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl font-serif font-bold text-white mb-6">
-                        {t('service_template.talk_to_experts', { title })}
+                        {ctaTitle || t('service_template.talk_to_experts', { title })}
                     </h2>
                     <p className="text-primary-100 mb-8 text-lg">
-                        {t('service_template.ready_to_help')}
+                        {ctaSubtitle || t('service_template.ready_to_help')}
                     </p>
                     <Link
                         to="/contact"
                         className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-sm font-bold text-lg hover:bg-gray-100 transition-all shadow-lg"
                     >
-                        {t('service_template.start_conversation')} <ArrowRight size={20} />
+                        {ctaButtonText || t('service_template.start_conversation')} <ArrowRight size={20} />
                     </Link>
                 </div>
             </section>

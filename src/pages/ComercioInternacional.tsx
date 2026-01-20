@@ -69,8 +69,11 @@ const ComercioInternacional = () => {
                     <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">
                         {t('trade_page.portfolio.title')}
                     </h2>
-                    <p className="text-xl text-gray-600 font-light leading-relaxed">
+                    <p className="text-xl text-gray-600 font-light leading-relaxed mb-8">
                         {t('trade_page.portfolio.description')}
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                        {t('trade_page.portfolio.intro')}
                     </p>
                 </div>
 

@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, X, ArrowRight, Link as LinkIcon, Cpu, Wifi } from 'lucide-react';
+import { Plus, X, ArrowRight, Link as LinkIcon, Cpu, Globe } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import techHeroV2 from '../assets/tech_hero_v2.png';
@@ -12,34 +12,34 @@ const TecnologiaInovacao = () => {
 
     const strategies = [
         {
-            title: t('tech_page.strategies.digitalization.title'),
-            content: t('tech_page.strategies.digitalization.content')
+            title: t('tech_page.strategies.temporal_risk.title'),
+            content: t('tech_page.strategies.temporal_risk.content')
         },
         {
-            title: t('tech_page.strategies.partnerships.title'),
-            content: t('tech_page.strategies.partnerships.content')
+            title: t('tech_page.strategies.institutional_shielding.title'),
+            content: t('tech_page.strategies.institutional_shielding.content')
         },
         {
-            title: t('tech_page.strategies.transparency.title'),
-            content: t('tech_page.strategies.transparency.content')
+            title: t('tech_page.strategies.operational_permanence.title'),
+            content: t('tech_page.strategies.operational_permanence.content')
         }
     ];
 
     const techCards = [
         {
-            icon: LinkIcon, // Chain for Blockchain
-            title: t('tech_page.tech_cards.blockchain.title'),
-            description: t('tech_page.tech_cards.blockchain.description')
+            icon: Cpu, // Digital Infrastructure
+            title: t('tech_page.tech_cards.digital_infra.title'),
+            description: t('tech_page.tech_cards.digital_infra.description')
         },
         {
-            icon: Cpu, // Brain/AI
-            title: t('tech_page.tech_cards.ai.title'),
-            description: t('tech_page.tech_cards.ai.description')
+            icon: LinkIcon, // Logistics & Traceability
+            title: t('tech_page.tech_cards.logistics_traceability.title'),
+            description: t('tech_page.tech_cards.logistics_traceability.description')
         },
         {
-            icon: Wifi, // Signal/IoT
-            title: t('tech_page.tech_cards.iot.title'),
-            description: t('tech_page.tech_cards.iot.description')
+            icon: Globe, // Market Integration
+            title: t('tech_page.tech_cards.market_integration.title'),
+            description: t('tech_page.tech_cards.market_integration.description')
         }
     ];
 

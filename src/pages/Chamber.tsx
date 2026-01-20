@@ -6,28 +6,37 @@ const Chamber = () => {
     return (
         <div className="bg-white min-h-screen">
             {/* Bloco 1: História e Origem */}
-            <section className="py-20 bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex flex-col lg:flex-row items-center gap-16">
-                        <div className="lg:w-1/2 relative">
-                            <div className="absolute top-4 -left-4 w-24 h-24 bg-[#4a662d]/10 -z-10 rounded-full blur-2xl"></div>
-                            <img
-                                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2669&auto=format&fit=crop"
-                                alt="Sede Corporativa"
-                                className="w-full h-auto rounded-sm shadow-xl"
-                            />
-                        </div>
-                        <div className="lg:w-1/2">
-                            <span className="text-[#7c522e] font-bold text-sm uppercase tracking-widest mb-4 block">{t('chamber.hero.label')}</span>
-                            <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#4a662d] mb-6">{t('chamber.hero.title')}</h2>
-                            <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                                {t('chamber.hero.p1')}
-                            </p>
-                            <p className="text-gray-600 text-lg leading-relaxed">
-                                {t('chamber.hero.p2')}
+            <section className="bg-white lg:h-screen flex flex-col lg:flex-row overflow-hidden items-center">
+                {/* Content Side */}
+                <div className="lg:w-1/2 flex flex-col justify-center px-6 lg:px-20 py-12 lg:py-0">
+                    <span className="text-[#7c522e] font-bold text-xs uppercase tracking-widest mb-4 block">{t('chamber.hero.label')}</span>
+                    <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#4a662d] mb-6">{t('chamber.hero.title')}</h2>
+
+                    <div className="space-y-6">
+                        <p className="text-lg md:text-xl font-serif text-[#1a1a1a] leading-snug">
+                            {t('chamber.hero.description_intro')}
+                        </p>
+
+                        <p className="text-gray-600 text-base leading-relaxed whitespace-pre-line text-justify">
+                            {t('chamber.hero.description_context')}
+                        </p>
+
+                        <div className="relative pl-5 border-l-2 border-[#4a662d]">
+                            <p className="text-gray-800 text-base italic leading-relaxed whitespace-pre-line">
+                                {t('chamber.hero.description_solution')}
                             </p>
                         </div>
                     </div>
+                </div>
+
+                {/* Image Side */}
+                <div className="lg:w-1/2 h-[400px] lg:h-full relative">
+                    <div className="absolute inset-0 bg-gray-900/10 z-10 w-full h-full"></div>
+                    <img
+                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop"
+                        alt="Institutional Architecture"
+                        className="absolute inset-0 w-full h-full object-cover"
+                    />
                 </div>
             </section>
 
@@ -148,9 +157,9 @@ const Chamber = () => {
                             <p className="text-gray-600 text-lg leading-relaxed mb-8">
                                 {t('chamber.compliance.description')}
                             </p>
-                            <button className="text-[#4a662d] font-bold border-b-2 border-[#4a662d] pb-1 hover:text-[#3d5425] transition-colors">
+                            {/* <button className="text-[#4a662d] font-bold border-b-2 border-[#4a662d] pb-1 hover:text-[#3d5425] transition-colors">
                                 {t('chamber.compliance.cta')}
-                            </button>
+                            </button> */}
                         </div>
 
                         <div className="lg:w-1/3 bg-white p-8 rounded-sm shadow-sm border border-gray-200 w-full">
