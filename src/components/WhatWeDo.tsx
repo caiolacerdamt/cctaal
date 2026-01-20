@@ -10,19 +10,19 @@ const WhatWeDo = () => {
             icon: Briefcase,
             title: t('what_we_do.cards.solutions.title'),
             text: t('what_we_do.cards.solutions.text'),
-            link: '/solucoes'
-        },
-        {
-            icon: Globe,
-            title: t('what_we_do.cards.trade.title'),
-            text: t('what_we_do.cards.trade.text'),
-            link: '/comercio'
+            link: '/camara'
         },
         {
             icon: Cpu,
+            title: t('what_we_do.cards.trade.title'),
+            text: t('what_we_do.cards.trade.text'),
+            link: '/tecnologia'
+        },
+        {
+            icon: Globe,
             title: t('what_we_do.cards.tech.title'),
             text: t('what_we_do.cards.tech.text'),
-            link: '/tecnologia'
+            link: '/camara'
         },
         {
             icon: TrendingUp,

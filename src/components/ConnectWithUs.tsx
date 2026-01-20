@@ -1,6 +1,6 @@
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const ConnectWithUs = () => {
     const { t } = useTranslation();
@@ -36,29 +36,17 @@ const ConnectWithUs = () => {
                         </span>
 
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6 leading-tight">
-                            <Trans i18nKey="connect.title" components={{ 0: <br />, 1: <span className="text-[#8cc63f] border-b-2 border-[#7c522e] pb-1" /> }}>
-                                Faça parte da revolução do <br />
-                                <span className="text-[#8cc63f] border-b-2 border-[#7c522e] pb-1">Agronegócio Global</span>
-                            </Trans>
+                            {t('connect.title')}
                         </h2>
 
                         <p className="text-gray-300 text-lg font-light mb-8 leading-relaxed">
                             {t('connect.description')}
                         </p>
 
-                        <div className="space-y-4 mb-10">
-                            <div className="flex items-center gap-3">
-                                <div className="bg-[#4a662d] rounded-full p-1">
-                                    <CheckCircle2 size={14} className="text-white" />
-                                </div>
-                                <span className="text-gray-200">{t('connect.item1')}</span>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <div className="bg-[#7c522e] rounded-full p-1">
-                                    <CheckCircle2 size={14} className="text-white" />
-                                </div>
-                                <span className="text-gray-200">{t('connect.item2')}</span>
-                            </div>
+                        <div className="mb-10">
+                            <p className="text-white font-medium text-lg leading-relaxed">
+                                {t('connect.instruction')}
+                            </p>
                         </div>
 
                         <Link to="/contact">
