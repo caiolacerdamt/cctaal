@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="min-h-screen flex flex-col lg:flex-row bg-[#f9f9f7]">
             {/* LEFT PANEL: Visual & Benefits (40%) */}
             <motion.div
-                className="lg:w-2/5 relative bg-[#4a662d] text-white p-8 lg:p-16 flex flex-col justify-between overflow-hidden"
+                className="lg:w-2/5 relative bg-[#1b2611] text-white p-8 lg:p-16 flex flex-col justify-between overflow-hidden"
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}

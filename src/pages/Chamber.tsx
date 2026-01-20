@@ -30,7 +30,7 @@ const Chamber = () => {
                 </div>
 
                 {/* Image Side */}
-                <div className="lg:w-1/2 h-[400px] lg:h-full relative">
+                <div className="lg:w-1/2 w-full h-[400px] lg:h-full relative">
                     <div className="absolute inset-0 bg-gray-900/10 z-10 w-full h-full"></div>
                     <img
                         src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop"
