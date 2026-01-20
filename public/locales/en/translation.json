@@ -3,23 +3,23 @@
     "language": "Language",
     "nav": {
         "what_we_do": "What We Do",
-        "business_solutions": "Business Solutions",
+        "business_solutions": "Operational Structures",
         "international_trade": "International Project Facilitation",
         "tech_innovation": "Technology & Innovation",
         "market_intelligence": "Market Intelligence",
         "vision": "Vision",
-        "chamber": "The Chamber",
+        "chamber": "The Institution",
         "intelligence": "Intelligence",
         "news": "News",
         "become_member": "Become a Member"
     },
     "hero": {
-        "title": "Global Enablement with Backing and Institutional Security.",
-        "subtitle": "The solid foundation to mitigate risks. Legal and technological architecture to shield large investments.",
+        "title": "Chamber of Commerce and Technology and Agro of Latin America.",
+        "subtitle": "Institutional Infrastructure for High-Density Operations between Agribusiness and Advanced Technology.",
         "cta_manifesto": "Read the Manifesto"
     },
     "market": {
-        "title": "Global Monitor",
+        "title": "Intelligence Structure for Decision-Making under Volatility",
         "subtitle": "Real Time • Market & Logistics",
         "live_data": "Live Data",
         "agricultural_commodities": "Agricultural Commodities",
@@ -41,48 +41,48 @@
     },
     "institutional": {
         "label": "Institutional",
-        "title": "What is CCTAAL?",
+        "title": "The CCTAAL",
         "subtitle": "Chamber of Commerce and Technology and Agro of Latin America.",
-        "description": "CCTAAL works to ensure project success, focusing on minimizing investment and delivery risks. We use the maximum application of technology to extract the best possible performance, transforming international opportunities into sustainable and shielded development.",
-        "cta": "Meet Our Structure"
+        "description": "Institutional ecosystem for summit operations at the convergence of Agribusiness and Advanced Technology. We structure transnational governance, state backing, and risk intelligence so that large-scale capital remains operationally relevant as markets, technologies, and regulations redefine themselves.\n\nOperations spanning continents, technological cycles, and billions in immobilized capital do not survive in isolation. CCTAAL organizes the ecosystem where the global elite operates without systemic aging.",
+        "cta": "Meet the Governance Structure"
     },
     "what_we_do": {
-        "title": "What We Do",
-        "subtitle": "We operate on four fronts that strengthen trade, technology, and innovation.",
+        "title": "Viability Structures",
+        "subtitle": "Institutional governance structured in four pillars for high-density transnational operations.",
         "cards": {
             "solutions": {
-                "title": "Business Solutions",
-                "text": "We develop strategies for companies seeking sustainable growth."
+                "title": "Bilateral Institutional Backing",
+                "text": "State governance that protects both parties simultaneously. Structure where technology providers and Agribusiness operators traverse within the same institutional shield, without isolated counterparty risk."
             },
             "trade": {
-                "title": "International Project Facilitation",
-                "text": "We facilitate business, imports, and exports between Latin America and the global market."
+                "title": "Permanence Ecosystem",
+                "text": "Complete architecture from technological adoption to integration with final markets. Invested capital remains operationally relevant over cycles, without systemic aging."
             },
             "tech": {
-                "title": "Technology & Innovation",
-                "text": "We promote the use of emerging technologies and intelligent solutions in the agro-industrial sector."
+                "title": "Transnational Summit Network",
+                "text": "Direct access to governors, ministers, and economic leaders from three continents. The level of institutional interlocution that protects nine-digit operations. Exclusivity by technical criteria, not payment."
             },
             "intelligence": {
-                "title": "Market Intelligence",
-                "text": "We connect investors and governments with accurate data for strategic decisions."
+                "title": "Real-Time Risk Intelligence",
+                "text": "Structural monitoring of markets, technologies, and regulations. Informed decision under volatility. Structural fundamentals that validate long-term operational permanence."
             }
         },
         "cta": "Learn More"
     },
     "pillars": {
-        "title": "Strategic Pillars",
-        "subtitle": "The foundation of our action to transform the global agro-industrial landscape.",
+        "title": "Operational Permanence Fundamentals",
+        "subtitle": "Three structural dimensions that determine whether large-scale operations between Agribusiness and Advanced Technology remain relevant over cycles.",
         "card1": {
             "title": "High-Density Production",
             "text": "Transforming territory into power. Consolidating agro-industrial production not just as commodities, but as vectors of food security."
         },
         "card2": {
-            "title": "Intelligence & Traceability",
-            "text": "Where grain becomes data. Technology applied to ensure efficiency, climatic monitoring, and productive precision at scale."
+            "title": "Intelligence & Continuous Monitoring",
+            "text": "Long-term operations traverse market volatility, regulatory changes, and technological evolution. Structural monitoring and real-time risk intelligence sustain informed decision-making when the margin for error is zero."
         },
         "card3": {
-            "title": "Global Chain Integration",
-            "text": "Creating continuity and stability. A commercial architecture that connects Latin America to key Asian and European markets."
+            "title": "Transnational State Governance",
+            "text": "Operations spanning continents, distinct regulatory regimes, and volatile markets require an institutional shielding architecture. Backing that allows large-scale capital to operate without isolated counterparty risk."
         }
     },
     "newshub": {
@@ -117,13 +117,12 @@
         }
     },
     "connect": {
-        "image_text": "Technology & Field",
+        "image_text": "Governance & Technology",
         "label": "Join Us",
-        "title": "Be part of the Global Agribusiness <0/> <1>Revolution</1>",
-        "description": "Connect with the agro-industrial elite. Market intelligence, strategic networking, and business opportunities.",
-        "item1": "Exclusive market reports",
-        "item2": "International Events and Missions",
-        "cta": "Click to Subscribe"
+        "title": "Accreditation Process",
+        "description": "Access to CCTAAL's governance structure is granted upon analysis of three criteria: transnational operational scale, long-term immobilized capital, and alignment with Agro-Technology convergence.",
+        "instruction": "Start the process by submitting your institutional profile.",
+        "cta": "Start Accreditation Analysis"
     },
     "footer": {
         "description": "Chamber of Commerce and Technology and Agro of Latin America. <0/>Enabling historical cycles and productive capacities.",
@@ -173,29 +172,30 @@
     },
     "chamber": {
         "hero": {
-            "label": "Our Origin",
-            "title": "A Strategic Bridge",
-            "p1": "CCTAAL was founded in January 2017, in Brasília, with the purpose of strengthening the integration between commerce, technology, and agribusiness in Latin America.",
-            "p2": "Since then, it has acted as a strategic institution promoting opportunities among countries, companies, and investors, connecting innovation and sustainable development to global economic cycles."
+            "label": "The Institution",
+            "title": "History and Origin",
+            "description_intro": "In 2017, summit operations between continents faced a structural risk: the absence of institutional backing to protect both parties simultaneously.",
+            "description_context": "Cutting-edge technology seeking scale in Agribusiness. Latin American production seeking global markets. Nine-digit immobilized capital, long cycles, bilateral exposure. Technology arrived but found no systemic adoption. Harvests reached the port, but the buyer backed out.\n\nEven when the transaction materialized, capital often aged before generating returns. Technology without a permanent usage ecosystem becomes debris. Production without integration into final markets loses relevance.\n\nConventional commercial structures did not solve this. Consultancies pointed out paths without assuming risk. Bilateral agreements guaranteed transactions without structuring permanence.",
+            "description_solution": "CCTAAL was structured in Brasília to operate as a bilateral institutional guarantee and architecture of permanence. The ecosystem where both parties traverse within the same state backing, protected by the same transnational governmental network, and where invested capital integrates from technological adoption to markets that absorb volume without destructive volatility.\n\nSince then, it operates where high-density operations between Agribusiness and Advanced Technology span continents and cycles. We generate opportunities, structure governance, and organize the environment where investment does not lose relevance before returns.\n\nCCTAAL does not point the way. It crosses together."
         },
         "values": {
             "title": "Institutional Pillars",
             "cards": {
                 "integration": {
-                    "title": "Strategic Integration",
-                    "text": "We strengthen commercial and technological relations between countries."
+                    "title": "Bilateral Institutional Backing",
+                    "text": "State governance that protects both parties simultaneously in high-density transnational operations."
                 },
                 "innovation": {
-                    "title": "Continuous Innovation",
-                    "text": "We drive solutions that increase sector competitiveness."
+                    "title": "Ecosystem of Permanence",
+                    "text": "Complete structure so that technology and production remain relevant over long cycles."
                 },
                 "transparency": {
-                    "title": "Transparency and Ethics",
-                    "text": "We act with integrity and clarity in all relationships."
+                    "title": "Transnational Summit Network",
+                    "text": "Access to governors, ministers, and global economic leaders. Interlocution at the level required by billion-dollar operations."
                 },
                 "diplomacy": {
-                    "title": "Economic Diplomacy",
-                    "text": "We articulate public and private sectors for global development."
+                    "title": "Real-Time Risk Intelligence",
+                    "text": "Structural monitoring of markets, technologies, and regulations. Informed decision-making in a volatile environment."
                 }
             }
         },
@@ -232,16 +232,18 @@
     },
     "intelligence": {
         "header": {
-            "title": "Intelligence & Data",
-            "description": "The Brazilian and Latin American economy is undergoing a reconfiguration cycle that opens space for structured investments."
+            "title": "Structural Fundamentals",
+            "description": "Long-term operations require more than market projections. They require validation of structural fundamentals that sustain operational permanence."
         },
         "stats": {
-            "gdp": "Estimated GDP (2024)",
-            "trillions": "Trillions",
+            "title": "Structural Indicators",
+            "subtitle": "Macroeconomic data grounding large-scale capital operations at the convergence of Agribusiness and Advanced Technology.",
+            "gdp": "GDP Estimate (2024)",
+            "trillions": "R$ 11.8 trillion",
             "growth": "Growth Q1 2025",
-            "driven_by": "Driven by Agro",
+            "driven_by": "driven by Agro",
             "exports": "Agro Exports",
-            "of_total": "49% of total exported",
+            "of_total": "49% of total exports",
             "share": "Share in GDP",
             "agribusiness": "Agribusiness",
             "positive": "Positive",
@@ -249,13 +251,13 @@
             "stable": "Stable"
         },
         "analysis": {
-            "title": "Structural Analysis",
-            "p1": "Brazil and Latin America possess structural advantages difficult to replicate: vast arable lands, mature tropical technology, abundant clean energy, and critical minerals.",
-            "p2": "For investors, this points to three fundamental implications:",
+            "title": "Non-Replicable Structural Advantages",
+            "p1": "Latin America operates with permanent competitive fundamentals: vast arable land extent, consolidated tropical technology, clean energy matrix, and critical mineral reserves.",
+            "p2": "Long-term capital immobilized at the convergence of Agribusiness and Advanced Technology operates under three structural fundamentals:",
             "list": {
-                "structural": "<0>Agro is not conjunctural, it is structural.</0> Global demand for food and energy sustains the sector in the long term.",
-                "productivity": "<0>Margin for productivity.</0> Intensive technology application still has vast fields for expansion.",
-                "risk_return": "<0>Risk-Return Binomial.</0> The combination of productive stability and inelastic demand creates a natural hedge."
+                "inelastic_demand": "<0>Inelastic Global Demand.</0> Food and energy production sustains operations over decades. Structural fundamental, not economic cycle.",
+                "productivity_margin": "<0>Unexplored Productivity Margin.</0> Intensive technological adoption in early stages. Capital invested in frontier technology finds wide margin before saturation.",
+                "stability": "<0>Stability under Volatility.</0> Natural advantages create a stable productive base. Structural fundamentals absorb short-term macroeconomic shocks."
             }
         }
     },
@@ -271,19 +273,32 @@
     },
     "solutions_page": {
         "hero": {
-            "title": "Business Solutions",
-            "subtitle": "Strategy and sustainable growth.",
-            "main_text": "We develop strategies for companies seeking to grow sustainably, competitively, and connected to the international market. We work on business modeling that supports market volatility and takes advantage of global opportunity windows."
+            "title": "Operational Viability Structures",
+            "subtitle": "Institutional governance for high-density operations between Agribusiness and Advanced Technology."
         },
-        "benefits": {
-            "strategy": "Strategic Consulting",
-            "modeling": "Business Modeling",
-            "risk": "Risk Analysis"
+        "overview": {
+            "title": "The Institutional Ecosystem",
+            "text": "CCTAAL structures institutional governance for summit operations at the convergence of Agribusiness and Advanced Technology.\n\nNine-digit capital crossing continents, long technological cycles, and distinct regulatory regimes do not operate with conventional business modeling. It requires State backing, systemic risk intelligence, and an ecosystem of permanence where technology and production remain relevant over time.\n\nWe structure the environment where both parties (cutting-edge technology providers and large-scale Agribusiness operators) traverse within the same institutional shielding, protected by the same transnational governmental network, without assuming counterparty risk in isolation.\n\nWe operate through four structural pillars: Bilateral Institutional Backing, which ensures simultaneous protection of both parties; Ecosystem of Permanence, which maintains relevant investments over cycles; Transnational Summit Network, with direct access to governors and global economic leaders; and Real-Time Risk Intelligence, for informed decision-making under volatility. Each operation is structured within this complete system, not as an isolated transaction."
+        },
+        "pillars": {
+            "title": "Pillars of Action",
+            "card1": "Bilateral Institutional Backing",
+            "card2": "Ecosystem of Permanence",
+            "card3": "Transnational Summit Network",
+            "card4": "Real-Time Risk Intelligence",
+            "cta_label": "Operating at high-density transnational scale?",
+            "cta_text": "",
+            "cta_button": "Apply for Analysis"
         },
         "portfolio": {
-            "label": "Our Portfolio",
+            "label": "Areas of Action",
             "title": "Solutions Ecosystem",
-            "description": "We have the unique capacity to facilitate knowledge, create commercial connections, and establish global standards."
+            "description": "From operational to strategic: the complete ecosystem for large-scale capital."
+        },
+        "bottom_cta": {
+            "title": "Institutional Accreditation",
+            "subtitle": "Summit operations between Agribusiness and Advanced Technology require State governance structure.",
+            "button": "Apply for Analysis"
         },
         "services": {
             "import_export": {
@@ -324,175 +339,163 @@
         "hero": {
             "title": "International Project Facilitation",
             "subtitle": "Connecting Latin America to the World.",
-            "overview_title": "Negotiation and International Representation",
-            "main_text": "We operate with solidity and credibility in the intermediation of agricultural commodities, uniting producers, exporters, and global buyers. Our operation integrates market knowledge, strategic negotiation, and efficient contract management."
+            "overview_title": "Institutional Guarantee in Transnational Operations",
+            "main_text": "Transnational operations in high-volume agricultural commodities face structural bilateral risk: the producer exposes harvest without guarantee of absorption; the international buyer commits capital without guarantee of delivery according to specification.\n\nCCTAAL does not intermediate. It operates as a bilateral institutional guarantee where both parties traverse within the same State backing. We structure contractual governance, geopolitical risk intelligence, and government network that shields the operation from origin to final destination."
         },
         "benefits": {
-            "intermediation": "Global Intermediation",
+            "intermediation": "Contractual Governance",
             "contract_mgmt": "Contract Management",
             "logistics": "Logistics and Tracking"
         },
         "portfolio": {
-            "label": "Our Portfolio",
-            "title": "Operated Commodities",
-            "description": "We connect the productive abundance of Latin America to world demand centers."
+            "label": "OUR PORTFOLIO",
+            "title": "Commodities under Institutional Governance",
+            "description": "We structure operational shielding for high-volume agricultural commodities where bilateral risk requires State backing.",
+            "intro": "Operations in large-scale agricultural commodities face structural exposure: immobilized capital traversing continents, long crop cycles, and market volatility. CCTAAL does not operate commodities. It structures institutional governance so that high-volume operations remain shielded from origin to final destination."
         },
         "commodities": {
             "soy": {
-                "title": "Soybean",
-                "description": "Global reference in production and export. We act to ensure safe and competitive negotiations."
+                "title": "Soy",
+                "description": "High-volume transnational operations. Contractual governance, risk intelligence, and institutional shielding for capital traversing oceans on a scale of millions of tons."
             },
             "corn": {
                 "title": "Corn",
-                "description": "Essential for food and biofuels. We connect producers to buyers with transparency."
+                "description": "Operations for food and biofuels with long cycles and immobilized capital. Bilateral institutional backing from harvest to final delivery."
             },
             "rice": {
                 "title": "Rice",
-                "description": "With high global demand, Latin American rice stands out for quality and traceability."
+                "description": "Transnational operations with traceability requirements. Institutional governance where producers and buyers operate within the same State backing."
             },
             "wheat": {
                 "title": "Wheat",
-                "description": "We ensure quality standards and competitiveness in the international supply of wheat for milling industries."
+                "description": "International supply for milling industries under market volatility and geopolitical risk. Risk intelligence and governance for high-volume operations."
             },
             "beans": {
                 "title": "Beans",
-                "description": "Traditional product gaining global space. We promote sustainable trade agreements."
+                "description": "Global operations crossing distinct regulatory regimes. Transnational governance that eliminates bilateral counterparty risk."
             },
             "sugar": {
                 "title": "Sugar",
-                "description": "Brazil leads the world market. Our action ensures stability and security in negotiations."
+                "description": "Brazilian operations in the world market under structural volatility. Institutional governance for operational stability at scale."
             },
             "coffee": {
                 "title": "Coffee",
-                "description": "Symbol of Latin American excellence. We connect exporters to global buyers with total traceability."
+                "description": "High-quality operations with total traceability requirements. Governance where production finds contractual shielding."
             },
             "organics": {
                 "title": "Organics",
-                "description": "We promote certification and internationalization of sustainable products, strengthening the agro image."
+                "description": "International certification beyond technical compliance. Governance for operations where sustainability operates on a commercial scale."
             }
         },
         "cta": {
-            "title": "Need a specific quote or commercial partnership?",
+            "title": "Need a specific quote or trade partner?",
             "description": "Our trading desk is ready to offer the best market conditions.",
-            "button": "Talk to Trading Desk"
+            "button": "Speak with Trading Desk"
         }
     },
     "tech_page": {
         "hero": {
             "title": "Technology & Innovation",
-            "description": "Driving efficiency and competitiveness in international trade through digital transformation."
+            "description": "Technological adoption without permanence architecture does not survive its own execution."
         },
         "axes": {
-            "title": "Strategic Innovation Axes",
-            "description": "We drive technological advancement in Latin American trade, uniting innovation, governance, and international cooperation. We connect companies, startups, and governments to develop digital solutions that simplify operations, promote transparency, and strengthen regional competitiveness."
+            "title": "Technological Permanence Architecture",
+            "description": "Apex operations in Agribusiness face structural pressure for frontier technology adoption. Nine-figure immobilized capital spans years until return. During this interval, technologies age, regulations change, markets redefine themselves.\n\nCCTAAL structures institutional governance so that technological adoption does not become a concentrated risk. Transnational regulatory shielding, technological obsolescence intelligence, and permanence ecosystem where investment remains operationally relevant while the world redefines itself around it."
         },
         "methodology": {
             "label": "Methodology",
-            "title": "Foundations of <0/>Global Strategy",
-            "description": "How we structure the future of agribusiness through solid technological pillars."
+            "title": "How We Structure <0/> Technological Governance",
+            "description": "The technological product may be excellent. Without a permanence ecosystem, it does not survive its own maturation cycle."
         },
         "strategies": {
-            "digitalization": {
-                "title": "Digitalization and Commercial Automation",
-                "content": "We implement tools that eliminate bureaucratic friction, digitizing customs processes and automating documentation flow for exporters."
+            "temporal_risk": {
+                "title": "Temporal Risk Mapping",
+                "content": "Identification of critical windows where technology faces obsolescence, regulatory changes, or supplier discontinuity. Full cycle analysis from investment to return."
             },
-            "partnerships": {
-                "title": "International Innovation Partnerships",
-                "content": "We build bridges with technology hubs in China (Shenzhen/Shanghai) and Silicon Valley to bring the most advanced AgTech to Latin America."
+            "institutional_shielding": {
+                "title": "Multilevel Institutional Shielding",
+                "content": "Structuring of transnational regulatory governance, technological continuity agreements, and alternative supplier networks. Capital protected in all ecosystem layers."
             },
-            "transparency": {
-                "title": "Transparency and Data Intelligence",
-                "content": "We use Big Data and Blockchain to ensure supply chain traceability, offering legal and food safety to global buyers."
+            "operational_permanence": {
+                "title": "Operational Permanence Architecture",
+                "content": "Integration from technical adoption to final markets that absorb technologically advanced production. Complete system, not isolated implementation."
             }
         },
         "ecosystem": {
-            "title": "The AgTech Ecosystem",
-            "subtitle": "Key technologies shaping our operation"
+            "title": "Technological Domains under Governance",
+            "subtitle": "Critical areas where we structure permanence for immobilized capital in frontier technology."
         },
         "tech_cards": {
-            "blockchain": {
-                "title": "Blockchain",
-                "description": "Total traceability from farm to fork."
+            "digital_infra": {
+                "title": "Digital Production Infrastructure",
+                "description": "Management systems, industrial automation, and data integration in the production chain. Governance so that digital infrastructure remains operational while technological standards evolve."
             },
-            "ai": {
-                "title": "AI & Big Data",
-                "description": "Crop predictability and market analysis."
+            "logistics_traceability": {
+                "title": "Transnational Logistics and Traceability",
+                "description": "Monitoring, tracking, and logistics integration technologies spanning multiple jurisdictions. Shielding against protocol fragmentation and regulatory volatility."
             },
-            "iot": {
-                "title": "IoT / Sensors",
-                "description": "Real-time climatic and logistical monitoring."
+            "market_integration": {
+                "title": "Integration with Final Markets",
+                "description": "Systems connecting technologically advanced production with market absorption. Governance so that innovation investment finds stable demand over cycles."
             }
         },
         "cta": {
-            "title": "Does your company develop technology for Agro?",
-            "description": "Connect to our innovation hub and take your solution to international markets.",
-            "button": "Access Innovation Core"
+            "title": "Frontier Technology or Transnational Scale Agribusiness",
+            "description": "Operations spanning continents, long cycles, and billions in immobilized capital require institutional permanence architecture.",
+            "button": "Apply for Analysis"
         }
     },
     "intelligence_page": {
         "hero": {
-            "title": "Market Intelligence",
-            "description": "Guiding commercial, diplomatic, and institutional decisions with precise data."
+            "title": "Systemic Risk Intelligence",
+            "description": "Large-scale transnational operations do not make decisions under uncertainty. We structure State intelligence so capital navigates volatility with data, not bets."
         },
         "intro": {
-            "label": "Our Action",
-            "title": "Intelligence and Strategic Analysis",
-            "description": "CCTAAL acts as an intelligence hub connecting data, trends, and opportunities. We work with analytical and technological methodologies to ensure accurate, secure, and strategic information at all decision levels. Our goal is to transform information into concrete actions to strengthen trade and attract investments."
+            "title": "Decision under Structural Volatility",
+            "description": "Nine-figure capital crossing continents, long crop cycles, and volatile markets does not operate with conventional market analysis. Decisions commit millions before results materialize. Exchange rate volatility, regulatory changes, geopolitical tensions, and demand disruptions happen during execution, not after.\n\nCCTAAL structures systemic risk intelligence where apex decisions operate with State data, not market projections. Real-time monitoring, geopolitical scenario analysis, and transnational regulatory risk mapping. Informed decision when the margin of error is zero."
         },
-        "capabilities": {
-            "title": "Analytical Capabilities",
-            "analysis": {
-                "title": "Opportunity and Risk Analysis",
-                "description": "We identify promising markets and evaluate geopolitical, currency, and regulatory risks to shield your operations."
+        "pillars": {
+            "title": "Operational Intelligence Structure",
+            "subtitle": "Four dimensions of monitoring for operations where volatility is not an acceptable risk.",
+            "geopolitics": {
+                "title": "Geopolitical and Regulatory Intelligence",
+                "description": "Structural monitoring of legislative changes, technical barriers, and diplomatic tensions impacting transnational operations. Early decision on movements that destroy value before they become public."
             },
-            "monitoring": {
-                "title": "Trend Monitoring",
-                "description": "Real-time tracking of commodity fluctuations, consumption changes, and new global demands."
+            "volatility": {
+                "title": "Market Volatility Analysis",
+                "description": "Real-time monitoring of commodities, exchange rates, and global demand. Identification of operational windows and price disruption risk mapping during long execution cycles."
             },
-            "competitiveness": {
-                "title": "Competitiveness Studies",
-                "description": "In-depth reports on the competitiveness of Latin American products against global competitors."
+            "counterparties": {
+                "title": "Counterparty and Capital Mapping",
+                "description": "Intelligence on counterparty financial stability, institutional capital movement, and identification of players operating at the same scale. Decision on who to cross with, not just what to trade."
             },
-            "geoeconomics": {
-                "title": "Geoeconomic Intelligence",
-                "description": "Forecasts based on macroeconomic scenarios and political movements impacting agribusiness."
-            }
-        },
-        "deliverables": {
-            "title": "Strategic Deliverables",
-            "subtitle": "We transform complexity into clarity with reports designed for top leadership.",
-            "items": {
-                "reports": "Monthly Crop & Climate Reports",
-                "briefings": "China-Brazil Regulation Briefings",
-                "mapping": "Asian Investor Mapping",
-                "dossiers": "Specific Sector Dossiers"
+            "tech_permanence": {
+                "title": "Technological Permanence Scenarios",
+                "description": "Analysis of innovation cycles, obsolescence risk, and market movements impacting long-term technological investments. Informed decision on when to adopt, update, or replace."
             }
         },
         "cta": {
-            "title": "Make data-driven decisions, not guesses.",
-            "description": "Access the intelligence that moves the biggest market players.",
-            "button": "Request Sample Report"
+            "title": "Operating under Market Volatility at Transnational Scale?",
+            "subtitle": "Decisions committing billions require State intelligence, not conventional market analysis.",
+            "button": "Apply for Analysis"
         }
     },
     "contact_page": {
         "hero": {
-            "title": "Join the Global Agro Elite.",
-            "benefits": {
-                "international": {
-                    "title": "International Connection",
-                    "description": "Direct access to strategic partners in China and throughout Latin America."
+            "title": "Institutional Accreditation",
+            "subtitle": "Summit operations between Agribusiness and Advanced Technology require a State governance structure. Accreditation assesses operational capacity, transnational scale, and strategic alignment.",
+            "cards": {
+                "card1": {
+                    "title": "Operational Profile",
+                    "description": "Large-scale capital immobilized in transnational operations between Agribusiness and Advanced Technology. Scale traversing continents, regulatory regimes, and long execution cycles."
                 },
-                "intelligence": {
-                    "title": "Market Intelligence",
-                    "description": "Exclusive reports, on-chain data, and global trend analysis."
+                "card2": {
+                    "title": "Accreditation Criteria",
+                    "description": "Proven operational capacity, institutional history, and alignment with Agro-Technology convergence. Analysis based on technical criteria, not solely capital volume."
                 },
-                "support": {
-                    "title": "Technical Support",
-                    "description": "Specialized support in regulation, compliance, and export processes."
-                },
-                "visibility": {
-                    "title": "Premium Visibility",
-                    "description": "CCTAAL member seal and access to high-level governmental and private networking."
+                "card3": {
+                    "title": "Analysis Process",
+                    "description": "Submission of institutional profile. Validation of operational capacity and strategic alignment. Accreditation granted upon technical approval. Response time: up to 15 business days."
                 }
             },
             "address": "Av. Brigadeiro Faria Lima, 3477 - São Paulo, Brazil"
@@ -503,26 +506,29 @@
         },
         "form": {
             "membership": {
+                "title": "Submit Profile for Analysis",
                 "name_label": "Full Name",
                 "name_placeholder": "Your name",
-                "role_label": "Role",
+                "role_label": "Role/Position",
                 "role_placeholder": "Director, CEO...",
                 "email_label": "Corporate Email",
                 "email_placeholder": "name@company.com",
-                "company_label": "Company",
+                "company_label": "Company/Institution",
                 "company_placeholder": "Organization name",
-                "country_label": "Country of Operation",
+                "country_label": "Main Country of Operation",
                 "country_placeholder": "Brazil, China...",
-                "interest_label": "Main Interest",
-                "interest_placeholder": "Select an option",
-                "options": {
-                    "export": "Export & Logistics",
-                    "tech": "Technology & Innovation",
-                    "investment": "Investment & Partnerships",
-                    "other": "Other"
+                "scale_label": "Annual Operational Scale",
+                "scale_options": {
+                    "opt1": "Below US$ 50 million",
+                    "opt2": "US$ 50 - 100 million",
+                    "opt3": "US$ 100 - 500 million",
+                    "opt4": "US$ 500 million - 1 billion",
+                    "opt5": "Above US$ 1 billion"
                 },
-                "submit": "Request Membership",
-                "disclaimer": "Your request will be analyzed by our deliberative council. We will contact you within 48h."
+                "description_label": "Operation Description",
+                "description_placeholder": "Describe the nature of the operation, scale of immobilized capital, markets of operation, and how your operation fits into the convergence between Agribusiness and Advanced Technology.",
+                "submit": "Apply for Analysis",
+                "disclaimer": "The profile will be analyzed under technical criteria of operational capacity and strategic alignment. Accreditation is not automatic. Response within 15 business days."
             },
             "contact": {
                 "name_label": "Your Name",
