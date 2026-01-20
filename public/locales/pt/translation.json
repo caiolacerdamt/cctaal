@@ -11,15 +11,15 @@
         "chamber": "A Câmara",
         "intelligence": "Intelligence",
         "news": "Notícias",
-        "become_member": "Seja Membro"
+        "become_member": "Aplicar para Análise"
     },
     "hero": {
-        "title": "Viabilização Global com Lastro e Segurança Institucional.",
-        "subtitle": "A base sólida para mitigar riscos. Arquitetura jurídica e tecnológica para blindar grandes investimentos.",
+        "title": "Lastro Institucional e Segurança Jurídica para o Capital Global.",
+        "subtitle": "Viabilização institucional de alta complexidade. Arquitetura jurídica e tecnológica para garantir a perenidade de investimentos entre América Latina e Ásia.",
         "cta_manifesto": "Ler o Manifesto"
     },
     "market": {
-        "title": "Monitoramento Global",
+        "title": "Inteligência & Previsibilidade de Risco",
         "subtitle": "Tempo Real • Mercado & Logística",
         "live_data": "Live Data",
         "agricultural_commodities": "Commodities Agrícolas",
@@ -43,28 +43,28 @@
         "label": "Institucional",
         "title": "O que é a CCTAAL?",
         "subtitle": "Câmara de Comércio e Tecnologia e Agro da América Latina.",
-        "description": "A CCTAAL atua para garantir o sucesso do projeto, focando na minimização de riscos de investimento e entrega. Utilizamos a aplicação máxima de tecnologia para extrair a melhor performance possível, transformando oportunidades internacionais em desenvolvimento sustentável e blindado.",
-        "cta": "Conheça Nossa Estrutura"
+        "description": "Atuamos como Autoridade Certificadora para validar a viabilidade de projetos transcontinentais. Nossa função é mitigar riscos e prover lastro institucional, assegurando a blindagem necessária para a execução de operações de alta magnitude.",
+        "cta": "Conheça Nossa Governança"
     },
     "what_we_do": {
         "title": "O que fazemos",
         "subtitle": "Atuamos em quatro frentes que fortalecem o comércio, a tecnologia e a inovação.",
         "cards": {
             "solutions": {
-                "title": "Soluções Empresariais",
-                "text": "Desenvolvemos estratégias para empresas que buscam crescer de forma sustentável."
+                "title": "Certificação Institucional",
+                "text": "Emissão de chancelas governamentais e validação de compliance para blindar a integridade corporativa."
             },
             "trade": {
-                "title": "Viabilização de Projetos Internacionais",
-                "text": "Facilitamos negócios, importações e exportações entre a América Latina e o mercado global."
+                "title": "Arquitetura de Negócio",
+                "text": "Estruturação jurídica e logística completa. Não somos intermediários; somos o lastro que viabiliza a operação."
             },
             "tech": {
-                "title": "Tecnologia & Inovação",
-                "text": "Promovemos o uso de tecnologias emergentes e soluções inteligentes no setor agroindustrial."
+                "title": "Tecnologia de Ponta",
+                "text": "A Cabeceira da Pista: Implementação de robótica e IA para garantir a sobrevivência competitiva antecipada."
             },
             "intelligence": {
-                "title": "Inteligência de Mercado",
-                "text": "Conectamos investidores e governos com dados precisos para decisões estratégicas."
+                "title": "Ecossistema de Elite",
+                "text": "Acesso restrito a um clube exclusivo de governantes e decisores. Networking de alta influência e segurança."
             }
         },
         "cta": "Saiba mais"
@@ -117,13 +117,13 @@
         }
     },
     "connect": {
-        "image_text": "Tecnologia & Campo",
+        "image_text": "Governança & Tecnologia",
         "label": "Junte-se a nós",
-        "title": "Faça parte da revolução do <0/> <1>Agronegócio Global</1>",
-        "description": "Conecte-se com a elite do setor agroindustrial. Inteligência de mercado, networking estratégico e oportunidades de negócios.",
+        "title": "Solicite Acesso à <0/> <1>Elite Econômica Global</1>",
+        "description": "O acesso é restrito e mediante análise de compliance. Junte-se ao ecossistema que define as regras do jogo.",
         "item1": "Relatórios exclusivos de mercado",
         "item2": "Eventos e Missões Internacionais",
-        "cta": "Clique para se inscrever"
+        "cta": "Solicitar Credenciamento"
     },
     "footer": {
         "description": "Câmara de Comércio e Tecnologia e Agro da América Latina. <0/>Conectando ciclos históricos e capacidades produtivas.",
