@@ -77,7 +77,11 @@ const MarketIntelligence = () => {
                         </p>
                     </motion.div>
                 </div>
+
             </section>
+
+
+
 
             {/* 3. Pillars Section */}
             <section className="py-24 px-4 bg-[#f9f9f7]">

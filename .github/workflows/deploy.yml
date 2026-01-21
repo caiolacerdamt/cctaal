@@ -20,10 +20,13 @@ jobs:
         node-version: '24' # Versão LTS atual (Krypton)
         cache: 'npm'       # Faz o deploy ser mais rápido cacheando dependências
 
-    # 3. Build (Sem mudanças aqui)
+    # 3. Build (Com Secrets Injetadas)
     - name: 🔨 Build Project
+      env:
+        VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+        VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
       run: |
-        npm ci             # 'ci' é melhor que 'install' para servidores (mais rápido e seguro)
+        npm ci
         npm run build
 
     # 4. Upload FTP (Versão 4.3.6 corrigida)

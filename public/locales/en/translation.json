@@ -19,7 +19,7 @@
         "cta_manifesto": "Read the Manifesto"
     },
     "market": {
-        "title": "Intelligence Structure for Decision-Making under Volatility",
+        "title": "Intelligence Structure",
         "subtitle": "Real Time • Market & Logistics",
         "live_data": "Live Data",
         "agricultural_commodities": "Agricultural Commodities",
@@ -37,7 +37,19 @@
         "bdi_index": "BDI Index",
         "baltic_dry": "Baltic Dry Index",
         "route_santos_shanghai": "SANTOS → SHANGHAI",
-        "freight_spot": "Freight Spot (40ft)"
+        "freight_spot": "Freight Spot (40ft)",
+        "loading": "CONNECTING TO GLOBAL FEEDS...",
+        "unavailable": "Unavailable",
+        "cbot_spot": "CBOT • Spot",
+        "cny_brl": "CNY / BRL",
+        "china_spot": "China Spot",
+        "global_logistics": "Global Logistics",
+        "nasdaq": "NASDAQ 100",
+        "tech_index": "Tech Index",
+        "brent_oil": "BRENT OIL",
+        "global_energy": "Global Energy",
+        "source": "SOURCE: B3, CBOT, NASDAQ, AWESOMEAPI",
+        "updated": "UPDATED"
     },
     "institutional": {
         "label": "Institutional",

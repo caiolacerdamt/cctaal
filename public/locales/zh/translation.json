@@ -19,7 +19,7 @@
         "cta_manifesto": "阅读宣言"
     },
     "market": {
-        "title": "波动下的决策情报结构",
+        "title": "情报结构",
         "subtitle": "实时 • 市场与物流",
         "live_data": "实时数据",
         "agricultural_commodities": "农产品大宗商品",
@@ -37,7 +37,19 @@
         "bdi_index": "BDI 指数",
         "baltic_dry": "波罗的海干散货指数",
         "route_santos_shanghai": "桑托斯 → 上海",
-        "freight_spot": "即期运费 (40英尺)"
+        "freight_spot": "即期运费 (40英尺)",
+        "loading": "连接全球数据源...",
+        "unavailable": "暂无数据",
+        "cbot_spot": "CBOT • 现货",
+        "cny_brl": "人民币 / 雷亚尔",
+        "china_spot": "中国现货",
+        "global_logistics": "全球物流",
+        "nasdaq": "纳斯达克 100",
+        "tech_index": "科技指数",
+        "brent_oil": "布伦特原油",
+        "global_energy": "全球能源",
+        "source": "来源: B3, CBOT, NASDAQ, AWESOMEAPI",
+        "updated": "更新"
     },
     "institutional": {
         "label": "机构",
