@@ -42,13 +42,13 @@ const Chamber = () => {
 
             {/* Bloco 2: Valores Corporativos */}
             <section className="py-20 bg-[#f9f9f7]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl font-serif font-bold text-[#4a662d]">{t('chamber.values.title')}</h2>
                         <div className="w-16 h-1 bg-[#7c522e] mx-auto mt-4 opacity-30"></div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                         {[
                             {
                                 icon: Globe,
@@ -74,7 +74,7 @@ const Chamber = () => {
                             <div key={index} className="bg-white p-8 rounded-sm shadow-sm border border-gray-100 hover:border-[#7c522e]/30 transition-colors group">
                                 <item.icon className="w-10 h-10 text-[#7c522e] mb-6 group-hover:scale-110 transition-transform" strokeWidth={1.5} />
                                 <h3 className="text-xl font-serif font-bold text-[#1a1a1a] mb-3">{item.title}</h3>
-                                <p className="text-gray-500 text-sm leading-relaxed">
+                                <p className="text-gray-600 text-base leading-relaxed whitespace-pre-line text-justify">
                                     {item.text}
                                 </p>
                             </div>
@@ -85,7 +85,7 @@ const Chamber = () => {
 
             {/* Bloco 3: Governança (Board Real) */}
             <section className="py-24 bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-gray-100 pb-6">
                         <div>
                             <span className="text-[#7c522e] font-bold text-xs uppercase tracking-widest mb-2 block">{t('chamber.governance.label')}</span>
@@ -144,7 +144,7 @@ const Chamber = () => {
 
             {/* Bloco 4: Compliance e Integridade */}
             <section className="py-24 bg-[#f4f4f5] border-t border-gray-200">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col lg:flex-row gap-16 items-center">
                         <div className="lg:w-2/3">
                             <div className="flex items-center gap-3 mb-6">
