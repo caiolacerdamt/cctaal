@@ -14,7 +14,7 @@
         "become_member": "Aplicar para Análise"
     },
     "hero": {
-        "title": "Câmara de Comércio e Tecnologia e Agro da América Latina.",
+        "title": "Câmara de Comércio, Tecnologia e Agro da América Latina.",
         "subtitle": "Infraestrutura Institucional para Operações de Alta Densidade entre Agronegócio e Tecnologia Avançada.",
         "cta_manifesto": "Ler o Manifesto"
     },
@@ -42,7 +42,7 @@
     "institutional": {
         "label": "Institucional",
         "title": "A CCTAAL",
-        "subtitle": "Câmara de Comércio e Tecnologia e Agro da América Latina.",
+        "subtitle": "Câmara de Comércio, Tecnologia e Agro da América Latina.",
         "description": "Ecossistema institucional para operações de cúpula na convergência entre Agronegócio e Tecnologia Avançada. Estruturamos governança transnacional, lastro de Estado e inteligência de risco para que capital de grande porte permaneça operacionalmente relevante enquanto mercados, tecnologias e regulações se redefinem.\n\nOperações que atravessam continentes, ciclos tecnológicos e bilhões em capital imobilizado não sobrevivem isoladas. A CCTAAL organiza o ecossistema onde a elite global opera sem envelhecimento sistêmico.",
         "cta": "Conheça a Estrutura de Governança"
     },
@@ -88,33 +88,8 @@
     "newshub": {
         "title": "Notícias",
         "view_all": "Ver todas as notícias",
-        "main_card": {
-            "label": "Mercado & Estratégia",
-            "title": "A Nova Rota da Seda Digital: Como a tecnologia está redefinindo as exportações.",
-            "description": "Análise exclusiva sobre o impacto da digitalização nos corredores logísticos e a redução de custos para o agronegócio nacional."
-        },
-        "read_analysis": "Ler análise completa",
-        "radar_title": "Radar de Mercado",
-        "news1": {
-            "source": "Reuters Agro",
-            "title": "Safra 2025/26 promete recorde de produtividade com nova tecnologia de sementes.",
-            "date": "Há 2 horas"
-        },
-        "news2": {
-            "source": "Bloomberg",
-            "title": "Porto de Santos bate recorde histórico de movimentação mensal.",
-            "date": "Há 4 horas"
-        },
-        "news3": {
-            "source": "CNN Business",
-            "title": "Acordo Mercosul-Ásia avança em pautas de infraestrutura verde.",
-            "date": "Há 5 horas"
-        },
-        "news4": {
-            "source": "Institucional",
-            "title": "CCTAAL lança programa de aceleração para AgTechs brasileiras.",
-            "date": "Ontem"
-        }
+        "read_analysis": "Ler notícia completa",
+        "radar_title": "Radar de Mercado"
     },
     "connect": {
         "image_text": "Governança & Tecnologia",
@@ -125,7 +100,7 @@
         "cta": "Iniciar Análise de Credenciamento"
     },
     "footer": {
-        "description": "Câmara de Comércio e Tecnologia e Agro da América Latina. <0/>Viabilizando ciclos históricos e capacidades produtivas.",
+        "description": "Câmara de Comércio, Tecnologia e Agro da América Latina. <0/>Viabilizando ciclos históricos e capacidades produtivas.",
         "nav_title": "Navegação",
         "contact_title": "Contato",
         "legal_title": "Legal",
@@ -593,7 +568,8 @@
             "share": "Compartilhar",
             "continue_reading": "Continue Lendo",
             "article_not_found": "Artigo não encontrado",
-            "back_to_news": "Voltar para notícias"
+            "back_to_news": "Voltar para notícias",
+            "read_original": "Ler na fonte original"
         }
     },
     "chat_widget": {
@@ -626,6 +602,10 @@
             "innovation": "É nossa iniciativa para conectar AgTechs brasileiras com investidores internacionais. Focamos em rastreabilidade (Blockchain) e automação de processos aduaneiros.",
             "default": "Desculpe, ainda estou aprendendo. Por favor, selecione uma das opções abaixo.",
             "follow_up": "Posso ajudar com mais alguma coisa? Selecione abaixo:"
+        },
+        "coming_soon": {
+            "title": "Em Breve",
+            "message": "Nossa IA está sendo treinada para oferecer o melhor suporte."
         }
     }
 }

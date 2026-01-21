@@ -88,33 +88,8 @@
     "newshub": {
         "title": "新闻",
         "view_all": "查看所有新闻",
-        "main_card": {
-            "label": "市场与战略",
-            "title": "新数字丝绸之路：技术如何重新定义出口。",
-            "description": "关于数字化对物流走廊影响及降低国家农业综合企业成本的独家分析。"
-        },
-        "read_analysis": "阅读完整分析",
-        "radar_title": "市场雷达",
-        "news1": {
-            "source": "路透社农业",
-            "title": "2025/26 收成有望凭借新种子技术创下生产力记录。",
-            "date": "2小时前"
-        },
-        "news2": {
-            "source": "彭博社",
-            "title": "桑托斯港打破历史月度运输记录。",
-            "date": "4小时前"
-        },
-        "news3": {
-            "source": "CNN 商业",
-            "title": "南方共同市场-亚洲协议在绿色基础设施议程上取得进展。",
-            "date": "5小时前"
-        },
-        "news4": {
-            "source": "机构消息",
-            "title": "CCTAAL 启动巴西农业科技加速计划。",
-            "date": "昨天"
-        }
+        "read_analysis": "阅读完整新闻",
+        "radar_title": "市场雷达"
     },
     "connect": {
         "image_text": "治理与技术",
@@ -593,7 +568,8 @@
             "share": "分享",
             "continue_reading": "继续阅读",
             "article_not_found": "未找到文章",
-            "back_to_news": "返回新闻"
+            "back_to_news": "返回新闻",
+            "read_original": "阅读原文"
         }
     },
     "chat_widget": {
@@ -626,6 +602,10 @@
             "innovation": "这是我们连接巴西农业科技公司与国际投资者的倡议。我们专注于可追溯性（区块链）和海关流程自动化。",
             "default": "抱歉，我还在学习中。请选择以下选项之一。",
             "follow_up": "我还能帮您什么吗？请在下方选择："
+        },
+        "coming_soon": {
+            "title": "即将推出",
+            "message": "我们的AI正在接受训练，以提供最好的支持。"
         }
     }
 }

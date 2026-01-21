@@ -5,9 +5,22 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 const NewsPage = () => {
-    const { t } = useTranslation();
-    const featured = newsData[0];
-    const gridNews = newsData.slice(1);
+    const { t, i18n } = useTranslation();
+
+    // Helper to get translation
+    const getTranslated = (item: any) => {
+        const lang = i18n.language.split('-')[0];
+        if (item.translations && item.translations[lang]) {
+            return { ...item, ...item.translations[lang] };
+        }
+        return { ...item, ...item.translations['pt'] };
+    };
+
+    // Apply translation to all data first
+    const localizedData = newsData.map(getTranslated);
+
+    const featured = localizedData[0];
+    const gridNews = localizedData.slice(1);
 
     return (
         <div className="bg-[#f9f9f7] min-h-screen pb-20">

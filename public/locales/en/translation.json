@@ -14,7 +14,7 @@
         "become_member": "Apply for Analysis"
     },
     "hero": {
-        "title": "Chamber of Commerce and Technology and Agro of Latin America.",
+        "title": "Chamber of Commerce, Technology and Agro of Latin America.",
         "subtitle": "Institutional Infrastructure for High-Density Operations between Agribusiness and Advanced Technology.",
         "cta_manifesto": "Read the Manifesto"
     },
@@ -42,7 +42,7 @@
     "institutional": {
         "label": "Institutional",
         "title": "The CCTAAL",
-        "subtitle": "Chamber of Commerce and Technology and Agro of Latin America.",
+        "subtitle": "Chamber of Commerce, Technology and Agro of Latin America.",
         "description": "Institutional ecosystem for summit operations at the convergence of Agribusiness and Advanced Technology. We structure transnational governance, state backing, and risk intelligence so that large-scale capital remains operationally relevant as markets, technologies, and regulations redefine themselves.\n\nOperations spanning continents, technological cycles, and billions in immobilized capital do not survive in isolation. CCTAAL organizes the ecosystem where the global elite operates without systemic aging.",
         "cta": "Meet the Governance Structure"
     },
@@ -88,33 +88,8 @@
     "newshub": {
         "title": "News",
         "view_all": "View All News",
-        "main_card": {
-            "label": "Market & Strategy",
-            "title": "The New Digital Silk Road: How technology is redefining exports.",
-            "description": "Exclusive analysis on the impact of digitization on logistical corridors and cost reduction for national agribusiness."
-        },
-        "read_analysis": "Read Complete Analysis",
-        "radar_title": "Market Radar",
-        "news1": {
-            "source": "Reuters Agro",
-            "title": "2025/26 Harvest promises productivity record with new seed technology.",
-            "date": "2 hours ago"
-        },
-        "news2": {
-            "source": "Bloomberg",
-            "title": "Port of Santos breaks historical monthly movement record.",
-            "date": "4 hours ago"
-        },
-        "news3": {
-            "source": "CNN Business",
-            "title": "Mercosur-Asia deal advances on green infrastructure agendas.",
-            "date": "5 hours ago"
-        },
-        "news4": {
-            "source": "Institutional",
-            "title": "CCTAAL launches acceleration program for Brazilian AgTechs.",
-            "date": "Yesterday"
-        }
+        "read_analysis": "Read full story",
+        "radar_title": "Market Radar"
     },
     "connect": {
         "image_text": "Governance & Technology",
@@ -125,7 +100,7 @@
         "cta": "Start Accreditation Analysis"
     },
     "footer": {
-        "description": "Chamber of Commerce and Technology and Agro of Latin America. <0/>Enabling historical cycles and productive capacities.",
+        "description": "Chamber of Commerce, Technology and Agro of Latin America. <0/>Enabling historical cycles and productive capacities.",
         "nav_title": "Navigation",
         "contact_title": "Contact",
         "legal_title": "Legal",
@@ -593,7 +568,8 @@
             "share": "Share",
             "continue_reading": "Continue Reading",
             "article_not_found": "Article not found",
-            "back_to_news": "Back to news"
+            "back_to_news": "Back to news",
+            "read_original": "Read original article"
         }
     },
     "chat_widget": {
@@ -626,6 +602,10 @@
             "innovation": "It's our initiative to connect Brazilian AgTechs with international investors. We focus on traceability (Blockchain) and customs process automation.",
             "default": "Sorry, I am still learning. Please select one of the options below.",
             "follow_up": "Can I help with anything else? Select below:"
+        },
+        "coming_soon": {
+            "title": "Coming Soon",
+            "message": "Our AI is being trained to offer the best support."
         }
     }
 }

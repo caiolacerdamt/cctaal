@@ -5,12 +5,35 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 const SingleNewsPage = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
 
-    const article = newsData.find(item => item.id === id);
-    const relatedNews = newsData.filter(item => item.id !== id).slice(0, 2); // Get 2 other random-ish articles
+    // Helper to get translation safely
+    const getTranslated = (item: any) => {
+        const lang = i18n.language.split('-')[0]; // simple check for 'pt', 'en', 'es', 'zh'
+        // Type safe fallbacks
+        if (item.translations && item.translations[lang]) {
+            return item.translations[lang];
+        }
+        return item.translations['pt']; // Fallback to PT
+    };
+
+    const articleRaw = newsData.find(item => item.id === id);
+
+    // Derived state for display
+    const article = articleRaw ? {
+        ...articleRaw,
+        ...getTranslated(articleRaw)
+    } : null;
+
+    const relatedNews = newsData
+        .filter(item => item.id !== id)
+        .slice(0, 2)
+        .map(item => ({
+            ...item,
+            ...getTranslated(item)
+        }));
 
     if (!article) {
         return (
@@ -89,8 +112,26 @@ const SingleNewsPage = () => {
                             dangerouslySetInnerHTML={{ __html: article.content }}
                         />
 
+                        {/* External Source Link */}
+                        {article.sourceUrl && (
+                            <div className="mt-8 mb-12">
+                                <a
+                                    href={article.sourceUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 text-[#4a662d] font-bold border border-[#4a662d] px-6 py-3 rounded-sm hover:bg-[#4a662d] hover:text-white transition-all duration-300 group"
+                                >
+                                    {t('news_page.ui.read_original') || "Ler notícia original"}
+                                    <Share2 size={16} className="group-hover:rotate-45 transition-transform" />
+                                </a>
+                                <p className="text-xs text-gray-400 mt-2 italic">
+                                    *Você será redirecionado para a fonte original da notícia.
+                                </p>
+                            </div>
+                        )}
+
                         {/* Tags / Footer of article */}
-                        <div className="mt-12 pt-8 border-t border-gray-200">
+                        <div className="mt-4 pt-8 border-t border-gray-200">
                             <div className="flex flex-wrap gap-2">
                                 <span className="bg-gray-100 text-gray-600 px-3 py-1 text-sm rounded-sm">#Agro</span>
                                 <span className="bg-gray-100 text-gray-600 px-3 py-1 text-sm rounded-sm">#BrasilChina</span>

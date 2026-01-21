@@ -2,16 +2,28 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { newsData } from '../data/newsData';
 
 const NewsHub = () => {
-    const { t } = useTranslation();
-    // 4 quick news items for the "The Wire" / "Radar de Mercado"
-    const news = [
-        { source: 'Reuters Agro', title: t('newshub.news1.title'), date: t('newshub.news1.date') },
-        { source: 'Bloomberg', title: t('newshub.news2.title'), date: t('newshub.news2.date') },
-        { source: 'CNN Business', title: t('newshub.news3.title'), date: t('newshub.news3.date') },
-        { source: 'Institucional', title: t('newshub.news4.title'), date: t('newshub.news4.date') },
-    ];
+    const { t, i18n } = useTranslation();
+
+    // Helper to get translation
+    const getTranslated = (item: any) => {
+        const lang = i18n.language.split('-')[0];
+        if (item.translations && item.translations[lang]) {
+            return { ...item, ...item.translations[lang] }; // flatten
+        }
+        return { ...item, ...item.translations['pt'] };
+    };
+
+    const localizedData = newsData.map(getTranslated);
+
+    // Filter to exclude main news from radar list if needed, or just slice
+    // Main Card: Item 0
+    // Radar List: Items 1, 2, 3, 4
+
+    const mainNews = localizedData[0];
+    const radarNews = localizedData.slice(1, 5);
 
     return (
         <section className="py-12 bg-white border-t border-gray-100">
@@ -27,27 +39,26 @@ const NewsHub = () => {
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     {/* Main Highlight (Left - 2 Cols) */}
-                    <Link to="/noticias/rota-da-seda-digital" className="lg:col-span-2 group cursor-pointer block">
+                    <Link to={`/noticias/${mainNews.id}`} className="lg:col-span-2 group cursor-pointer block">
                         <div className="relative overflow-hidden rounded-sm mb-4 h-72">
-                            {/* Cinematic Image: Global Trade / Logistics */}
+                            {/* Cinematic Image: Main News */}
                             <img
-                                src="/news-digital-silk-road.jpg"
-                                alt="Mercado Global"
+                                src={mainNews.image}
+                                alt={mainNews.title}
                                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                             />
-                            {/* Minimal Overlay for readability if needed, but keeping it clean for editorial look */}
                         </div>
 
                         {/* Editorial Content */}
                         <div className="pr-0 lg:pr-8">
                             <span className="block text-[#7c522e] text-[10px] font-bold uppercase tracking-widest mb-2">
-                                {t('newshub.main_card.label')}
+                                {mainNews.category}
                             </span>
                             <h3 className="text-2xl md:text-3xl font-serif font-bold text-[#1a1a1a] mb-2 leading-tight group-hover:text-[#4a662d] transition-colors duration-300">
-                                {t('newshub.main_card.title')}
+                                {mainNews.title}
                             </h3>
                             <p className="text-gray-600 text-sm leading-relaxed mb-3 font-light line-clamp-2">
-                                {t('newshub.main_card.description')}
+                                {mainNews.summary}
                             </p>
                             <span className="inline-block text-[#1a1a1a] font-medium text-xs hover:underline decoration-[#7c522e] underline-offset-4">
                                 {t('newshub.read_analysis')} →
@@ -63,15 +74,19 @@ const NewsHub = () => {
                         </h3>
 
                         <div className="flex flex-col">
-                            {news.map((item, index) => (
+                            {radarNews.map((item, index) => (
                                 <Link
-                                    to={`/noticias/wire-${index}`}
+                                    to={`/noticias/${item.id}`}
                                     key={index}
                                     className="group py-3 border-b border-gray-100 first:pt-0 last:border-0"
                                 >
                                     <div className="flex justify-between items-baseline mb-1">
                                         <span className="text-[#7c522e] text-[10px] font-bold uppercase tracking-wider">
-                                            {item.source}
+                                            {/* Source is generally not translated, but could be part of data if we wanted. Using hardcoded for now or if we had it in data. 
+                                                Actually sourceUrl is in data, but we don't have a "source name" field. 
+                                                I will infer or plain text it. For now let's just use the Category as the label. 
+                                            */}
+                                            {item.category}
                                         </span>
                                         <span className="text-gray-400 text-[10px] font-mono">
                                             {item.date}

@@ -14,7 +14,7 @@
         "become_member": "Aplicar para Análisis"
     },
     "hero": {
-        "title": "Cámara de Comercio y Tecnología y Agro de América Latina.",
+        "title": "Cámara de Comercio, Tecnología y Agro de América Latina.",
         "subtitle": "Infraestructura Institucional para Operaciones de Alta Densidad entre Agronegocios y Tecnología Avanzada.",
         "cta_manifesto": "Leer el Manifiesto"
     },
@@ -42,7 +42,7 @@
     "institutional": {
         "label": "Institucional",
         "title": "La CCTAAL",
-        "subtitle": "Cámara de Comercio y Tecnología y Agro de América Latina.",
+        "subtitle": "Cámara de Comercio, Tecnología y Agro de América Latina.",
         "description": "Ecosistema institucional para operaciones de cúpula en la convergencia entre Agronegocios y Tecnología Avanzada. Estructuramos gobernanza transnacional, respaldo estatal e inteligencia de riesgo para que el capital de gran porte permanezca operacionalmente relevante mientras los mercados, tecnologías y regulaciones se redefinen.\n\nLas operaciones que atraviesan continentes, ciclos tecnológicos y miles de millones en capital inmovilizado no sobreviven aisladas. La CCTAAL organiza el ecosistema donde la élite global opera sin envejecimiento sistémico.",
         "cta": "Conozca la Estructura de Gobernanza"
     },
@@ -88,33 +88,8 @@
     "newshub": {
         "title": "Noticias",
         "view_all": "Ver Todas las Noticias",
-        "main_card": {
-            "label": "Mercado y Estrategia",
-            "title": "La Nueva Ruta de la Seda Digital: Cómo la tecnología redefine las exportaciones.",
-            "description": "Análisis exclusivo sobre el impacto de la digitalización en los corredores logísticos y la reducción de costos para el agronegocio nacional."
-        },
-        "read_analysis": "Leer Análisis Completo",
-        "radar_title": "Radar de Mercado",
-        "news1": {
-            "source": "Reuters Agro",
-            "title": "Cosecha 2025/26 promete récord de productividad con nueva tecnología de semillas.",
-            "date": "Hace 2 horas"
-        },
-        "news2": {
-            "source": "Bloomberg",
-            "title": "Puerto de Santos rompe récord histórico de movimiento mensual.",
-            "date": "Hace 4 horas"
-        },
-        "news3": {
-            "source": "CNN Business",
-            "title": "Acuerdo Mercosur-Asia avanza en agendas de infraestructura verde.",
-            "date": "Hace 5 horas"
-        },
-        "news4": {
-            "source": "Institucional",
-            "title": "CCTAAL lanza programa de aceleración para AgTechs brasileñas.",
-            "date": "Ayer"
-        }
+        "read_analysis": "Leer noticia completa",
+        "radar_title": "Radar de Mercado"
     },
     "connect": {
         "image_text": "Gobernanza y Tecnología",
@@ -125,7 +100,7 @@
         "cta": "Iniciar Análisis de Acreditación"
     },
     "footer": {
-        "description": "Cámara de Comercio y Tecnología y Agro de América Latina. <0/>Viabilizando ciclos históricos y capacidades produtivas.",
+        "description": "Cámara de Comercio, Tecnología y Agro de América Latina. <0/>Viabilizando ciclos históricos y capacidades produtivas.",
         "nav_title": "Navegación",
         "contact_title": "Contacto",
         "legal_title": "Legal",
@@ -593,7 +568,8 @@
             "share": "Compartir",
             "continue_reading": "Continuar Leyendo",
             "article_not_found": "Artículo no encontrado",
-            "back_to_news": "Volver a noticias"
+            "back_to_news": "Volver a noticias",
+            "read_original": "Leer noticia original"
         }
     },
     "chat_widget": {
@@ -626,6 +602,10 @@
             "innovation": "Es nuestra iniciativa para conectar AgTechs brasileñas con inversores internacionales. Nos enfocamos en trazabilidad (Blockchain) y automatización de procesos aduaneros.",
             "default": "Lo siento, todavía estoy aprendiendo. Por favor seleccione una de las opciones a continuación.",
             "follow_up": "¿Puedo ayudar con algo más? Seleccione abajo:"
+        },
+        "coming_soon": {
+            "title": "Próximamente",
+            "message": "Nuestra IA está siendo entrenada para ofrecer el mejor soporte."
         }
     }
 }
