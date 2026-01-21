@@ -2,7 +2,7 @@
     "welcome": "Bem-vindo à CCTAAL",
     "language": "Idioma",
     "nav": {
-        "what_we_do": "O que fazemos",
+        "what_we_do": "Arquiteturas de Atuação",
         "business_solutions": "Estruturas de Viabilização",
         "international_trade": "Viabilização de Projetos Internacionais",
         "tech_innovation": "Tecnologia & Inovação",
@@ -150,27 +150,27 @@
             "label": "A Instituição",
             "title": "História e Origem",
             "description_intro": "Em 2017, operações de cúpula entre continentes enfrentavam um risco estrutural: ausência de lastro institucional que protegesse ambas as partes simultaneamente.",
-            "description_context": "Tecnologia de ponta buscando escala no Agronegócio. Produção latino-americana buscando mercados globais. Capital imobilizado de nove dígitos, ciclos longos, exposição bilateral. A tecnologia chegava e não encontrava adoção sistêmica. A safra chegava ao porto e o comprador desistia.\n\nMesmo quando a transação se concretizava, o capital frequentemente envelhecia antes de gerar retorno. Tecnologia sem ecossistema de uso permanente vira entulho. Produção sem integração com mercados finais perde relevância.\n\nEstruturas comerciais convencionais não resolviam isso. Consultorias apontavam caminhos sem assumir risco. Acordos bilaterais garantiam transações sem estruturar permanência.",
-            "description_solution": "A CCTAAL foi estruturada em Brasília para operar como garantia institucional bilateral e arquitetura de permanência. O ecossistema onde ambas as partes atravessam dentro do mesmo lastro de Estado, protegidas pela mesma rede governamental transnacional, e onde o capital investido se integra desde a adoção tecnológica até mercados que absorvem volume sem volatilidade destrutiva.\n\nDesde então, atua onde operações de alta densidade entre Agronegócio e Tecnologia Avançada atravessam continentes e ciclos. Geramos oportunidades, estruturamos governança e organizamos o ambiente onde o investimento não perde relevância antes do retorno.\n\nA CCTAAL não indica o caminho. Atravessa junto."
+            "description_context": "Tecnologia de ponta buscando escala no Agronegócio latino-americano. Produtores da América Latina buscavam mercados globais de bilhões. Ambos operavam com capital imobilizado de nove dígitos, ciclos longos e exposição bilateral: a tecnologia poderia chegar e não encontrar adoção; a safra poderia chegar ao porto e o comprador desistir.\n\nMas o risco ia além da transação. Mesmo quando a operação se concretizava, o capital frequentemente envelhecia antes de gerar retorno. Tecnologia sem ecossistema de uso permanente vira entulho. Produção sem integração com mercados finais perde relevância.\n\nEstruturas comerciais convencionais não resolviam isso. Consultorias apontavam caminhos sem assumir risco. Acordos bilaterais garantiam transações sem estruturar permanência.",
+            "description_solution": "A CCTAAL foi estruturada em Brasília para operar como garantia institucional bilateral e arquitetura de permanência. O ecossistema onde ambas as partes atravessam dentro do mesmo lastro de Estado, protegidas pela mesma rede governamental transnacional, e onde o capital investido se integra desde a adoção tecnológica até mercados que absorvem volume sem volatilidade destrutiva.\n\nA equipe da CCTAAL acumula mais de três décadas de experiência em operações institucionais transnacionais. Sob gestão de Chang Yung Kong, foram estruturados mais de US$ 2 bilhões em negociações com instituições financeiras de Estado e organismos multilaterais, com formação executiva incluindo duas pós-graduações pelo MIT (Massachusetts Institute of Technology) e Harvard Business School.\n\nDesde 2017, a CCTAAL opera com essa base institucional consolidada. Rede governamental em três continentes. Acesso direto a ministros, governadores e tomadores de decisão de Estado. Operações que atravessam regimes regulatórios distintos sob blindagem institucional.\n\nA CCTAAL não indica o caminho. Atravessa junto."
         },
         "values": {
             "title": "Pilares Institucionais",
             "cards": {
                 "integration": {
-                    "title": "Lastro Institucional Bilateral",
-                    "text": "Governança de Estado que protege ambas as partes simultaneamente em operações transnacionais de alta densidade."
+                    "title": "Lastro Institucional e Governança",
+                    "text": "A CCTAAL atua como estrutura de garantia institucional, organizando operações sob referências claras de governança, legitimidade e previsibilidade.\n\nCriamos ambientes onde as partes operam com regras estáveis, responsabilidades definidas e alinhamento institucional de longo prazo. Operações que movimentam bilhões exigem mais do que confiança entre partes: exigem arquitetura de Estado onde direitos, obrigações e continuidade estão blindados por estruturas que atravessam mudanças políticas, volatilidades econômicas e ciclos de gestão.\n\nAtuamos como essa estrutura. Não como intermediários que facilitam acordos, mas como lastro institucional que sustenta operações ao longo de décadas. Quando capital de grande porte atravessa continentes e regimes regulatórios distintos, a governança deixa de ser procedimento e passa a ser fundamento de permanência."
                 },
                 "innovation": {
-                    "title": "Ecossistema de Permanência",
-                    "text": "Estrutura completa para que tecnologia e produção permaneçam relevantes ao longo de ciclos longos."
+                    "title": "Integração entre Tecnologia, Produção e Mercado",
+                    "text": "Inovação só gera valor quando encontra adoção real e demanda sustentável.\n\nA CCTAAL estrutura a convergência entre tecnologia avançada, produção agroindustrial e mercados finais, assegurando que capital, inovação e escala caminhem de forma integrada. Tecnologia de ponta que não encontra sistema de uso permanente vira capital imobilizado sem retorno. Produção em escala que não se integra a mercados absorvedores enfrenta volatilidade destrutiva.\n\nEstruturamos o ecossistema completo. Desde a decisão de investimento em tecnologia de fronteira até a absorção estável por mercados que operam em escala de bilhões. Capital, inovação e demanda convergem sob a mesma arquitetura institucional, protegidos contra envelhecimento sistêmico e rupturas de cadeia. O investimento não apenas acontece: permanece relevante ao longo de ciclos."
                 },
                 "transparency": {
-                    "title": "Rede de Cúpula Transnacional",
-                    "text": "Acesso a governadores, ministros e lideranças econômicas globais. Interlocução no nível que operações de bilhões exigem."
+                    "title": "Articulação Público-Privada e Transnacional",
+                    "text": "Operações internacionais exigem mais do que acordos comerciais.\n\nA CCTAAL articula empresas, investidores e organismos públicos em redes institucionais transnacionais, reduzindo assimetrias, riscos operacionais e rupturas regulatórias. Acesso direto a ministros, governadores e decisores de Estado em três continentes. Rede construída ao longo de três décadas de atuação em diplomacia econômica, não através de eventos comerciais, mas através de operações estruturadas que atravessaram crises, transições políticas e reestruturações econômicas.\n\nCapital de grande porte não opera com apresentações institucionais. Opera com acesso real a quem toma decisão de Estado. Operamos nesse nível. Articulação que não depende de ciclos políticos porque foi construída sobre credibilidade institucional acumulada, não sobre relações pessoais passageiras. Quando barreiras regulatórias ameaçam operações de bilhões, o acesso direto a quem estrutura política pública não é diferencial: é infraestrutura mínima de sobrevivência."
                 },
                 "diplomacy": {
-                    "title": "Inteligência de Risco em Tempo Real",
-                    "text": "Monitoramento estrutural de mercados, tecnologias e regulações. Decisão informada em ambiente de volatilidade."
+                    "title": "Permanência e Continuidade Operacional",
+                    "text": "Mais do que viabilizar transações, a CCTAAL constrói permanência.\n\nEstruturamos relações e ambientes institucionais que atravessam ciclos econômicos, tecnológicos e geopolíticos, protegendo o valor do investimento até o retorno. Operações de capital de longo prazo atravessam anos entre decisão e resultado. Durante esse intervalo, tecnologias envelhecem, regulações mudam, mercados se redefinem, governos transitam. Estruturas comerciais convencionais garantem a transação, mas não garantem que o capital permaneça relevante até gerar retorno.\n\nA CCTAAL estrutura permanência. Não como promessa, mas como arquitetura institucional testada ao longo de décadas operando sob volatilidade real. Experiência acumulada em mais de US$ 2 bilhões em operações transnacionais, atravessando crises financeiras, rupturas políticas e transições tecnológicas. O investimento que atravessa sob nossa governança não depende de cenário ideal: está blindado para operar mesmo quando o mundo se redefine ao redor."
                 }
             }
         },
@@ -276,37 +276,37 @@
             "button": "Aplicar-se para Análise"
         },
         "services": {
-            "import_export": {
-                "title": "Importação e Exportação",
-                "description": "Facilitamos operações de comércio exterior, garantindo eficiência, conformidade e segurança em todo o processo de entrada e saída de produtos nos mercados internacionais."
+            "risk_mgmt": {
+                "title": "Gestão de Risco e Inteligência de Commodities",
+                "description": "Parceria estratégica com a maior mesa de gestão de riscos de Commodities da América Latina. Estrutura que acompanha mercados globais diariamente, analisando variáveis que impactam formação de preços, projeções e volatilidade. Instrumentos sofisticados de proteção (hedge) através de contratos futuros, opções e derivativos de balcão (OTC) para operações onde capital imobilizado em commodities agrícolas atravessa meses entre decisão e execução."
             },
-            "customs": {
-                "title": "Gestão Aduaneira",
-                "description": "Coordenamos a liberação de mercadorias com total conformidade legal, minimizando riscos, atrasos e custos em todo o processo aduaneiro."
+            "transnational_gov": {
+                "title": "Estruturação de Governança Transnacional",
+                "description": "Blindagem institucional para operações que atravessam múltiplos regimes regulatórios. Articulação com ministérios, organismos multilaterais e instituições financeiras de Estado. Estruturação de compliance, governança contratual e inteligência regulatória para capital que opera sob jurisdições distintas."
             },
-            "advisory": {
-                "title": "Assessoria Internacional",
-                "description": "Consultoria especializada para empresas que buscam expandir globalmente, com foco em análise de mercado, estratégias de entrada e conformidade regulatória."
+            "market_intel": {
+                "title": "Inteligência de Mercado e Análise de Risco Sistêmico",
+                "description": "Monitoramento estrutural de volatilidade cambial, tensões geopolíticas e mudanças regulatórias que impactam operações transnacionais. Análise de cenários, mapeamento de contrapartes e identificação de janelas operacionais para decisão informada quando margem de erro é zero."
             },
-            "prospecting": {
-                "title": "Prospecção de Fornecedores",
-                "description": "Identificamos e qualificamos fornecedores internacionais confiáveis, assegurando qualidade, competitividade e transparência na negociação."
+            "public_private": {
+                "title": "Articulação Público-Privada",
+                "description": "Acesso direto a governadores, ministros e decisores de Estado em três continentes. Rede construída ao longo de três décadas para operações onde barreiras regulatórias, tensões diplomáticas ou rupturas políticas podem destruir bilhões em capital imobilizado."
             },
-            "missions": {
-                "title": "Missões e Feiras",
-                "description": "Promovemos e participamos de eventos globais que conectam empresas latino-americanas a novos mercados, estimulando inovação e parcerias."
+            "high_volume": {
+                "title": "Estruturação de Operações de Alto Volume",
+                "description": "Governança para operações transnacionais em commodities agrícolas (soja, milho, café, açúcar, proteínas) onde volumes atravessam milhões de toneladas e bilhões em capital. Lastro institucional bilateral que protege produtor e comprador simultaneamente desde origem até destino final."
             },
-            "visa": {
-                "title": "Visto de Negócios Chinês",
-                "description": "Facilitamos a obtenção de vistos para empresários em viagens à China, cuidando de toda a documentação e trâmites consulares com agilidade."
+            "tech_permanence": {
+                "title": "Permanência Tecnológica no Agronegócio",
+                "description": "Arquitetura de governança para investimentos em tecnologia de fronteira aplicada ao Agro (IA, robótica, automação). Estruturação para que capital imobilizado em inovação permaneça relevante ao longo de ciclos, protegido contra obsolescência sistêmica e rupturas de mercado."
             },
-            "consolidation": {
-                "title": "Consolidação de Carga",
-                "description": "Unificamos remessas de diferentes origens em uma única carga, reduzindo custos logísticos e tornando o transporte mais ágil e eficiente."
+            "financial_access": {
+                "title": "Acesso a Capital e Instrumentos Financeiros",
+                "description": "Articulação com instituições financeiras para crédito agrícola, veículos de investimento (FIAgro) e estruturação de capital de longo prazo. Operações onde financiamento atravessa safras, ciclos tecnológicos e regimes de juros voláteis exigem mais do que crédito: exigem arquitetura financeira blindada."
             },
-            "feasibility": {
-                "title": "Estudo de Viabilidade",
-                "description": "Analisamos a viabilidade técnica e financeira de importações, oferecendo dados precisos que orientam decisões seguras e estratégicas."
+            "operational_ecosystem": {
+                "title": "Ecossistema de Permanência Operacional",
+                "description": "Integração completa desde adoção tecnológica até absorção por mercados finais. Estrutura onde capital, inovação e demanda convergem sob mesma governança institucional. Operações que não apenas acontecem: permanecem relevantes ao longo de décadas."
             }
         }
     },
