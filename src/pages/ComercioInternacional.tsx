@@ -101,23 +101,7 @@ const ComercioInternacional = () => {
                     ))}
                 </div>
 
-                {/* Specific CTA for Trading Desk */}
-                <div className="mt-20 bg-[#2d1b12] rounded-sm p-12 text-center relative overflow-hidden">
-                    {/* Background Pattern */}
-                    <div className="absolute top-0 left-0 w-full h-full opacity-10" style={{ backgroundImage: 'radial-gradient(circle, #7c522e 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
 
-                    <div className="relative z-10">
-                        <h3 className="text-2xl md:text-3xl font-serif font-bold text-white mb-4">
-                            {t('trade_page.cta.title')}
-                        </h3>
-                        <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-                            {t('trade_page.cta.description')}
-                        </p>
-                        <button className="bg-[#7c522e] hover:bg-[#966236] text-white px-8 py-4 rounded-sm font-bold text-lg transition-all shadow-lg hover:shadow-[#7c522e]/30 hover:-translate-y-1">
-                            {t('trade_page.cta.button')}
-                        </button>
-                    </div>
-                </div>
             </div>
         </ServicePageTemplate>
     );

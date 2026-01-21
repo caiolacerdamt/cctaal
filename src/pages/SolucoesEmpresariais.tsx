@@ -1,4 +1,4 @@
-import { ArrowLeftRight, Stamp, Globe, Search, Plane, FileCheck, Package, TrendingUp } from 'lucide-react';
+import { TrendingUp, Globe, Activity, Users, Layers, Cpu, Landmark, RefreshCw } from 'lucide-react';
 import ServicePageTemplate from '../components/ServicePageTemplate';
 import businessHero from '../assets/business_solutions_hero_new.jpg';
 import { useTranslation } from 'react-i18next';
@@ -8,44 +8,44 @@ const SolucoesEmpresariais = () => {
 
     const services = [
         {
-            icon: ArrowLeftRight,
-            title: t('solutions_page.services.import_export.title'),
-            description: t('solutions_page.services.import_export.description')
-        },
-        {
-            icon: Stamp,
-            title: t('solutions_page.services.customs.title'),
-            description: t('solutions_page.services.customs.description')
+            icon: TrendingUp,
+            title: t('solutions_page.services.risk_mgmt.title'),
+            description: t('solutions_page.services.risk_mgmt.description')
         },
         {
             icon: Globe,
-            title: t('solutions_page.services.advisory.title'),
-            description: t('solutions_page.services.advisory.description')
+            title: t('solutions_page.services.transnational_gov.title'),
+            description: t('solutions_page.services.transnational_gov.description')
         },
         {
-            icon: Search,
-            title: t('solutions_page.services.prospecting.title'),
-            description: t('solutions_page.services.prospecting.description')
+            icon: Activity,
+            title: t('solutions_page.services.market_intel.title'),
+            description: t('solutions_page.services.market_intel.description')
         },
         {
-            icon: Plane,
-            title: t('solutions_page.services.missions.title'),
-            description: t('solutions_page.services.missions.description')
+            icon: Users,
+            title: t('solutions_page.services.public_private.title'),
+            description: t('solutions_page.services.public_private.description')
         },
         {
-            icon: FileCheck, // Vistos usually involve document checking
-            title: t('solutions_page.services.visa.title'),
-            description: t('solutions_page.services.visa.description')
+            icon: Layers,
+            title: t('solutions_page.services.high_volume.title'),
+            description: t('solutions_page.services.high_volume.description')
         },
         {
-            icon: Package,
-            title: t('solutions_page.services.consolidation.title'),
-            description: t('solutions_page.services.consolidation.description')
+            icon: Cpu,
+            title: t('solutions_page.services.tech_permanence.title'),
+            description: t('solutions_page.services.tech_permanence.description')
         },
         {
-            icon: TrendingUp,
-            title: t('solutions_page.services.feasibility.title'),
-            description: t('solutions_page.services.feasibility.description')
+            icon: Landmark,
+            title: t('solutions_page.services.financial_access.title'),
+            description: t('solutions_page.services.financial_access.description')
+        },
+        {
+            icon: RefreshCw,
+            title: t('solutions_page.services.operational_ecosystem.title'),
+            description: t('solutions_page.services.operational_ecosystem.description')
         }
     ];
 
@@ -82,7 +82,7 @@ const SolucoesEmpresariais = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     {services.map((service, index) => (
                         <div
                             key={index}
