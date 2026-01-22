@@ -102,7 +102,7 @@ const Chamber = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="flex flex-wrap justify-center gap-8">
                         {[
                             {
                                 name: "Chang Yung Kong",
@@ -139,9 +139,15 @@ const Chamber = () => {
                                 role: t('chamber.governance.roles.director_intl_relations'),
                                 desc: t('chamber.governance.descs.director_intl_relations'),
                                 image: liaImg
+                            },
+                            {
+                                name: "Rafael Varela",
+                                role: t('chamber.governance.roles.executive_member'),
+                                desc: t('chamber.governance.descs.executive_member'),
+                                image: "/images/team_member_new.png"
                             }
                         ].map((member, index) => (
-                            <div key={index} className="group">
+                            <div key={index} className="group w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.34rem)]">
                                 <div className="aspect-[3/4] bg-gray-100 rounded-sm mb-6 overflow-hidden relative">
                                     <img
                                         src={member.image}
@@ -151,7 +157,7 @@ const Chamber = () => {
                                 </div>
                                 <h3 className="text-xl font-serif font-bold text-[#1a1a1a]">{member.name}</h3>
                                 <p className="text-[#7c522e] text-xs font-bold uppercase tracking-wider mb-2">{member.role}</p>
-                                <p className="text-sm text-gray-500 font-light">
+                                <p className="text-sm text-gray-500 font-light text-justify">
                                     {member.desc}
                                 </p>
                             </div>

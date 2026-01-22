@@ -201,7 +201,8 @@
                 "director_relations": "Diretor de Relações Institucionais e Articulação Governamental",
                 "director_investments": "Diretora de Estruturação de Investimentos e Segurança Contratual",
                 "director_compliance": "Diretor de Compliance, Arbitragem e Resolução de Conflitos",
-                "director_intl_relations": "Diretora de Relações Institucionais Internacionais"
+                "director_intl_relations": "Diretora de Relações Institucionais Internacionais",
+                "executive_member": "Diretor de Inteligência Estratégica, Análise de Risco e Geopolítica"
             },
             "descs": {
                 "president": "Rede governamental consolidada com acesso direto a decisores de cúpula em Ásia, América Latina e África. Décadas estruturando operações transnacionais de alta densidade com bancos de desenvolvimento, fundos soberanos e ministérios de Estado em três continentes. Duas pós-graduações pelo MIT (Massachusetts Institute of Technology). Formação executiva por Harvard Business School.",
@@ -209,7 +210,8 @@
                 "director_relations": "Rede consolidada em Brasília construída ao longo de décadas de atuação institucional. Articulação direta com Banco Central do Brasil, ministérios e secretarias de Estado. Viabilização de RDE-IED e navegação do ambiente regulatório brasileiro para operações de IED de alta densidade.",
                 "director_investments": "Governança onde contratos são honrados e capital permanece protegido. Blindagem contratual para Investimento Estrangeiro Direto (IED) atravessando múltiplas jurisdições. Estruturação jurídica que protege capital de nove dígitos sob insegurança regulatória e volatilidade geopolítica.",
                 "director_compliance": "Mediação e resolução técnica de disputas onde bilhões estão em jogo. Câmara de Arbitragem especializada em commodities com laudos reconhecidos internacionalmente. Compliance transnacional atendendo Foreign Corrupt Practices Act (FCPA/EUA), Lei Geral de Proteção de Dados (LGPD/Brasil) e protocolos anticorrupção.",
-                "director_intl_relations": "Interface institucional entre capital estrangeiro e oportunidades de escala na América Latina. Coordenação com fundos soberanos, family offices e instituições financeiras globais. Articulação transnacional para operações de alta densidade na convergência entre Agronegócio e Tecnologia Avançada."
+                "director_intl_relations": "Interface institucional entre capital estrangeiro e oportunidades de escala na América Latina. Coordenação com fundos soberanos, family offices e instituições financeiras globais. Articulação transnacional para operações de alta densidade na convergência entre Agronegócio e Tecnologia Avançada.",
+                "executive_member": "Antecipação de cenários onde o erro custa capital, reputação e permanência. Inteligência aplicada à tomada de decisão em ambientes de instabilidade regulatória, geopolítica e macroeconômica. Modelagem de risco soberano, setorial e jurisdicional para operações de alta densidade. Monitoramento contínuo de variáveis políticas, cambiais, comerciais e institucionais que impactam investimentos transnacionais. Transformação de informação sensível em vantagem estratégica antes que o risco se materialize."
             }
         },
         "compliance": {
