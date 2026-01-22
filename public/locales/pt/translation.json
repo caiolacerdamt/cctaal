@@ -23,9 +23,13 @@
         "subtitle": "Tempo Real • Mercado & Logística",
         "live_data": "Live Data",
         "agricultural_commodities": "Commodities Agrícolas",
-        "soy": "SOJA (Futuro)",
-        "cbot_mar25": "CBOT • Mar/25",
-        "corn": "MILHO",
+        "soy": "SOJA (CBOT)",
+        "corn": "MILHO (B3)",
+        "ibovespa": "IBOVESPA (B3)",
+        "sp500": "S&P 500",
+        "bitcoin": "BITCOIN",
+        "boi": "BOI GORDO",
+        "fertilizer": "FERTILIZANTES (FOB)",
         "b3_spot": "B3 • Spot",
         "fx_macro": "Câmbio & Macro",
         "usd_brl": "USD / BRL",
@@ -162,8 +166,8 @@
             "label": "A Instituição",
             "title": "História e Origem",
             "description_intro": "Em 2017, operações de cúpula entre continentes enfrentavam um risco estrutural: ausência de lastro institucional que protegesse ambas as partes simultaneamente.",
-            "description_context": "Tecnologia de ponta buscando escala no Agronegócio latino-americano. Produtores da América Latina buscavam mercados globais de bilhões. Ambos operavam com capital imobilizado de nove dígitos, ciclos longos e exposição bilateral: a tecnologia poderia chegar e não encontrar adoção; a safra poderia chegar ao porto e o comprador desistir.\n\nMas o risco ia além da transação. Mesmo quando a operação se concretizava, o capital frequentemente envelhecia antes de gerar retorno. Tecnologia sem ecossistema de uso permanente vira entulho. Produção sem integração com mercados finais perde relevância.\n\nEstruturas comerciais convencionais não resolviam isso. Consultorias apontavam caminhos sem assumir risco. Acordos bilaterais garantiam transações sem estruturar permanência.",
-            "description_solution": "A CCTAAL foi estruturada em Brasília para operar como garantia institucional bilateral e arquitetura de permanência. O ecossistema onde ambas as partes atravessam dentro do mesmo lastro de Estado, protegidas pela mesma rede governamental transnacional, e onde o capital investido se integra desde a adoção tecnológica até mercados que absorvem volume sem volatilidade destrutiva.\n\nA equipe da CCTAAL acumula mais de três décadas de experiência em operações institucionais transnacionais. Sob gestão de Chang Yung Kong, foram estruturados mais de US$ 2 bilhões em negociações com instituições financeiras de Estado e organismos multilaterais, com formação executiva incluindo duas pós-graduações pelo MIT (Massachusetts Institute of Technology) e Harvard Business School.\n\nDesde 2017, a CCTAAL opera com essa base institucional consolidada. Rede governamental em três continentes. Acesso direto a ministros, governadores e tomadores de decisão de Estado. Operações que atravessam regimes regulatórios distintos sob blindagem institucional.\n\nA CCTAAL não indica o caminho. Atravessa junto."
+            "description_context": "Tecnologia de ponta buscando escala no Agronegócio latino-americano. Produtores da América Latina buscavam mercados globais de bilhões. Ambos operavam com capital imobilizado de nove dígitos, ciclos longos e exposição bilateral: a tecnologia poderia chegar e não encontrar adoção; a safra poderia chegar ao porto e o comprador desistir.\n\nMas o risco ia além da transação. Mesmo quando a operação se concretizava, o capital frequentemente envelhecia antes de gerar retorno. Tecnologia sem ecossistema de uso permanente vira entulho. Produção sem integração com mercados finais perde relevância.\n\nEstruturas comerciais convencionais não resolviam isso. Consultorias apontavam caminhos sem assumir risco. Acordos bilaterais garantiam transações sem estruturar permanência. A insegurança jurídica e a complexidade regulatória do ambiente de negócios brasileiro permaneciam como barreira intransponível para capital estrangeiro de grande porte.",
+            "description_solution": "A CCTAAL foi estruturada em Brasília para operar como garantia institucional bilateral e arquitetura de permanência. O ecossistema onde ambas as partes atravessam dentro do mesmo lastro de Estado, protegidas pela mesma rede governamental transnacional, e onde o capital investido se integra desde a adoção tecnológica até mercados que absorvem volume sem volatilidade destrutiva.\n\nA estrutura opera através de quatro pilares fundamentais: Segurança Jurídica e Resolução de Conflitos, garantindo que contratos sejam honrados e disputas resolvidas de forma célere e técnica; Mitigação de Riscos Financeiros e Operacionais, protegendo contra volatilidade cambial e de preços através de instrumentos como Escrow Account e Hedge; Garantia de Qualidade e Rastreabilidade, assegurando conformidade ESG e certificação de origem em parceria com SGS e Intertek; e Facilitação de Mercado e Entrada no Brasil, simplificando RDE-IED junto ao Banco Central e navegação do ambiente regulatório brasileiro.\n\nA CCTAAL reúne equipe com mais de três décadas de experiência acumulada em diplomacia econômica, estruturação de operações transnacionais e articulação com instituições financeiras de Estado. Formação executiva consolidada em instituições como MIT (Massachusetts Institute of Technology) e Harvard Business School. Histórico comprovado em negociações que atravessaram crises financeiras, transições políticas e reestruturações econômicas em três continentes. Mais de US$ 2 trilhões estruturados em operações com organismos multilaterais, bancos de desenvolvimento e ministérios de Estado ao longo de décadas operando sob volatilidade real.\n\nDesde 2017, a CCTAAL opera com essa base institucional consolidada. Rede governamental em três continentes. Acesso direto a ministros, governadores e tomadores de decisão de Estado. Câmara de Arbitragem especializada em commodities com laudos de validade internacional. Compliance transnacional atendendo FCPA (EUA) e LGPD (Brasil). Operações que atravessam regimes regulatórios distintos sob blindagem institucional.\n\nA CCTAAL não indica o caminho. Atravessa junto."
         },
         "values": {
             "title": "Pilares Institucionais",
@@ -199,12 +203,12 @@
                 "director_intl_relations": "Diretora de Relações Institucionais Internacionais"
             },
             "descs": {
-                "president": "Líder visionário com décadas de experiência em comércio Brasil-China.",
-                "director_ops": "Execução operacional e compliance.",
-                "director_relations": "Articulação com Banco Central e ministérios.",
-                "director_investments": "Estruturação de IED e blindagem contratual.",
-                "director_compliance": "Arbitragem, compliance transnacional e mediação.",
-                "director_intl_relations": "Coordenação com investidores estrangeiros."
+                "president": "Rede governamental consolidada com acesso direto a decisores de cúpula em Ásia, América Latina e África. Décadas estruturando operações transnacionais de alta densidade com bancos de desenvolvimento, fundos soberanos e ministérios de Estado em três continentes. Duas pós-graduações pelo MIT (Massachusetts Institute of Technology). Formação executiva por Harvard Business School.",
+                "director_ops": "Execução institucional onde margem de erro é zero. Governança operacional para capital de grande porte atravessando regimes regulatórios transnacionais. Estruturação de compliance que blinda operações de nove dígitos sob volatilidade real.",
+                "director_relations": "Rede consolidada em Brasília construída ao longo de décadas de atuação institucional. Articulação direta com Banco Central do Brasil, ministérios e secretarias de Estado. Viabilização de RDE-IED e navegação do ambiente regulatório brasileiro para operações de IED de alta densidade.",
+                "director_investments": "Governança onde contratos são honrados e capital permanece protegido. Blindagem contratual para Investimento Estrangeiro Direto (IED) atravessando múltiplas jurisdições. Estruturação jurídica que protege capital de nove dígitos sob insegurança regulatória e volatilidade geopolítica.",
+                "director_compliance": "Mediação e resolução técnica de disputas onde bilhões estão em jogo. Câmara de Arbitragem especializada em commodities com laudos reconhecidos internacionalmente. Compliance transnacional atendendo Foreign Corrupt Practices Act (FCPA/EUA), Lei Geral de Proteção de Dados (LGPD/Brasil) e protocolos anticorrupção.",
+                "director_intl_relations": "Interface institucional entre capital estrangeiro e oportunidades de escala na América Latina. Coordenação com fundos soberanos, family offices e instituições financeiras globais. Articulação transnacional para operações de alta densidade na convergência entre Agronegócio e Tecnologia Avançada."
             }
         },
         "compliance": {
@@ -229,17 +233,25 @@
         "stats": {
             "title": "Indicadores Estruturais",
             "subtitle": "Dados macroeconômicos que fundamentam operações de capital de grande porte na convergência entre Agronegócio e Tecnologia Avançada.",
-            "gdp": "PIB Estimado (2024)",
-            "trillions": "R$ 11,8 trilhões",
-            "growth": "Crescimento Q1 2025",
+            "gdp": "PIB Consolidado (2025)",
+            "gdp_value": "R$ 11.9 trilhões",
+            "gdp_trend": "+2.9%",
+            "growth": "Crescimento Q4 2025",
+            "growth_value": "+1.8%",
             "driven_by": "impulsionado pelo Agro",
-            "exports": "Exportações Agro",
+            "exports": "Exportações Agro (2025)",
+            "exports_value": "US$ 182.0 bi",
             "of_total": "49% do total exportado",
             "share": "Participação no PIB",
+            "share_value": "24.5%",
             "agribusiness": "Agronegócio",
             "positive": "Positivo",
             "record": "Recorde",
             "stable": "Estável"
+        },
+        "chart": {
+            "current_quote": "Cotação Atual",
+            "pair": "SOJA/USD"
         },
         "analysis": {
             "title": "Vantagens Estruturais Não Replicáveis",
@@ -269,7 +281,7 @@
         },
         "overview": {
             "title": "O Ecossistema Institucional",
-            "text": "A CCTAAL estrutura governança institucional para operações de cúpula na convergência entre Agronegócio e Tecnologia Avançada.\n\nCapital de nove dígitos atravessando continentes, ciclos tecnológicos longos e regimes regulatórios distintos não opera com modelagem de negócios convencional. Exige lastro de Estado, inteligência de risco sistêmico e ecossistema de permanência onde tecnologia e produção permanecem relevantes ao longo do tempo.\n\nEstruturamos o ambiente onde ambas as partes (fornecedores de tecnologia de ponta e operadores de Agronegócio em escala) atravessam dentro da mesma blindagem institucional, protegidas pela mesma rede governamental transnacional, sem assumir risco de contraparte isoladamente.\n\nOperamos através de quatro pilares estruturais: Lastro Institucional Bilateral, que garante proteção simultânea de ambas as partes; Ecossistema de Permanência, que mantém investimentos relevantes ao longo de ciclos; Rede de Cúpula Transnacional, com acesso direto a governadores e lideranças econômicas globais; e Inteligência de Risco em Tempo Real, para decisão informada sob volatilidade. Cada operação é estruturada dentro desse sistema completo, não como transação isolada."
+            "text": "A CCTAAL estrutura governança institucional para operações de cúpula na convergência entre Agronegócio e Tecnologia Avançada.\n\nCapital de nove dígitos atravessando continentes, ciclos tecnológicos longos e regimes regulatórios distintos não opera com modelagem de negócios convencional. Exige lastro de Estado, inteligência de risco sistêmico e ecossistema de permanência onde tecnologia e produção permanecem relevantes ao longo do tempo.\n\nO principal desafio para capital estrangeiro de grande porte no Brasil é insegurança jurídica e complexidade regulatória. Consultorias apontam caminhos sem assumir risco. Acordos bilaterais garantem transações sem estruturar permanência. Volatilidade cambial e de preços permanece como ameaça não mitigada. Estruturas convencionais não resolvem isso.\n\nA CCTAAL estrutura o ambiente onde ambas as partes atravessam dentro da mesma blindagem institucional, protegidas pela mesma rede governamental transnacional, sem risco de contraparte isolado. Fornecedores de tecnologia de ponta e operadores de Agronegócio em escala operam sob o mesmo lastro de Estado.\n\nA estrutura elimina camadas críticas de risco através de quatro pilares operacionais.\n\nSegurança Jurídica e Resolução de Conflitos. Câmara de Arbitragem especializada em commodities com laudos de validade internacional. Mediação e conciliação para resolução célere de disputas. Due Diligence e Know Your Partner rigoroso: relatórios sobre saúde financeira, histórico de litígios, conformidade regulatória. Compliance transnacional atendendo FCPA (EUA) e LGPD (Brasil). Contratos honrados. Disputas resolvidas tecnicamente.\n\nMitigação de Riscos Financeiros e Operacionais. Escrow Account operada pela CCTAAL como agente neutro. Pagamento liberado ao vendedor somente após cumprimento de todas as condições contratuais: inspeção, embarque, qualidade verificada. Hedge cambial através de travas que fixam taxa de conversão, eliminando volatilidade USD/BRL. Hedge de preços conectado a CME Group e B3, protegendo preço futuro da commodity. Seguro de Crédito à Exportação contra risco de não-pagamento por insolvência ou eventos políticos. Parceria com a maior mesa de gestão de riscos de commodities da América Latina.\n\nGarantia de Qualidade e Rastreabilidade. Certificação e inspeção pré-embarque em parceria com SGS e Intertek. Verificação independente de qualidade e quantidade no local de origem. Certificação de origem para cumprimento de acordos comerciais. Monitoramento por satélite comprovando produção não ligada a desmatamento ilegal ou conflitos fundiários. Auditorias ESG verificando condições de trabalho e práticas ambientais. Conformidade que protege reputação e permite acesso a mercados premium.\n\nFacilitação de Mercado e Entrada no Brasil. Suporte ao RDE-IED (Registro Declaratório Eletrônico de Investimento Estrangeiro Direto) junto ao Banco Central, obrigatório para formalização de capital estrangeiro no país. Apoio em vistos de investidor e registros em Receita Federal e Juntas Comerciais. Relatórios estratégicos sobre mercado de commodities, tendências de preços, mudanças regulatórias, projeções de safra. Matchmaking curado: investidor estrangeiro conectado a produtores e tradings pré-qualificados pela CCTAAL, minimizando risco de parceiros inadequados.\n\nCada operação é estruturada dentro desse sistema completo. Não como transação isolada. Lastro institucional bilateral protege ambas as partes simultaneamente. Ecossistema de permanência mantém investimentos relevantes ao longo de ciclos. Rede de cúpula transnacional oferece acesso direto a governadores e lideranças econômicas em três continentes. Inteligência de risco em tempo real permite decisão informada sob volatilidade.\n\nA CCTAAL não indica o caminho. Atravessa junto."
         },
         "pillars": {
             "title": "Pilares de Atuação",

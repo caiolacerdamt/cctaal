@@ -23,9 +23,13 @@
         "subtitle": "Real Time • Market & Logistics",
         "live_data": "Live Data",
         "agricultural_commodities": "Agricultural Commodities",
-        "soy": "SOYBEAN (Future)",
-        "cbot_mar25": "CBOT • Mar/25",
-        "corn": "CORN",
+        "soy": "SOYBEAN (CBOT)",
+        "corn": "CORN (B3)",
+        "ibovespa": "IBOVESPA (B3)",
+        "sp500": "S&P 500",
+        "bitcoin": "BITCOIN",
+        "boi": "CATTLE",
+        "fertilizer": "FERTILIZERS (FOB)",
         "b3_spot": "B3 • Spot",
         "fx_macro": "FX & Macro",
         "usd_brl": "USD / BRL",
@@ -161,9 +165,9 @@
         "hero": {
             "label": "The Institution",
             "title": "History and Origin",
-            "description_intro": "In 2017, high-level operations between continents faced a structural risk: the absence of institutional backing to protect both parties simultaneously.",
-            "description_context": "Cutting-edge technology seeking scale in Latin American Agribusiness. Latin American producers seeking billion-dollar global markets. Both operated with immobilized nine-digit capital, long cycles, and bilateral exposure: technology could arrive and find no adoption; the harvest could arrive at the port and the buyer back out.\n\nBut the risk went beyond the transaction. Even when the operation materialized, capital often aged before generating returns. Technology without a permanent usage ecosystem becomes rubble. Production without integration with final markets loses relevance.\n\nConventional commercial structures did not solve this. Consultancies pointed out paths without assuming risk. Bilateral agreements guaranteed transactions without structuring permanence.",
-            "description_solution": "CCTAAL was structured in Brasília to operate as a bilateral institutional guarantee and permanence architecture. The ecosystem where both parties pass through within the same State backing, protected by the same transnational governmental network, and where invested capital integrates from technological adoption to markets that absorb volume without destructive volatility.\n\nThe CCTAAL team accumulates over three decades of experience in transnational institutional operations. Under the management of Chang Yung Kong, over US$ 2 billion in negotiations were structured with State financial institutions and multilateral organizations, with executive education including two post-graduations from MIT (Massachusetts Institute of Technology) and Harvard Business School.\n\nSince 2017, CCTAAL has operated with this consolidated institutional base. Governmental network on three continents. Direct access to ministers, governors, and State decision-makers. Operations traversing distinct regulatory regimes under institutional shielding.\n\nCCTAAL does not point the way. It traverses it together."
+            "description_intro": "In 2017, summit operations between continents faced a structural risk: the absence of institutional backing to protect both parties simultaneously.",
+            "description_context": "Cutting-edge technology seeking scale in Latin American Agribusiness. Latin American producers seeking billion-dollar global markets. Both operated with immobilized nine-digit capital, long cycles, and bilateral exposure: technology could arrive and find no adoption; the harvest could arrive at the port and the buyer back out.\n\nBut the risk went beyond the transaction. Even when the operation materialized, capital often aged before generating returns. Technology without a permanent usage ecosystem becomes rubble. Production without integration with final markets loses relevance.\n\nConventional commercial structures did not solve this. Consultancies pointed out paths without assuming risk. Bilateral agreements guaranteed transactions without structuring permanence. Legal insecurity and regulatory complexity in the Brazilian business environment remained an insurmountable barrier for large-scale foreign capital.",
+            "description_solution": "CCTAAL was structured in Brasília to operate as a bilateral institutional guarantee and permanence architecture. The ecosystem where both parties pass through within the same State backing, protected by the same transnational governmental network, and where invested capital integrates from technological adoption to markets that absorb volume without destructive volatility.\n\nThe structure operates through four fundamental pillars: Legal Security and Conflict Resolution, ensuring contracts are honored and disputes resolved swiftly and technically; Mitigation of Financial and Operational Risks, protecting against exchange and price volatility through instruments like Escrow Account and Hedging; Quality Assurance and Traceability, ensuring ESG compliance and origin certification in partnership with SGS and Intertek; and Market Facilitation and Entry into Brazil, simplifying RDE-IED with the Central Bank and navigating the Brazilian regulatory environment.\n\nCCTAAL brings together a team with over three decades of accumulated experience in economic diplomacy, structuring transnational operations, and articulating with State financial institutions. Consolidated executive education at institutions like MIT (Massachusetts Institute of Technology) and Harvard Business School. Proven track record in negotiations that have weathered financial crises, political transitions, and economic restructurings on three continents. Over US$ 2 trillion structured in operations with multilateral organizations, development banks, and State ministries over decades operating under real volatility.\n\nSince 2017, CCTAAL has operated with this consolidated institutional base. Governmental network on three continents. Direct access to ministers, governors, and State decision-makers. Commodities Arbitration Chamber with internationally valid awards. Transnational compliance meeting FCPA (USA) and LGPD (Brazil). Operations traversing distinct regulatory regimes under institutional shielding.\n\nCCTAAL does not point the way. It crosses together."
         },
         "values": {
             "title": "Institutional Pillars",
@@ -192,19 +196,19 @@
             "subtitle": "Leaders with extensive experience in foreign trade, diplomacy, and agribusiness.",
             "roles": {
                 "president": "President & Founder",
-                "director_ops": "Director General of Operations and Institutional Governance",
-                "director_relations": "Director of Institutional Relations and Government Affairs",
+                "director_ops": "Director-General of Operations and Institutional Governance",
+                "director_relations": "Director of Institutional Relations and Government Liaison",
                 "director_investments": "Director of Investment Structuring and Contractual Security",
                 "director_compliance": "Director of Compliance, Arbitration, and Conflict Resolution",
                 "director_intl_relations": "Director of International Institutional Relations"
             },
             "descs": {
-                "president": "Visionary leader with decades of experience in Brazil-China trade.",
-                "director_ops": "Operational execution and compliance.",
-                "director_relations": "Liaison with Central Bank and ministries.",
-                "director_investments": "FDI structuring and contractual shielding.",
-                "director_compliance": "Arbitration, transnational compliance, and mediation.",
-                "director_intl_relations": "Coordination with foreign investors."
+                "president": "Consolidated government network with direct access to top decision-makers in Asia, Latin America, and Africa. Decades of structuring high-density transnational operations with development banks, sovereign funds, and State ministries across three continents. Two postgraduate degrees from MIT (Massachusetts Institute of Technology). Executive education from Harvard Business School.",
+                "director_ops": "Institutional execution where the margin for error is zero. Operational governance for large-scale capital traversing transnational regulatory regimes. Compliance structuring that shields nine-digit operations under real volatility.",
+                "director_relations": "Consolidated network in Brasília built over decades of institutional activity. Direct liaison with the Central Bank of Brazil, ministries, and State secretariats. Facilitation of RDE-IED and navigation of the Brazilian regulatory environment for high-density FDI operations.",
+                "director_investments": "Governance where contracts are honored and capital remains protected. Contractual shielding for Foreign Direct Investment (FDI) traversing multiple jurisdictions. Legal structuring that protects nine-digit capital under regulatory insecurity and geopolitical volatility.",
+                "director_compliance": "Technical mediation and dispute resolution where billions are at stake. Arbitration Chamber specializing in commodities with internationally recognized awards. Transnational compliance meeting the Foreign Corrupt Practices Act (FCPA/USA), General Data Protection Law (LGPD/Brazil), and anti-corruption protocols.",
+                "director_intl_relations": "Institutional interface between foreign capital and scale opportunities in Latin America. Coordination with sovereign funds, family offices, and global financial institutions. Transnational liaison for high-density operations at the convergence of Agribusiness and Advanced Technology."
             }
         },
         "compliance": {
@@ -229,17 +233,25 @@
         "stats": {
             "title": "Structural Indicators",
             "subtitle": "Macroeconomic data grounding large-scale capital operations at the convergence of Agribusiness and Advanced Technology.",
-            "gdp": "GDP Estimate (2024)",
-            "trillions": "R$ 11.8 trillion",
-            "growth": "Growth Q1 2025",
+            "gdp": "GDP Consolidated (2025)",
+            "gdp_value": "R$ 11.9 trillion",
+            "gdp_trend": "+2.9%",
+            "growth": "Growth Q4 2025",
+            "growth_value": "+1.8%",
             "driven_by": "driven by Agro",
-            "exports": "Agro Exports",
+            "exports": "Agro Exports (2025)",
+            "exports_value": "US$ 182.0 bn",
             "of_total": "49% of total exports",
             "share": "Share in GDP",
+            "share_value": "24.5%",
             "agribusiness": "Agribusiness",
             "positive": "Positive",
             "record": "Record",
             "stable": "Stable"
+        },
+        "chart": {
+            "current_quote": "Current Quote",
+            "pair": "SOYBEAN/USD"
         },
         "analysis": {
             "title": "Non-Replicable Structural Advantages",
@@ -269,7 +281,7 @@
         },
         "overview": {
             "title": "The Institutional Ecosystem",
-            "text": "CCTAAL structures institutional governance for summit operations at the convergence of Agribusiness and Advanced Technology.\n\nNine-digit capital crossing continents, long technological cycles, and distinct regulatory regimes do not operate with conventional business modeling. It requires State backing, systemic risk intelligence, and an ecosystem of permanence where technology and production remain relevant over time.\n\nWe structure the environment where both parties (cutting-edge technology providers and large-scale Agribusiness operators) traverse within the same institutional shielding, protected by the same transnational governmental network, without assuming counterparty risk in isolation.\n\nWe operate through four structural pillars: Bilateral Institutional Backing, which ensures simultaneous protection of both parties; Ecosystem of Permanence, which maintains relevant investments over cycles; Transnational Summit Network, with direct access to governors and global economic leaders; and Real-Time Risk Intelligence, for informed decision-making under volatility. Each operation is structured within this complete system, not as an isolated transaction."
+            "text": "CCTAAL structures institutional governance for summit operations at the convergence of Agribusiness and Advanced Technology.\n\nNine-figure capital crossing continents, long technological cycles, and distinct regulatory regimes do not operate with conventional business modeling. It demands State backing, systemic risk intelligence, and an ecosystem of permanence where technology and production remain relevant over time.\n\nThe main challenge for large-scale foreign capital in Brazil is legal insecurity and regulatory complexity. Consultancies point out paths without assuming risk. Bilateral agreements guarantee transactions without structuring permanence. Exchange rate and price volatility remain unmitigated threats. Conventional structures do not solve this.\n\nCCTAAL structures the environment where both parties pass through within the same institutional shield, protected by the same transnational governmental network, without isolated counterparty risk. Cutting-edge technology suppliers and large-scale Agribusiness operators operate under the same State backing.\n\nThe structure eliminates critical layers of risk through four operational pillars.\n\nLegal Security and Conflict Resolution. Arbitration Chamber specialized in commodities with internationally valid awards. Mediation and conciliation for swift dispute resolution. Rigorous Due Diligence and Know Your Partner: reports on financial health, litigation history, regulatory compliance. Transnational compliance meeting FCPA (USA) and LGPD (Brazil). Honors contracts. Disputes resolved technically.\n\nFinancial and Operational Risk Mitigation. Escrow Account operated by CCTAAL as a neutral agent. Payment released to the seller only after fulfillment of all contractual conditions: inspection, shipment, verified quality. FX hedging through locks that fix conversion rates, eliminating USD/BRL volatility. Price hedging connected to CME Group and B3, protecting future commodity prices. Export Credit Insurance against non-payment risk due to insolvency or political events. Partnership with the largest commodity risk management desk in Latin America.\n\nQuality Assurance and Traceability. Certification and pre-shipment inspection in partnership with SGS and Intertek. Independent verification of quality and quantity at origin. Certificate of origin for compliance with trade agreements. Satellite monitoring proving production not linked to illegal deforestation or land conflicts. ESG audits verifying working conditions and environmental practices. Compliance that protects reputation and allows access to premium markets.\n\nMarket Facilitation and Entry into Brazil. Support for RDE-IED (Electronic Declaratory Registry of Foreign Direct Investment) with the Central Bank, mandatory for formalizing foreign capital in the country. Support for investor visas and registrations with the Federal Revenue Service and Trade Boards. Strategic reports on the commodities market, price trends, regulatory changes, crop projections. Curated matchmaking: foreign investor connected to producers and tradings pre-qualified by CCTAAL, minimizing risk of inadequate partners.\n\nEach operation is structured within this complete system. Not as an isolated transaction. Bilateral institutional backing protects both parties simultaneously. Ecosystem of permanence keeps investments relevant throughout cycles. Transnational summit network offers direct access to governors and economic leaders on three continents. Real-time risk intelligence allows informed decision-making under volatility.\n\nCCTAAL does not point the way. It crosses together."
         },
         "pillars": {
             "title": "Pillars of Action",
