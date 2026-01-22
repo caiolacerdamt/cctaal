@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { Globe, Scale, Users, Award } from 'lucide-react';
 
-import elberImg from '../assets/team/elber_guimaraes_v2.png';
+import elberImg from '../assets/team/elber_guimaraes.jpg';
 import fernandoImg from '../assets/team/fernando_santos.png';
-import raquelImg from '../assets/team/raquel_lacerda.png';
+import raquelImg from '../assets/team/raquel_lacerda.jpg';
 import ueltonImg from '../assets/team/uelton_lacerda.png';
 import liaImg from '../assets/team/lia_tian.png';
+import ricardoImg from '../assets/team/ricardo_profile.png';
 
 const Chamber = () => {
     const { t } = useTranslation();
@@ -144,7 +145,7 @@ const Chamber = () => {
                                 name: "Rafael Varela",
                                 role: t('chamber.governance.roles.executive_member'),
                                 desc: t('chamber.governance.descs.executive_member'),
-                                image: "/images/team_member_new.png"
+                                image: ricardoImg
                             }
                         ].map((member, index) => (
                             <div key={index} className="group w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.34rem)]">

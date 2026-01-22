@@ -21,7 +21,7 @@ export interface NewsTranslation {
 export const newsData: NewsItem[] = [
   {
     id: "soja-recorde-china-2026",
-    image: "/images/news/soja-recorde.png",
+    image: "/images/news/soja-recorde.jpg",
     date: "20 Jan, 2026",
     sourceUrl: "https://forbes.com.br/forbesagro/2026/01/brasil-detem-736-do-mercado-de-soja-na-china-em-ano-de-recorde-historico/",
     translations: {
@@ -109,7 +109,7 @@ export const newsData: NewsItem[] = [
   },
   {
     id: "agrishow-2026-ingressos",
-    image: "/images/news/agrishow-2026.png",
+    image: "/images/news/agrishow-2026.jpg",
     date: "20 Jan, 2026",
     sourceUrl: "https://visaoagro.com.br/agrishow-inicia-venda-de-ingressos-para-a-edicao-de-2026/",
     translations: {
@@ -153,7 +153,7 @@ export const newsData: NewsItem[] = [
   },
   {
     id: "safra-soja-25-26-avanco",
-    image: "/images/news/safra-soja.png",
+    image: "/images/news/safra-soja.jpg",
     date: "12 Jan, 2026",
     sourceUrl: "https://www.agrolink.com.br/noticias/safra-de-soja-2025-26-caminha-para-novo-recorde_509616.html",
     translations: {
@@ -197,7 +197,7 @@ export const newsData: NewsItem[] = [
   },
   {
     id: "usda-wasde-jan-2026",
-    image: "/images/news/usda-soybean.png",
+    image: "/images/news/usda-soybean.jpg",
     date: "10 Jan, 2026",
     sourceUrl: "https://br.tradingview.com/news/barchart:1e408174f094b:0-soybeans-fall-on-monday-as-usda-raises-carryout/",
     translations: {
@@ -241,7 +241,7 @@ export const newsData: NewsItem[] = [
   },
   {
     id: "china-eua-soja-2026",
-    image: "/images/news/us-china-trade.png",
+    image: "/images/news/us-china-trade.jpg",
     date: "19 Jan, 2026",
     sourceUrl: "https://exame.com/agro/eua-diz-que-china-vai-comprar-25-milhoes-de-toneladas-de-soja-em-2026/",
     translations: {
@@ -285,7 +285,7 @@ export const newsData: NewsItem[] = [
   },
   {
     id: "gacc-china-importacao-carne-2026",
-    image: "/images/news/gacc-meat.png",
+    image: "/images/news/gacc-meat.jpg",
     date: "13 Jan, 2026",
     sourceUrl: "https://valorinternational.globo.com/business/news/2026/01/13/meatpackers-may-curb-output-after-china-sets-import-quota.ghtml",
     translations: {
@@ -329,7 +329,7 @@ export const newsData: NewsItem[] = [
   },
   {
     id: "john-deere-autonomo-2026",
-    image: "/images/news/john-deere-autonomous.png",
+    image: "/images/news/john-deere-autonomous.jpg",
     date: "07 Jan, 2026",
     sourceUrl: "https://www.dtnpf.com/agriculture/web/ag/equipment/article/2026/01/07/deere-displays-technology-loaded-x9",
     translations: {
