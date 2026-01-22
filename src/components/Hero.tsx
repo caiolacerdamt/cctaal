@@ -1,14 +1,35 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Leaf } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import { useIsMobile } from '../hooks/useIsMobile';
+import leafComma from '../assets/leaf-comma.png';
 
 const Hero = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [currentIndex, setCurrentIndex] = useState(0);
     const isMobile = useIsMobile();
+
+    const getLeafTransform = () => {
+        const lang = i18n.language;
+        let ty = 13;
+        let tx = -2;
+        let r = -15;
+
+        // Customizations requested by the user:
+        // - English Mobile: Slightly higher
+        if (lang === 'en' && isMobile) {
+            ty = 10;
+        }
+        // - Chinese PC: Slightly lower and more to the right
+        else if (lang === 'zh' && !isMobile) {
+            ty = 20;
+            tx = 4;
+        }
+
+        return `translateY(${ty}px) translateX(${tx}px) rotate(${r}deg)`;
+    };
 
     const heroImages = [
         {
@@ -17,7 +38,7 @@ const Hero = () => {
         },
         {
             desktop: "/hero-carousel-replacement.jpg",
-            mobile: "/hero-mobile-logistics.png"
+            mobile: "/hero-mobile-logistics-v3.jpg"
         },
         {
             desktop: "/hero-carousel-3-v2.jpg",
@@ -46,7 +67,9 @@ const Hero = () => {
                 <motion.div
                     key={currentIndex}
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
+                    animate={{
+                        opacity: 1
+                    }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 1.5, ease: "easeInOut" }}
                     className="absolute inset-0 z-0 bg-cover bg-center"
@@ -61,8 +84,23 @@ const Hero = () => {
             {/* Fixed Content */}
             <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
                 <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight tracking-tight drop-shadow-lg">
-                    <Trans i18nKey="hero.title" components={{ 0: <br /> }}>
-                        A Ponte entre Ciclos Históricos <br />e Capacidades Produtivas
+                    <Trans
+                        i18nKey="hero.title"
+                        components={{
+                            1: (
+                                <img
+                                    src={leafComma}
+                                    alt=","
+                                    className="inline-block w-4 h-4 sm:w-5 sm:h-5 md:w-7 md:h-7 -my-2 -ml-[0.1em] mr-[0.1em] object-contain"
+                                    style={{
+                                        filter: 'brightness(0) invert(1)',
+                                        transform: getLeafTransform()
+                                    }}
+                                />
+                            )
+                        }}
+                    >
+                        Câmara de Comércio<Leaf /> Tecnologia e Agro da América Latina.
                     </Trans>
                 </h1>
                 <p className="text-lg sm:text-xl md:text-2xl font-light mb-10 max-w-3xl mx-auto text-gray-100 drop-shadow-md">

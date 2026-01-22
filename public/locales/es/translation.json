@@ -14,7 +14,7 @@
         "become_member": "Aplicar para Análisis"
     },
     "hero": {
-        "title": "Cámara de Comercio, Tecnología y Agro de América Latina.",
+        "title": "Cámara de Comercio<1/> Tecnología y Agro de América Latina.",
         "subtitle": "Infraestructura Institucional para Operaciones de Alta Densidad entre Agronegocios y Tecnología Avanzada.",
         "cta_manifesto": "Leer el Manifiesto"
     },
@@ -191,16 +191,20 @@
             "title": "Gobernanza Corporativa",
             "subtitle": "Líderes con amplia experiencia en comercio exterior, diplomacia y agronegocio.",
             "roles": {
-                "president": "Presidente",
-                "vice_president_1": "Primer Vicepresidente",
-                "vice_president_hon": "Vicepresidencia Honoraria",
-                "secretary_general": "Secretario General"
+                "president": "Presidente y Fundador",
+                "director_ops": "Director General de Operaciones y Gobernanza Institucional",
+                "director_relations": "Director de Relaciones Institucionales y Articulación Gubernamental",
+                "director_investments": "Directora de Estructuración de Inversiones y Seguridad Contractual",
+                "director_compliance": "Director de Cumplimiento, Arbitraje y Resolución de Conflictos",
+                "director_intl_relations": "Directora de Relaciones Institucionales Internacionales"
             },
             "descs": {
-                "president": "Líder en Diplomacia Económica e Integración Internacional.",
-                "vice_president_1": "Especialista en comercio exterior e innovación sostenible.",
-                "vice_president_hon": "Empresario con experiencia en cooperación internacional.",
-                "secretary_general": "Profesional en gobernanza y articulación institucional."
+                "president": "Líder visionario con décadas de experiencia en el comercio Brasil-China.",
+                "director_ops": "Ejecución operativa y cumplimiento.",
+                "director_relations": "Vinculación con Banco Central y ministerios.",
+                "director_investments": "Estructuración de IED y blindaje contractual.",
+                "director_compliance": "Arbitraje, cumplimiento transnacional y mediación.",
+                "director_intl_relations": "Coordinación con inversores extranjeros."
             }
         },
         "compliance": {
@@ -493,7 +497,7 @@
                     "description": "Presentación de perfil institucional. Validación de capacidad operativa y alineación estratégica. Acreditación concedida mediante aprobación técnica. Plazo de respuesta: hasta 15 días hábiles."
                 }
             },
-            "address": "Av. Brigadeiro Faria Lima, 3477 - São Paulo, Brasil"
+            "address": "Brasília - DF, Brasil"
         },
         "tabs": {
             "membership": "Ser Miembro",

@@ -1,6 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { Globe, Scale, Users, CheckCircle, Award } from 'lucide-react';
 
+import elberImg from '../assets/team/elber_guimaraes.png';
+import fernandoImg from '../assets/team/fernando_santos.png';
+import raquelImg from '../assets/team/raquel_lacerda.jpg';
+import ueltonImg from '../assets/team/uelton_lacerda.jpg';
+import liaImg from '../assets/team/lia_tian.png';
+
 const Chamber = () => {
     const { t } = useTranslation();
     return (
@@ -96,7 +102,7 @@ const Chamber = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
                             {
                                 name: "Chang Yung Kong",
@@ -105,22 +111,34 @@ const Chamber = () => {
                                 image: "/chang-profile.jpg"
                             },
                             {
-                                name: "Mariana Alves",
-                                role: t('chamber.governance.roles.vice_president_1'),
-                                desc: t('chamber.governance.descs.vice_president_1'),
-                                image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop"
+                                name: "Elber Guimarães",
+                                role: t('chamber.governance.roles.director_ops'),
+                                desc: t('chamber.governance.descs.director_ops'),
+                                image: elberImg
                             },
                             {
-                                name: "Eduardo Farias",
-                                role: t('chamber.governance.roles.vice_president_hon'),
-                                desc: t('chamber.governance.descs.vice_president_hon'),
-                                image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop"
+                                name: "Fernando dos Santos",
+                                role: t('chamber.governance.roles.director_relations'),
+                                desc: t('chamber.governance.descs.director_relations'),
+                                image: fernandoImg
                             },
                             {
-                                name: "Ricardo Tanaka",
-                                role: t('chamber.governance.roles.secretary_general'),
-                                desc: t('chamber.governance.descs.secretary_general'),
-                                image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop"
+                                name: "Raquel Lacerda",
+                                role: t('chamber.governance.roles.director_investments'),
+                                desc: t('chamber.governance.descs.director_investments'),
+                                image: raquelImg
+                            },
+                            {
+                                name: "Uelton Lacerda",
+                                role: t('chamber.governance.roles.director_compliance'),
+                                desc: t('chamber.governance.descs.director_compliance'),
+                                image: ueltonImg
+                            },
+                            {
+                                name: "Lia Tian",
+                                role: t('chamber.governance.roles.director_intl_relations'),
+                                desc: t('chamber.governance.descs.director_intl_relations'),
+                                image: liaImg
                             }
                         ].map((member, index) => (
                             <div key={index} className="group">

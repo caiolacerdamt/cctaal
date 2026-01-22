@@ -14,7 +14,7 @@
         "become_member": "Apply for Analysis"
     },
     "hero": {
-        "title": "Chamber of Commerce, Technology and Agro of Latin America.",
+        "title": "Chamber of Commerce<1/> Technology and Agro of Latin America.",
         "subtitle": "Institutional Infrastructure for High-Density Operations between Agribusiness and Advanced Technology.",
         "cta_manifesto": "Read the Manifesto"
     },
@@ -191,16 +191,20 @@
             "title": "Corporate Governance",
             "subtitle": "Leaders with extensive experience in foreign trade, diplomacy, and agribusiness.",
             "roles": {
-                "president": "President",
-                "vice_president_1": "First Vice President",
-                "vice_president_hon": "Honorary Vice Presidency",
-                "secretary_general": "Secretary General"
+                "president": "President & Founder",
+                "director_ops": "Director General of Operations and Institutional Governance",
+                "director_relations": "Director of Institutional Relations and Government Affairs",
+                "director_investments": "Director of Investment Structuring and Contractual Security",
+                "director_compliance": "Director of Compliance, Arbitration, and Conflict Resolution",
+                "director_intl_relations": "Director of International Institutional Relations"
             },
             "descs": {
-                "president": "Leader in Economic Diplomacy and International Integration.",
-                "vice_president_1": "Specialist in foreign trade and sustainable innovation.",
-                "vice_president_hon": "Businessman with experience in international cooperation.",
-                "secretary_general": "Professional in governance and institutional articulation."
+                "president": "Visionary leader with decades of experience in Brazil-China trade.",
+                "director_ops": "Operational execution and compliance.",
+                "director_relations": "Liaison with Central Bank and ministries.",
+                "director_investments": "FDI structuring and contractual shielding.",
+                "director_compliance": "Arbitration, transnational compliance, and mediation.",
+                "director_intl_relations": "Coordination with foreign investors."
             }
         },
         "compliance": {
@@ -493,7 +497,7 @@
                     "description": "Submission of institutional profile. Validation of operational capacity and strategic alignment. Accreditation granted upon technical approval. Response time: up to 15 business days."
                 }
             },
-            "address": "Av. Brigadeiro Faria Lima, 3477 - São Paulo, Brazil"
+            "address": "Brasília - DF, Brazil"
         },
         "tabs": {
             "membership": "Become a Member",

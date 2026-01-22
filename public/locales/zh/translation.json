@@ -14,7 +14,7 @@
         "become_member": "申请分析"
     },
     "hero": {
-        "title": "拉美商业、技术与农业商会。",
+        "title": "拉美商业<1/> 技术与农业商会。",
         "subtitle": "农业综合企业与先进技术之间高密度运营的机构基础设施。",
         "cta_manifesto": "阅读宣言"
     },
@@ -191,16 +191,20 @@
             "title": "公司治理",
             "subtitle": "在对外贸易、外交和农业综合企业拥有丰富经验的领导者。",
             "roles": {
-                "president": "主席",
-                "vice_president_1": "第一副主席",
-                "vice_president_hon": "名誉副主席",
-                "secretary_general": "秘书长"
+                "president": "总裁兼创始人",
+                "director_ops": "运营与机构治理总干事",
+                "director_relations": "机构关系与政府联络总监",
+                "director_investments": "投资结构与合同安全总监",
+                "director_compliance": "合规、仲裁与冲突解决总监",
+                "director_intl_relations": "国际机构关系总监"
             },
             "descs": {
-                "president": "经济外交和国际整合领域的领导者。",
-                "vice_president_1": "对外贸易和可持续创新专家。",
-                "vice_president_hon": "拥有国际合作经验的企业家。",
-                "secretary_general": "治理和机构协调专业人士。"
+                "president": "拥有数十年巴西-中国贸易经验的远见卓识的领导者。",
+                "director_ops": "运营执行与合规。",
+                "director_relations": "与中央银行和各部委的联络。",
+                "director_investments": "外国直接投资 (FDI) 结构化与合同保障。",
+                "director_compliance": "仲裁、跨国合规与调解。",
+                "director_intl_relations": "与外国投资者的协调。"
             }
         },
         "compliance": {
@@ -493,7 +497,7 @@
                     "description": "提交机构简介。验证运营能力和战略一致性。经技术批准授予认证。响应时间：最多15个工作日。"
                 }
             },
-            "address": "Av. Brigadeiro Faria Lima, 3477 - 圣保罗，巴西"
+            "address": "巴西利亚 - DF，巴西"
         },
         "tabs": {
             "membership": "成为会员",
