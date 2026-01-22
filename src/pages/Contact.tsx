@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { MapPin, CheckCircle2, FileBarChart, Briefcase, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import contactHeroImg from '../assets/contact_hero_new.jpg';
 
 const Contact = () => {
     const { t } = useTranslation();
@@ -16,7 +17,10 @@ const Contact = () => {
             >
                 {/* Background Overlay Effect */}
                 <div className="absolute inset-0 z-0 opacity-20">
-                    <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop')] bg-cover bg-center mix-blend-overlay"></div>
+                    <div
+                        className="absolute inset-0 bg-cover bg-center mix-blend-overlay"
+                        style={{ backgroundImage: `url(${contactHeroImg})` }}
+                    ></div>
                 </div>
 
                 <div className="relative z-10">

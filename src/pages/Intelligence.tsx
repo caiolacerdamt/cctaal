@@ -7,27 +7,27 @@ const Intelligence = () => {
     const stats = [
         {
             label: t('intelligence.stats.gdp'),
-            value: t('intelligence.stats.trillions'),
-            trend: '+2.9%',
+            value: t('intelligence.stats.gdp_value'),
+            trend: t('intelligence.stats.gdp_trend'),
             icon: TrendingUp
         },
         {
             label: t('intelligence.stats.growth'),
-            value: '+1.4%',
+            value: t('intelligence.stats.growth_value'),
             sub: t('intelligence.stats.driven_by'),
             trend: t('intelligence.stats.positive'),
             icon: Wheat
         },
         {
             label: t('intelligence.stats.exports'),
-            value: 'US$ 164,4 bi',
+            value: t('intelligence.stats.exports_value'),
             sub: t('intelligence.stats.of_total'),
             trend: t('intelligence.stats.record'),
             icon: Globe2
         },
         {
             label: t('intelligence.stats.share'),
-            value: '24%',
+            value: t('intelligence.stats.share_value'),
             sub: t('intelligence.stats.agribusiness'),
             trend: t('intelligence.stats.stable'),
             icon: BarChart3

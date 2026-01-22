@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 
+import { useTranslation } from 'react-i18next';
+
 const TradingChart = () => {
+    const { t } = useTranslation();
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const [price, setPrice] = useState(115.42);
 
@@ -122,7 +125,7 @@ const TradingChart = () => {
             <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100 bg-gray-50/50">
                 <div className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-                    <span className="text-sm font-bold text-gray-700">SOJA/USD</span>
+                    <span className="text-sm font-bold text-gray-700">{t('intelligence.chart.pair')}</span>
                     <span className="text-xs text-gray-400">CBOT · 15min</span>
                 </div>
                 <div className="flex gap-2">
@@ -142,7 +145,7 @@ const TradingChart = () => {
 
                 {/* Floating Info Overlay */}
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm p-3 rounded border border-gray-100 shadow-sm">
-                    <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Cotação Atual</div>
+                    <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">{t('intelligence.chart.current_quote')}</div>
                     <div className="text-2xl font-mono font-bold text-gray-900 flex items-center gap-2">
                         {price.toFixed(2)}
                         <span className="text-sm text-green-500 font-medium">+1.24%</span>
