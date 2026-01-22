@@ -97,7 +97,8 @@ const Hero = () => {
                                         transform: getLeafTransform()
                                     }}
                                 />
-                            )
+                            ),
+                            2: <span className="whitespace-nowrap" />
                         }}
                     >
                         Câmara de Comércio<Leaf /> Tecnologia e Agro da América Latina.
