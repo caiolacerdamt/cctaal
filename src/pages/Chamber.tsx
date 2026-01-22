@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Globe, Scale, Users, Award } from 'lucide-react';
 
-import elberImg from '../assets/team/elber_guimaraes.png';
+import elberImg from '../assets/team/elber_guimaraes_v2.png';
 import fernandoImg from '../assets/team/fernando_santos.png';
 import raquelImg from '../assets/team/raquel_lacerda.png';
 import ueltonImg from '../assets/team/uelton_lacerda.png';
