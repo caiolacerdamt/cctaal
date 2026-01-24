@@ -18,7 +18,13 @@ const BACKUP_DATA = {
         "ZS=F": { price: 1245.50, change: 1.42, time: Date.now() / 1000 },
         "ZC=F": { price: 442.25, change: -0.55, time: Date.now() / 1000 },
         "BZ=F": { price: 82.40, change: 0.85, time: Date.now() / 1000 },
-        "^NDX": { price: 17850.00, change: 1.25, time: Date.now() / 1000 }
+        "^NDX": { price: 17850.00, change: 1.25, time: Date.now() / 1000 },
+        "^BVSP": { price: 127000.00, change: 0.50, time: Date.now() / 1000 },
+        "^GSPC": { price: 4950.00, change: 0.25, time: Date.now() / 1000 },
+        "BTC-USD": { price: 45000.00, change: 1.10, time: Date.now() / 1000 },
+        "BGI=F": { price: 240.00, change: 0.10, time: Date.now() / 1000 },
+        "KC=F": { price: 235.00, change: -0.45, time: Date.now() / 1000 },
+        "MOS": { price: 32.50, change: 0.05, time: Date.now() / 1000 }
     }
 };
 
@@ -133,7 +139,17 @@ serve(async (req: Request) => {
             }
         };
 
-        const symbols = ['ZS=F', 'ZC=F', 'BZ=F', '^NDX'];
+        const symbols = [
+            'ZS=F',   // Soja
+            'ZC=F',   // Milho
+            'BZ=F',   // Petróleo Brent
+            '^NDX',   // NASDAQ
+            '^BVSP',  // IBOVESPA
+            '^GSPC',  // S&P 500
+            'BTC-USD',// Bitcoin
+            'BGI=F',  // Boi Gordo (Monitoramento)
+            'KC=F'    // Café (Substituindo Fertilizantes)
+        ];
         const yahooPromises = symbols.map(sym => processYahooSymbol(sym));
         const yahooResults = await Promise.all(yahooPromises);
 
@@ -158,7 +174,7 @@ serve(async (req: Request) => {
             newData.currencies = cachedData.currencies;
         }
 
-        // Populate Commodities
+        // Populate Commodities & Indices
         // Identify which symbols we successfully fetched
         const fetchedSymbols = validYahooData.map((d: any) => d.symbol);
 
@@ -175,8 +191,7 @@ serve(async (req: Request) => {
 
         // Fill gaps using Cache (DB) logic
         // If we didn't fetch a symbol, check if we have it in DB
-        const requiredKeys = ['ZS=F', 'ZC=F', 'BZ=F', '^NDX'];
-        requiredKeys.forEach(key => {
+        symbols.forEach(key => {
             if (!newData.marketData[key]) {
                 if (cachedData?.marketData?.[key]) {
                     // Carry over old value from DB

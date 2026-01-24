@@ -1,20 +1,79 @@
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useMarketData } from '../hooks/useMarketData';
 
 const GlobalTicker = () => {
     const { t } = useTranslation();
+    const { data } = useMarketData();
 
+    // Helper: format price
+    const fmt = (val: number | undefined, prefix = '') => {
+        if (!val) return '...';
+        return `${prefix}${val.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    };
+
+    // Helper: format change
+    const fmtChange = (val: number | string | undefined) => {
+        if (!val) return { text: '...', trend: 'neutral' };
+        const num = typeof val === 'string' ? parseFloat(val) : val;
+        return {
+            text: num > 0 ? `+${num.toFixed(2)}%` : `${num.toFixed(2)}%`,
+            trend: num > 0 ? 'up' : num < 0 ? 'down' : 'neutral'
+        };
+    };
+
+    // Mapping of exact 10 items
     const tickers = [
-        { symbol: t('market.soy'), price: 'US$ 10.64', change: '+1.1%', trend: 'up' },
-        { symbol: t('market.bitcoin'), price: 'US$ 89.959', change: '+1.7%', trend: 'up' },
-        { symbol: t('market.corn'), price: 'R$ 54.20', change: '-0.5%', trend: 'down' },
-        { symbol: t('market.nasdaq'), price: '23.515', change: '-0.1%', trend: 'down' },
-        { symbol: t('market.ibovespa'), price: '171.932', change: '+0.5%', trend: 'up' },
-        { symbol: t('market.sp500'), price: '6.875', change: '+1.2%', trend: 'up' },
-        { symbol: t('market.boi'), price: 'R$ 252.00', change: '+0.8%', trend: 'up' },
-        { symbol: t('market.usd_brl'), price: '5.38', change: '-0.9%', trend: 'down' },
-        { symbol: t('market.cny_brl'), price: '0.75', change: '+0.1%', trend: 'up' },
-        { symbol: t('market.fertilizer'), price: 'US$ 850.00', change: '-1.5%', trend: 'down' },
+        {
+            symbol: t('market.ibovespa'),
+            price: fmt(data?.marketData['^BVSP']?.price),
+            ...fmtChange(data?.marketData['^BVSP']?.change)
+        },
+        {
+            symbol: t('market.sp500'),
+            price: fmt(data?.marketData['^GSPC']?.price),
+            ...fmtChange(data?.marketData['^GSPC']?.change)
+        },
+        {
+            symbol: t('market.nasdaq'),
+            price: fmt(data?.marketData['^NDX']?.price),
+            ...fmtChange(data?.marketData['^NDX']?.change)
+        },
+        {
+            symbol: t('market.usd_brl'),
+            price: `R$ ${fmt(Number(data?.currencies?.USDBRL?.bid))}`,
+            ...fmtChange(data?.currencies?.USDBRL?.pctChange)
+        },
+        {
+            symbol: t('market.cny_brl'),
+            price: `R$ ${fmt(Number(data?.currencies?.CNYBRL?.bid))}`,
+            ...fmtChange(data?.currencies?.CNYBRL?.pctChange)
+        },
+        {
+            symbol: t('market.soy'),
+            price: `US$ ${fmt(data?.marketData['ZS=F']?.price)}`,
+            ...fmtChange(data?.marketData['ZS=F']?.change)
+        },
+        {
+            symbol: t('market.corn'),
+            price: `US$ ${fmt(data?.marketData['ZC=F']?.price)}`,
+            ...fmtChange(data?.marketData['ZC=F']?.change)
+        },
+        {
+            symbol: t('market.brent_oil'),
+            price: `US$ ${fmt(data?.marketData['BZ=F']?.price)}`,
+            ...fmtChange(data?.marketData['BZ=F']?.change)
+        },
+        {
+            symbol: t('market.coffee'),
+            price: `US$ ${fmt(data?.marketData['KC=F']?.price)}`,
+            ...fmtChange(data?.marketData['KC=F']?.change)
+        },
+        {
+            symbol: t('market.bitcoin'),
+            price: `US$ ${fmt(data?.marketData['BTC-USD']?.price)}`,
+            ...fmtChange(data?.marketData['BTC-USD']?.change)
+        },
     ];
 
     return (
@@ -30,7 +89,7 @@ const GlobalTicker = () => {
                             {ticker.trend === 'up' ? <TrendingUp size={12} className="mr-1" /> :
                                 ticker.trend === 'down' ? <TrendingDown size={12} className="mr-1" /> :
                                     <Minus size={12} className="mr-1" />}
-                            {ticker.change}
+                            {ticker.text}
                         </span>
                     </div>
                 ))}

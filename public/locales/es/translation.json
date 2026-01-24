@@ -54,7 +54,8 @@
         "brent_oil": "PETRÓLEO BRENT",
         "global_energy": "Energía Global",
         "source": "FUENTE: B3, CBOT, NASDAQ, AWESOMEAPI",
-        "updated": "ACTUALIZADO"
+        "updated": "ACTUALIZADO",
+        "coffee": "CAFÉ (ARÁBICA)"
     },
     "institutional": {
         "label": "Institucional",

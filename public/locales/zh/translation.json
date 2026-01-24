@@ -54,7 +54,8 @@
         "brent_oil": "布伦特原油",
         "global_energy": "全球能源",
         "source": "来源: B3, CBOT, NASDAQ, AWESOMEAPI",
-        "updated": "更新"
+        "updated": "更新",
+        "coffee": "咖啡 (阿拉比卡)"
     },
     "institutional": {
         "label": "机构",
