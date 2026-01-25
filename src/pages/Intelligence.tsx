@@ -1,6 +1,6 @@
 import { useTranslation, Trans } from 'react-i18next';
 import { TrendingUp, Wheat, Globe2, BarChart3 } from 'lucide-react';
-import TradingChart from '../components/TradingChart';
+import MarketChart from '../components/MarketChart';
 
 const Intelligence = () => {
     const { t } = useTranslation();
@@ -35,7 +35,7 @@ const Intelligence = () => {
     ];
 
     return (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8 py-24">
             <header className="mb-16">
                 <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-6">{t('intelligence.header.title')}</h1>
                 <p className="text-xl text-gray-600 max-w-3xl">
@@ -44,7 +44,7 @@ const Intelligence = () => {
             </header>
 
             {/* Stats Grid */}
-            <div className="mb-16">
+            <div className="mb-20">
                 <div className="mb-8">
                     <h2 className="text-2xl font-serif font-bold text-gray-900 mb-2">{t('intelligence.stats.title')}</h2>
                     <p className="text-gray-600 max-w-3xl">{t('intelligence.stats.subtitle')}</p>
@@ -66,9 +66,11 @@ const Intelligence = () => {
                 </div>
             </div>
 
-            {/* Analysis Section */}
-            <div className="grid md:grid-cols-2 gap-12 items-center bg-white p-8 md:p-12 rounded-sm border border-gray-100">
-                <div>
+            {/* Analysis & Chart Section */}
+            <div className="grid lg:grid-cols-2 gap-12">
+
+                {/* Left Column: Text Analysis (Wrapped in Card) */}
+                <div className="bg-white p-6 md:p-8 rounded-sm border border-gray-100 shadow-sm">
                     <h2 className="text-3xl font-serif font-bold text-primary mb-6">{t('intelligence.analysis.title')}</h2>
                     <div className="space-y-6 text-gray-600 leading-relaxed">
                         <p>
@@ -77,7 +79,7 @@ const Intelligence = () => {
                         <p>
                             {t('intelligence.analysis.p2')}
                         </p>
-                        <ul className="space-y-4 mt-4">
+                        <ul className="space-y-4 mt-6">
                             <li className="flex items-start gap-3">
                                 <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2.5 flex-shrink-0" />
                                 <span>
@@ -100,9 +102,9 @@ const Intelligence = () => {
                     </div>
                 </div>
 
-                {/* Chart Section */}
-                <div className="h-full min-h-[400px] flex items-center justify-center">
-                    <TradingChart />
+                {/* Right Column: Custom Market Component */}
+                <div className="h-full">
+                    <MarketChart />
                 </div>
             </div>
         </div>
