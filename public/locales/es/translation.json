@@ -55,7 +55,14 @@
         "global_energy": "Energía Global",
         "source": "FUENTE: B3, CBOT, NASDAQ, AWESOMEAPI",
         "updated": "ACTUALIZADO",
-        "coffee": "CAFÉ (ARÁBICA)"
+        "coffee": "CAFÉ (ARÁBICA)",
+        "specs": {
+            "unit": "ESPEC",
+            "us_cents_bushel": "Centavos US / Bushel",
+            "us_cents_pound": "Centavos US / Libra (lb)",
+            "usd_barrel": "USD / Barril",
+            "brl": "BRL"
+        }
     },
     "institutional": {
         "label": "Institucional",
@@ -203,7 +210,8 @@
                 "director_investments": "Directora de Estructuración de Inversiones y Seguridad Contractual",
                 "director_compliance": "Director de Cumplimiento, Arbitraje y Resolución de Conflictos",
                 "director_intl_relations": "Directora de Relaciones Institucionales Internacionales",
-                "executive_member": "Director de Inteligencia Estratégica, Análisis de Riesgo y Geopolítica"
+                "executive_member": "Director de Inteligencia Estratégica, Análisis de Riesgo y Geopolítica",
+                "legal_consultant": "Consultoría Jurídica Institucional"
             },
             "descs": {
                 "president": "Líder visionario con décadas de experiencia en el comercio Brasil-China. Red gubernamental consolidada con acceso directo a tomadores de decisiones en Asia, América Latina y África. Décadas de estructuración de operaciones transnacionales de alta densidad junto a bancos de desarrollo, fondos soberanos y ministerios de Estado en tres continentes. Dos posgrados en el MIT (Massachusetts Institute of Technology). Educación ejecutiva en Harvard Business School.",
@@ -212,7 +220,8 @@
                 "director_investments": "Gobernanza donde los contratos se cumplen y el capital permanece protegido. Blindaje contractual para Inversión Extranjera Directa (IED) atravessando múltiples jurisdicciones. Estructuración jurídica que protege capital de nueve dígitos bajo inseguridad regulatoria y volatilidad geopolítica.",
                 "director_compliance": "Mediación técnica y resolución de conflictos donde hay miles de millones en juego. Cámara de Arbitraje especializada en commodities con laudos reconocidos internacionalmente. Cumplimiento transnacional atendiendo a la Ley de Prácticas Corruptas en el Extranjero (FCPA/USA), Ley General de Protección de Datos (LGPD/Brasil) y protocolos anticorrupción.",
                 "director_intl_relations": "Interfaz institucional entre capital extranjero y oportunidades de escala en América Latina. Coordinación con fondos soberanos, family offices e instituciones financieras globales. Interlocución transnacional para operaciones de alta densidad en la convergencia del Agronegocio y Tecnología Avanzada.",
-                "executive_member": "Anticipación de escenarios donde el error cuesta capital, reputación y permanencia. Inteligencia aplicada a la toma de decisiones en entornos de inestabilidad regulatoria, geopolítica y macroeconómica. Modelado de riesgo soberano, sectorial y jurisdiccional para operaciones de alta densidad. Monitoreo continuo de variables políticas, cambiarias, comerciales e institucionales que impactan inversiones transnacionales. Transformación de información sensible en ventaja estratégica antes de que el riesgo se materialice."
+                "executive_member": "Anticipación de escenarios donde el error cuesta capital, reputación y permanencia. Inteligencia aplicada a la toma de decisiones en entornos de inestabilidad regulatoria, geopolítica y macroeconómica. Modelado de riesgo soberano, sectorial y jurisdiccional para operaciones de alta densidad. Monitoreo continuo de variables políticas, cambiarias, comerciales e institucionales que impactan inversiones transnacionales. Transformación de información sensible en ventaja estratégica antes de que el riesgo se materialice.",
+                "legal_consultant": "Arquitectura legal para operaciones donde el riesgo jurídico es inadmisible. Estructuración de blindaje contractual y gobernanza de cumplimiento en transacciones bilaterales de alto valor entre Brasil y mercados internacionales. Elaboración de instrumentos jurídicos que garantizan respaldo de Estado y resolución anticipada de conflictos en contratos de commodities y tecnología avanzada. Experiencia en marcos regulatorios transnacionales y seguridad institucional para capital de gran envergadura."
             }
         },
         "compliance": {
@@ -257,6 +266,7 @@
             "current_quote": "Cotización Actual",
             "pair": "SOJA/USD"
         },
+        "comparison_mode": "ÁREA DE COMPARACIÓN (Widget TradingView)",
         "analysis": {
             "title": "Ventajas Estructurales No Replicables",
             "p1": "América Latina opera con fundamentos competitivos permanentes: extensión de áreas cultivables, tecnología tropical consolidada, matriz energética limpia y reservas de minerales críticos.",

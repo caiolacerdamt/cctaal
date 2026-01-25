@@ -7,6 +7,7 @@ import raquelImg from '../assets/team/raquel_lacerda.jpg';
 import ueltonImg from '../assets/team/uelton_lacerda.png';
 import liaImg from '../assets/team/lia_tian.png';
 import ricardoImg from '../assets/team/ricardo_profile.png';
+import julesImg from '../assets/team/jules_queiroz.png';
 
 const Chamber = () => {
     const { t } = useTranslation();
@@ -146,6 +147,12 @@ const Chamber = () => {
                                 role: t('chamber.governance.roles.executive_member'),
                                 desc: t('chamber.governance.descs.executive_member'),
                                 image: ricardoImg
+                            },
+                            {
+                                name: "Jules Queiroz e Silva",
+                                role: t('chamber.governance.roles.legal_consultant'),
+                                desc: t('chamber.governance.descs.legal_consultant'),
+                                image: julesImg
                             }
                         ].map((member, index) => (
                             <div key={index} className="group w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.34rem)]">

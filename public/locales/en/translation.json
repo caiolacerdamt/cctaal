@@ -55,7 +55,14 @@
         "global_energy": "Global Energy",
         "source": "SOURCE: B3, CBOT, NASDAQ, AWESOMEAPI",
         "updated": "UPDATED",
-        "coffee": "COFFEE (ARABICA)"
+        "coffee": "COFFEE (ARABICA)",
+        "specs": {
+            "unit": "SPEC",
+            "us_cents_bushel": "US Cents / Bushel",
+            "us_cents_pound": "US Cents / Pound (lb)",
+            "usd_barrel": "USD / Barrel",
+            "brl": "BRL"
+        }
     },
     "institutional": {
         "label": "Institutional",
@@ -203,7 +210,8 @@
                 "director_investments": "Director of Investment Structuring and Contractual Security",
                 "director_compliance": "Director of Compliance, Arbitration, and Conflict Resolution",
                 "director_intl_relations": "Director of International Institutional Relations",
-                "executive_member": "Director of Strategic Intelligence, Risk Analysis, and Geopolitics"
+                "executive_member": "Director of Strategic Intelligence, Risk Analysis, and Geopolitics",
+                "legal_consultant": "Institutional Legal Consulting"
             },
             "descs": {
                 "president": "Consolidated government network with direct access to top decision-makers in Asia, Latin America, and Africa. Decades of structuring high-density transnational operations with development banks, sovereign funds, and State ministries across three continents. Two postgraduate degrees from MIT (Massachusetts Institute of Technology). Executive education from Harvard Business School.",
@@ -212,7 +220,8 @@
                 "director_investments": "Governance where contracts are honored and capital remains protected. Contractual shielding for Foreign Direct Investment (FDI) traversing multiple jurisdictions. Legal structuring that protects nine-digit capital under regulatory insecurity and geopolitical volatility.",
                 "director_compliance": "Technical mediation and dispute resolution where billions are at stake. Arbitration Chamber specializing in commodities with internationally recognized awards. Transnational compliance meeting the Foreign Corrupt Practices Act (FCPA/USA), General Data Protection Law (LGPD/Brazil), and anti-corruption protocols.",
                 "director_intl_relations": "Institutional interface between foreign capital and scale opportunities in Latin America. Coordination with sovereign funds, family offices, and global financial institutions. Transnational liaison for high-density operations at the convergence of Agribusiness and Advanced Technology.",
-                "executive_member": "Anticipation of scenarios where error costs capital, reputation, and permanence. Intelligence applied to decision-making in environments of regulatory, geopolitical, and macroeconomic instability. Sovereign, sectoral, and jurisdictional risk modeling for high-density operations. Continuous monitoring of political, exchange, commercial, and institutional variables impacting transnational investments. Transforming sensitive information into strategic advantage before risk materializes."
+                "executive_member": "Anticipation of scenarios where error costs capital, reputation, and permanence. Intelligence applied to decision-making in environments of regulatory, geopolitical, and macroeconomic instability. Sovereign, sectoral, and jurisdictional risk modeling for high-density operations. Continuous monitoring of political, exchange, commercial, and institutional variables impacting transnational investments. Transforming sensitive information into strategic advantage before risk materializes.",
+                "legal_consultant": "Legal architecture for operations where legal risk is inadmissible. Structuring contractual shielding and compliance governance in high-value bilateral transactions between Brazil and international markets. Drafting legal instruments that guarantee State backing and early conflict resolution in commodity and advanced technology contracts. Expertise in transnational regulatory frameworks and institutional security for large-scale capital."
             }
         },
         "compliance": {
@@ -257,6 +266,7 @@
             "current_quote": "Current Quote",
             "pair": "SOYBEAN/USD"
         },
+        "comparison_mode": "COMPARISON AREA (TradingView Widget)",
         "analysis": {
             "title": "Non-Replicable Structural Advantages",
             "p1": "Latin America operates with permanent competitive fundamentals: vast arable land extent, consolidated tropical technology, clean energy matrix, and critical mineral reserves.",
